@@ -1,0 +1,13 @@
+input /equip ammo "Thew Bomblet";
+input /equip head "Twilight Helm";
+input /equip neck "Love Torque";
+input /equip ear1 "Brutal Earring";
+input /equip ear2 "Ethereal Earring";
+input /equip body "Ares's Cuirass";
+input /equip hands "Spiked Fng.Gnt.";
+input /equip ring1 "Ulthalam's Ring";
+input /equip ring2 "Rajas Ring";
+input /equip back "Atheling Mantle";
+input /equip waist "Swordbelt +1";
+input /equip legs "Lancer's Cuissots +2";
+input /equip feet "Lancer's Schynbalds +2";

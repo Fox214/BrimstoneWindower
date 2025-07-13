@@ -1,0 +1,334 @@
+//Save this file to your scripts folder in Windower. You will either need to enter a line in the windower init file, or run the command manually after staring the game.  
+//Used to change conditional vars in the gearswap lua files
+//  put this line in your init.txt:   exec alias.txt
+//or run this from the command line: //exec alias.txt
+     
+//weapons
+alias weapon gs c cycle WeaponMode
+alias axe gs c set WeaponMode Axe
+alias club gs c set WeaponMode Club
+alias dagger gs c set WeaponMode Dagger
+alias gaxe gs c set WeaponMode GreatAxe
+alias gkatana gs c set WeaponMode GreatKatana
+alias gsword gs c set WeaponMode GreatSword
+alias h2h gs c set WeaponMode H2H
+alias katana gs c set WeaponMode Katana
+alias polearm gs c set WeaponMode Polearm
+alias scythe gs c set WeaponMode Scythe
+alias staff gs c set WeaponMode Staff
+alias sword gs c set WeaponMode Sword
+
+//Offsense Modes
+alias offense gs c cycle OffenseMode
+alias normal gs c set OffenseMode Normal
+alias acc gs c set OffenseMode Acc
+alias att gs c set OffenseMode Att
+alias crit gs c set OffenseMode Crit
+alias da gs c set OffenseMode DA
+alias sb gs c set OffenseMode SB
+alias stp gs c set OffenseMode sTP
+alias str gs c set OffenseMode STR
+
+//WS Modes
+alias wsmode gs c cycle WeaponskillMode
+alias wsnormal gs c set WeaponskillMode Normal
+alias wsacc gs c set WeaponskillMode Acc
+alias wsmod gs c set WeaponskillMode Mod
+	
+//Defense Modes
+alias defense gs c cycle DefenseMode
+alias defnormal gs c set DefenseMode Normal
+alias eva gs c set DefenseMode Evasion
+alias pdt gs c set DefenseMode pdt
+alias mdt gs c set DefenseMode mdt
+
+//Magic Modes
+alias casting gs c cycle CastingMode
+alias castnormal gs c set CastingMode Normal
+alias dth gs c set CastingMode Death
+alias int gs c set CastingMode INT
+alias macc gs c set CastingMode Macc
+alias mb gs c set CastingMode MB
+alias mcrit gs c set CastingMode Mcrit
+alias mdmg gs c set CastingMode MDmg
+alias mab gs c set CastingMode MAB
+alias mskill gs c set CastingMode Skill
+
+//play styles
+// offense/defense automate using things like hasso/seigan/berserk/defender
+// off disables all automation
+// none disables some automation but not all (may still automate jumps or other things)
+alias stance gs c cycle stance
+// true disables tp changing slots
+alias holdtp gs c cycle holdtp
+// true forces bestial loyalty instead of call beast
+alias loyalty gs c cycle loyalty
+
+//Magic Defense
+alias mdfire gs c set MagicalDefenseMode Fire
+alias mdearth gs c set MagicalDefenseMode Earth
+alias mdwind gs c set MagicalDefenseMode Wind
+alias mdwater gs c set MagicalDefenseMode Water
+alias mdice gs c set MagicalDefenseMode Ice
+alias mdthunder gs c set MagicalDefenseMode Thunder
+alias mdlight gs c set MagicalDefenseMode Light
+alias mddark gs c set MagicalDefenseMode Dark
+alias mdmdt gs c set MagicalDefenseMode MDT
+alias mdeva c set MagicalDefenseMode Evasion
+alias mdcycle gs c set MagicalDefenseMode  Cycle
+
+//pet items
+alias theta gs c set RewardMode Theta
+alias eta gs c set RewardMode Eta
+alias zeta gs c set RewardMode Zeta
+alias epsilon gs c set RewardMode Epsilon
+alias delta gs c set RewardMode Delta
+alias gamma gs c set RewardMode Gamma
+alias beta gs c set RewardMode Beta
+alias alpha gs c set RewardMode Alpha
+alias poultice gs c set RewardMode Poultice
+alias roborant gs c set RewardMode Roborant
+ 
+//pets
+alias crab gs c callbeast CrabFamiliar
+alias silas gs c callbeast SlipperySilas
+alias hare gs c callbeast HareFamiliar
+alias sheep gs c callbeast SheepFamiliar
+alias bill gs c callbeast FlowerpotBill
+alias tiger gs c callbeast TigerFamiliar
+alias flytrap gs c callbeast FlytrapFamiliar
+alias lizard gs c callbeast LizardFamiliar
+alias mayfly gs c callbeast MayflyFamiliar
+alias eft gs c callbeast EftFamiliar
+alias beetle gs c callbeast BeetleFamiliar
+alias antlion gs c callbeast AntlionFamiliar
+alias mite gs c callbeast MiteFamiliar
+alias steffi gs c callbeast KeenearedSteffi
+alias melodia gs c callbeast LullabyMelodia
+alias ben gs c callbeast FlowerpotBen
+alias siravarde gs c callbeast SaberSiravarde
+alias fungar gs c callbeast FunguarFamiliar
+alias orob gs c callbeast ShellbusterOrob
+alias como gs c callbeast ColdbloodComo
+alias carrie gs c callbeast CourierCarrie
+alias homun gs c callbeast Homunculus
+alias audrey gs c callbeast VoraciousAudrey
+alias allie gs c callbeast AmbusherAllie
+alias galahad gs c callbeast PanzerGalahad
+alias lars gs c callbeast LifedrinkerLars
+alias chucky gs c callbeast ChopsueyChucky
+alias amigo gs c callbeast AmigoSabotender
+alias nazuna gs c callbeast NurseryNazuna
+alias clyvonne gs c callbeast CraftyClyvonne
+alias julio gs c callbeast PrestoJulio
+alias sieghard gs c callbeast SwiftSieghard
+alias cetas gs c callbeast MailbusterCetas
+alias anna gs c callbeast AudaciousAnna
+alias toloi gs c callbeast TurbidToloi
+alias lulush gs c callbeast LuckyLulush
+alias yuly gs c callbeast DipperYuly
+alias merle gs c callbeast FlowerpotMerle
+alias mac gs c callbeast DapperMac
+alias louise gs c callbeast DiscreetLouise
+alias fargann gs c callbeast FatsoFargann
+alias falcorr gs c callbeast FaithfulFalcorr
+alias broncha gs c callbeast BugeyedBroncha
+alias shasra gs c callbeast BloodclawShasra
+alias hobs gs c callbeast GorefangHobs
+alias gerard gs c callbeast GooeyGerard
+alias raphie gs c callbeast CrudeRaphie
+alias dortwin gs c callbeast DroopyDortwin
+alias malfik gs c callbeast SunburstMalfik
+alias patrick gs c callbeast WarlikePatrick
+alias xerin gs c callbeast ScissorlegXerin
+alias shizuna gs c callbeast RhymingShizuna
+alias ibuki gs c callbeast AttentiveIbuki
+alias roche gs c callbeast AmiableRoche
+alias henry gs c callbeast HeraldHenry
+alias waluis gs c callbeast BrainyWaluis
+alias ken gs c callbeast HeadbreakerKen
+alias candi gs c callbeast RedolentCandi
+alias kiyomaro gs c callbeast CaringKiyomaro
+alias percival gs c callbeast HurlerPercival
+alias randy gs c callbeast BlackbeardRandy
+alias arthur gs c callbeast GenerousArthur
+alias lynn gs c callbeast ThreestarLynn
+alias glenn gs c callbeast BraveHeroGlenn
+alias hermes gs c callbeast SharpwitHermes
+alias honey gs c callbeast AlluringHoney
+alias vickie gs c callbeast VivaciousVickie
+alias reinhard gs c callbeast FleetReinhard
+alias bertha gs c callbeast BouncingBertha
+alias zhivago gs c callbeast SwoopingZhivago
+
+//Sch shortcuts
+alias larts gs c scholar light   
+alias darts gs c scholar dark                               
+alias cost gs c scholar cost      
+alias speed gs c scholar speed    
+alias aoe gs c scholar aoe    
+alias power gs c scholar power            
+alias duration gs c scholar duration  
+alias accuracy gs c scholar accuracy        
+alias enmity gs c scholar enmity    
+alias skillchain gs c scholar skillchain                           
+alias addendum gs c scholar addendum    
+
+
+//spells and abilities
+alias ichi input /nin "Utsusemi:Ichi" <me>
+alias ni input /nin "Utsusemi:Ni" <me>
+alias voke input /ja "Provoke" <t>
+alias monomi input /ma "Monomi:Ichi" <me>
+alias tonko input /ma "Tonko:Ni" <me>
+alias snk input /ma "Sneak" <me>
+alias invis input /ma "Invisible" <me>
+alias do input /ma "Deodorize" <me>
+alias jig input /ja "Chocobo Jig" <me>
+alias sjig input /ja "Spectral Jig" <me>
+alias stun input /ma "Stun" <t>
+alias rr input /ma "Reraise" <me>
+alias rr2 input /ma "Reraise II" <me>
+alias rr3 input /ma "Reraise III" <me>
+alias rr4 input /ma "Reraise IV" <me>
+alias maz input /ma "Chocobo Mazurka" <me>
+alias gav input /ma "Goblin Gavotte" <me>
+alias hymn input /ma "Goddess Hymnus" <me>
+alias bal1 input /ma "Mage's Ballad" <me>
+alias bal2 input /ma "Mage's Ballad II" <me>
+alias bal3 input /ma "Mage's Ballad III" <me>
+alias int1 input /ma "Learned Etude" <me>
+alias int2 input /ma "Sage Etude" <me>
+alias str1 input /ma "Sinewy Etude" <me>
+alias str2 input /ma "Herculean Etdue" <me>
+alias av input /ma "Aquaveil" <me>
+alias cinvis input /console cancel 69
+alias dropwing drop "Obsid. Wing" 
+alias lockempy exec lockempy.txt
+
+//misc
+alias siphon gs c siphon
+alias dummy gs c set ExtraSongsMode Dummy
+alias th gs c cycle treasuremode
+alias exml gs export mainjob sets xml overwrite
+alias gear gs org
+alias validate gs validate
+alias cp input /equip Back "Mecisto. Mantle"
+alias trusts exec trusts.txt
+alias vtrusts exec vtrusts.txt
+alias btrusts exec btrusts.txt
+alias strusts exec strusts.txt
+
+//element mode - this defaults certain actions to an element
+alias em gs c cycle ElementMode
+alias emdark gs c set ElementMode dark
+alias emlight gs c set ElementMode light
+alias emwind gs c set ElementMode wind
+alias emearth gs c set ElementMode earth
+alias emthunder gs c set ElementMode thunder
+alias emwater gs c set ElementMode water
+alias emfire gs c set ElementMode fire
+alias emice gs c set ElementMode ice
+alias helix gs c useElement helix
+alias nuke gs c useElement nuke
+alias storm gs c useElement storm
+
+//spells
+alias a1 input /ma "Aero" <t>
+alias a2 input /ma "Aero II" <t>
+alias a3 input /ma "Aero III" <t>
+alias a4 input /ma "Aero IV" <t>
+alias a5 input /ma "Aero V" <t>
+alias a6 input /ma "Aero VI" <t>
+alias aga1 input /ma "Aeroga" <t>
+alias aga2 input /ma "Aeroga II" <t>
+alias aga3 input /ma "Aeroga III" <t>
+alias ara1 input /ma "Aera" <t>
+alias ara2 input /ma "Aera II" <t>
+alias ara3 input /ma "Aera III" <t>
+alias aja input /ma "Aeroja" <t>
+alias b1 input /ma "Blizzard" <t>
+alias b2 input /ma "Blizzard II" <t>
+alias b3 input /ma "Blizzard III" <t>
+alias b4 input /ma "Blizzard IV" <t>
+alias b5 input /ma "Blizzard V" <t>
+alias b6 input /ma "Blizzard VI" <t>
+alias bga1 input /ma "Blizzaga" <t>
+alias bga2 input /ma "Blizzaga II" <t>
+alias bga3 input /ma "Blizzaga III" <t>
+alias bra1 input /ma "Blizzara" <t>
+alias bra2 input /ma "Blizzara II" <t>
+alias bra3 input /ma "Blizzara III" <t>
+alias bja input /ma "Blizzaja" <t>
+alias f1 input /ma "Fire" <t>
+alias f2 input /ma "Fire II" <t>
+alias f3 input /ma "Fire III" <t>
+alias f4 input /ma "Fire IV" <t>
+alias f5 input /ma "Fire V" <t>
+alias f6 input /ma "Fire VI" <t>
+alias fga1 input /ma "Firaga" <t>
+alias fga2 input /ma "Firaga II" <t>
+alias fga3 input /ma "Firaga III" <t>
+alias fra1 input /ma "Fira" <t>
+alias fra2 input /ma "Fira II" <t>
+alias fra3 input /ma "Fira III" <t>
+alias fja input /ma "Firaja" <t>
+alias s1 input /ma "Stone" <t>
+alias s2 input /ma "Stone II" <t>
+alias s3 input /ma "Stone III" <t>
+alias s4 input /ma "Stone IV" <t>
+alias s5 input /ma "Stone V" <t>
+alias s6 input /ma "Stone VI" <t>
+alias sga1 input /ma "Stonega" <t>
+alias sga2 input /ma "Stonega II" <t>
+alias sga3 input /ma "Stonega III" <t>
+alias sra1 input /ma "Stonera" <t>
+alias sra2 input /ma "Stonera II" <t>
+alias sra3 input /ma "Stonera III" <t>
+alias sja input /ma "Stoneja" <t>
+alias t1 input /ma "Thunder" <t>
+alias t2 input /ma "Thunder II" <t>
+alias t3 input /ma "Thunder III" <t>
+alias t4 input /ma "Thunder IV" <t>
+alias t5 input /ma "Thunder V" <t>
+alias t6 input /ma "Thunder VI" <t>
+alias tga1 input /ma "Thundaga" <t>
+alias tga2 input /ma "Thundaga II" <t>
+alias tga3 input /ma "Thundaga III" <t>
+alias tra1 input /ma "Thundara" <t>
+alias tra2 input /ma "Thundara II" <t>
+alias tra3 input /ma "Thundara III" <t>
+alias tja input /ma "Thundaja" <t>
+alias w1 input /ma "Water" <t>
+alias w2 input /ma "Water II" <t>
+alias w3 input /ma "Water III" <t>
+alias w4 input /ma "Water IV" <t>
+alias w5 input /ma "Water V" <t>
+alias w6 input /ma "Water VI" <t>
+alias wga1 input /ma "Waterga" <t>
+alias wga2 input /ma "Waterga II" <t>
+alias wga3 input /ma "Waterga III" <t>
+alias wra1 input /ma "Watera" <t>
+alias wra2 input /ma "Watera II" <t>
+alias wra3 input /ma "Watera III" <t>
+alias wja input /ma "Waterja" <t>
+
+alias mlo input exec mlo.txt
+alias nto input exec nto.txt
+
+alias wbuffs exec whmbuffs.txt
+alias rbuffs exec runbuffs.txt
+
+alias fishgear exec fishgear.txt 
+alias craftgear exec craftgear.txt 
+alias nekkid exec nekkid.txt
+
+alias nosound exec mute.txt
+
+alias bnsandy exec bnsandy.txt
+alias bssandy exec bssandy.txt
+alias bshields exec bshields.txt
+alias bpowders exec bshields.txt
+
+alias bpga exec bpga.txt
+alias tabulabuffs exec tabulabuffs.txt

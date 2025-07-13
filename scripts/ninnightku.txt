@@ -1,0 +1,14 @@
+//input /equip head "Shura Zunari Kabuto";
+input /equip head "Anwig Salade";
+input /equip neck "Light Gorget";
+input /equip ear1 "Ethereal Earring";
+input /equip ear2 "Brutal Earring";
+input /equip body "Mirke Wardecors";
+input /equip hands "Koga Tekko";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Light Belt";
+input /equip legs "Byakko's Haidate";
+input /equip feet "Iga Kyahan +2";
+input /ws "Blade: Ku" <t>

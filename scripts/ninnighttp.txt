@@ -1,0 +1,19 @@
+input /equip main "Ichi-an";
+wait 1;,,
+input /equip sub "Kamome";
+input /equip range "Ungur Boomerang";
+//input /equip ammo "Bomb Core";
+//input /equip head "Walahra Turban";
+input /equip head "Iga Zukin +1";
+input /equip neck "Hope Torque";
+input /equip ear1 "Suppanomimi";
+input /equip ear2 "Brutal Earring";
+input /equip body "Ninja Chainmail";
+input /equip hands "Koga Tekko";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Twilight Belt";
+//input /equip legs "Byakko's Haidate";
+input /equip legs "Iga Hakama +2";
+input /equip feet "Iga Kyahan +2";

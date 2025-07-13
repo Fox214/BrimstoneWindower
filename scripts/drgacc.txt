@@ -1,0 +1,15 @@
+input /equip main "Thalassocrat";
+input /equip sub "Pole Grip";
+input /equip ammo "Thew Bomblet";
+input /equip head "Optical Hat";
+input /equip neck "Love Torque";
+input /equip ear1 "Ethereal Earring";
+input /equip ear2 "Brutal Earring";
+input /equip body "Lancer's Plackart +2";
+input /equip hands "Lncr";
+input /equip ring1 "Ulthalam's Ring";
+input /equip ring2 "Rajas Ring";
+input /equip back "Lancer's Pelerine";
+input /equip waist "Nu Sash";
+input /equip Legs "Drachen brais +1";
+input /equip feet "Lancer's Schynbalds +2";

@@ -1,0 +1,30 @@
+input /ja "Sekkanoki" <me>
+wait 2
+input /ws "Geirskogul" <t>
+wait 4
+//input /ws "Stardiver" <t>
+input /ws "Geirskogul" <t>
+wait 3.5
+input /ja "Spirit Jump" <t>
+wait 1.5
+input /ja "Soul Jump" <t>
+wait 1.5
+input /ws "Geirskogul" <t>
+//wait 3
+//input /ja "Meditate" <me>
+//wait 2
+//exec jump.txt
+//wait 2
+//exec drakesonly.txt
+//wait 3
+//input /ja "Spirit Surge" <me>
+//wait 2
+//exec jump.txt
+//wait 2
+//exec drakesonly.txt
+//wait 2
+//input /item "Icarus Wing" <me>
+//wait 2
+//exec drakesonly.txt
+//wait 2
+//input /ja "Call Wyvern" <me>

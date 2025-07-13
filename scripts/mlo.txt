@@ -1,0 +1,7 @@
+input /ma "Cait Sith" <me>;
+wait 6
+input /pet "Assault" <bt>;
+wait 6
+input /pet "Mewing Lullaby" <bt>;
+wait 2
+input /pet "Release" <me>;

@@ -1,0 +1,2 @@
+gs c set ExtraSongsMode Dummy
+ 

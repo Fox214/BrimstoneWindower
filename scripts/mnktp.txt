@@ -1,0 +1,17 @@
+//input /equip main "Ichi-an";
+//input /equip sub "Kamome";
+//input /equip range "Ungur Boomerang";
+//input /equip ammo "Bomb Core";
+input /equip head "Brego Helm";
+input /equip neck "Agasaya's Collar";
+input /equip ear1 "Ethereal Earring";
+input /equip ear2 "Brutal Earring";
+input /equip body "Mirke Wardecors";
+input /equip hands "Brego Gloves";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Atheling Mantle";
+input /equip waist "Brown Belt";
+//input /equip legs "Byakko's Haidate";
+input /equip legs "Tantra Hose +1";
+input /equip feet "Sarutobi Kyahan";

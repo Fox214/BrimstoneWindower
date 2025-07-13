@@ -1,0 +1,2 @@
+buy "Achantere, T.K." "royal squire's halberd" full;
+sellnpc usual;

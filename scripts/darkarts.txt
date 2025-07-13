@@ -1,0 +1,22 @@
+//input /equip main "Aquilo's Staff";
+//input /equip sub "Bugard Strap +1";
+//input /equip ammo "Snow Sachet";
+//input /equip head "Scholar's Mortarboard";
+//input /equip head "Argute Mortarboard";
+//input /equip neck "Lemegeton Medallion";
+//input /equip ear1 "Moldavite Earring";
+//input /equip ear2 "Morion Earring";
+//input /equip body "Augur's Jaseran";
+//input /equip hands "Argute Bracers";
+//input /equip hands "Goliard Cuffs";
+//input /equip ring1 "Diamond Ring";
+//input /equip ring2 "Diamond Ring";
+//input /equip back "Potentia Cape";
+//input /equip waist "Cognition Belt";
+//input /equip legs "Argute Pants";
+//input /equip legs "Nisse Slacks";
+//input /equip feet "Savant Loafer's +1";
+input /ja "Dark Arts" <me>;
+wait 1
+input /macro book 6
+input /macro set 3

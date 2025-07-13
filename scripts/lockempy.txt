@@ -1,0 +1,3 @@
+input /console gs equip sets.empy
+wait 1
+input /lockstyle on

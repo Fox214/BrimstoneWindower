@@ -1,0 +1,7 @@
+input /ma "Blink" <me>
+wait 8
+input /ma "Stoneskin" <me>
+wait 9
+input /ma "Aquaveil" <me>
+wait 7
+input /ma "Phalanx" <me>

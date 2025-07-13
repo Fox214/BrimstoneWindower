@@ -1,0 +1,48 @@
+input /ma "August" <me>
+wait 6
+// input /ma "Valaineral" <me>
+// wait 6
+// input /ma "AAEV" <me>
+// wait 6
+// input /ma "Amchuchu" <me>
+// wait 6
+// input /ma "Gessho" <me>
+// wait 6
+// input /ma "Iroha II" <me>
+// wait 6
+// input /ma "Zeid II" <me>
+// wait 6
+// input /ma "Selh'teus" <me>
+// wait 6
+// input /ma "Kupofried" <me>
+// wait 6
+input /ma "Koru-Moru" <me>
+wait 6
+// input /ma "Joachim" <me>
+// wait 6
+// input /ma "Ulmia" <me>
+// wait 6
+// input /ma "Qultada" <me>
+// wait 6
+input /ma "Apururu (UC)" <me>
+wait 6
+// input /ma "Kupipi" <me>
+// wait 6
+// input /ma "Shantotto II" <me>
+// wait 6
+// input /ma "Star Sibyl" <me>
+// wait 6
+// input /ma "AAGK" <me>
+// wait 6
+// input /ma "Karaha-Baruha" <me>
+// wait 6
+// input /ma "Ingrid" <me>
+// wait 6
+// input /ma "Moogle" <me>
+// wait 6
+// input /ma "Arciela II" <me>
+// wait 6
+// input /ma "Cornelia" <me>
+// wait 6
+// input /ma "Matsui-P" <me>
+// wait 6

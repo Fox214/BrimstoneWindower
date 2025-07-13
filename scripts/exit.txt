@@ -1,0 +1,3 @@
+unloadall;
+wait 1;
+input /shutdown;

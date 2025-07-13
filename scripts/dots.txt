@@ -1,0 +1,4 @@
+input /ma "Bio II" <t>;
+wait 5;
+input /ma "Poison II" <t>;
+wait 5;

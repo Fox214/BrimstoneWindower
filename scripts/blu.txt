@@ -1,0 +1,59 @@
+alias g15_m1g1 input /ma "Battery Charge" <me>
+alias g15_m1g2 input /ma "Occultation" <me>
+alias g15_m1g3 input /item "Echo Drops" <me>
+alias g15_m1g4 input /ma "Erratic Flutter" <me>
+alias g15_m1g5 input /ma "Warm-Up" <me>
+alias g15_m1g6 input /ma "Cocoon" <me>
+alias g15_m1g7 input /ma "Sinker Drill" <t>
+alias g15_m1g8 input /ma "Thrashing Assault" <t>
+alias g15_m1g9 input /ma "Quad. Continuum" <t>
+alias g15_m1g10 input /ws "Sanguine Blade" <t>
+alias g15_m1g11 input /ws "Vorpal Blade" <t>
+alias g15_m1g12 input /ws "Requiescat" <t>
+alias g15_m1g13 input /ma "Disseverment" <t>
+alias g15_m1g14 input /ma "Goblin Rush" <t>
+alias g15_m1g15 input /ma "Chant du Cygne" <t>
+alias g15_m1g16 input /ma "Utsusemi: Ni" <me>
+alias g15_m1g17 input /ma "Subduction" <t>
+alias g15_m1g18 input /ma "Sudden Lunge" <t>
+
+alias g15_m2g1 input /ma "Battery Charge" <me>
+alias g15_m2g2 input /ma "Occultation" <me>
+alias g15_m2g3 input /item "Echo Drops" <me>
+alias g15_m2g4 input /ma "Erratic Flutter" <me>
+alias g15_m2g5 input /ma "Cocoon" <me>
+alias g15_m2g6 input /ma "Diamondhide" <me>
+alias g15_m2g7 exec blubuffs.txt
+alias g15_m2g8 input /ma "Tenebral Crush" <t>
+alias g15_m2g9 input /ma "Anvil Lightning" <t>
+alias g15_m2g10 input /ma "Entomb" <t>
+alias g15_m2g11 input /ma "Subduction" <t>
+alias g15_m2g12 input /ma "Spectral Floe" <t>
+alias g15_m2g13 input /ma "Grand Slam" <t>
+alias g15_m2g14 input /ma "Frypan" <t>
+alias g15_m2g15 input /ma "Chant du Cygne" <t>
+alias g15_m2g16 input /ja "Diffusion" <me>
+alias g15_m2g17 input /ma "Glutinous Dart" <t>
+alias g15_m2g18 input /ma "Sudden Lunge" <t>
+
+alias g15_m3g1 input /ma "Blink" <me>
+alias g15_m3g2 input /ma "Stoneskin" <me>
+alias g15_m3g3 input /item "Echo Drops" <me>
+alias g15_m3g4 input /ma "Mage's Ballad" <me>
+alias g15_m3g5 input /ma "Mage's Ballad II" <me>
+alias g15_m3g6 input /ma "Erase" <stpt>
+alias g15_m3g7 input /ma "Reraise" <me>
+alias g15_m3g8
+alias g15_m3g9
+alias g15_m3g10
+alias g15_m3g11
+alias g15_m3g12
+alias g15_m3g13
+alias g15_m3g14
+alias g15_m3g15
+alias g15_m3g16 input /ma "Deodorize" <me>
+alias g15_m3g17 input /ma "Sneak" <me>
+alias g15_m3g18 input /ma "Invisible" <me>
+input /macro book 3
+input /macro set 1
+

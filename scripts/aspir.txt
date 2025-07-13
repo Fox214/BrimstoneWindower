@@ -1,0 +1,5 @@
+input /equip Main "Pluto's Staff";
+input /equip hands "Argute Bracers";
+input /ja "Dark Arts" <me>
+wait 1
+input /ma "Aspir" <t>

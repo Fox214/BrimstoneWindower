@@ -1,0 +1,6 @@
+input /equip Ammo "Angon";
+input /equip Ear1 "Dragoon's Earring";
+input /ja "Angon" <t>;
+wait 1
+//input /equip Ammo "Smart Grenade";
+input /equip Ammo "Thew Bomblet";

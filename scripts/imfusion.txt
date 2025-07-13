@@ -1,0 +1,5 @@
+input /ja "Immanence" <me>;
+wait 2;
+input /ma "Fire" <t>;
+wait 7;
+input /ws "Heavy Swing" <t>;

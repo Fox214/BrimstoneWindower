@@ -1,0 +1,22 @@
+//input /equip main "X's Knife";
+//input /equip sub "Thief's Knife";
+//input /equip sub "Blau Dolch";
+//input /equip ranged "Arbalest +1";
+//input /equip ammo "Acid Bolt";
+//input /equip ammo "Bomb Core";
+//input /equip head "Assassin's Bonnet";
+input /equip head "Anwig Salade";
+input /equip neck "Light Gorget";
+input /equip ear1 "Ethereal Earring";
+input /equip ear2 "Brutal Earring";
+input /equip body "Mirke Wardecors";
+input /equip hands "Hecatomb Mittens";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Warwolf Belt";
+input /equip legs "Denali Kecks";
+input /equip feet "Hecatomb Leggings";
+input /ws "Evisceration" <t>;
+wait 1;
+exec thftp.txt

@@ -1,0 +1,15 @@
+input /equip head "Shura Zunari Kabuto";
+input /equip neck "Enlightened Chain";
+input /equip ear1 "Ethereal Earring";
+input /equip ear2 "Brutal Earring";
+input /equip body "Kirin's Osode";
+input /equip hands "Ochimusha Kote";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Diamond Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Warwolf Belt";
+input /equip legs "Byakko's Haidate";
+input /equip feet "Rutter Sabatons";
+input /ws "Blade: Yu" <t>
+wait 1;
+exec ninnighttp.txt

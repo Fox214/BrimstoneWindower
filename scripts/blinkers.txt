@@ -1,0 +1,2 @@
+input 
+wait 2

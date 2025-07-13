@@ -1,0 +1,13 @@
+input /ma "Battery Charge" <me>
+wait 6
+input /ma "Occultation" <me>
+//wait 2
+//input /ma "Erratic Flutter" <me>
+//wait 2
+//input /ma "Warm-Up" <me>
+wait 5
+input /ma "Diamondhide" <me>
+wait 9
+input /ma "Cocoon" <me>
+wait 5
+input /ma "Barrier Tusk" <me>

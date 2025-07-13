@@ -1,0 +1,7 @@
+input /ma "Diabolos" <me>;
+wait 6
+input /pet "Assault" <bt>;
+wait 6
+input /pet "Night Terror" <bt>;
+wait 2
+input /pet "Release" <me>;

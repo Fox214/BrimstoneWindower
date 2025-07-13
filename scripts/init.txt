@@ -1,0 +1,98 @@
+keyboard_allowmmf 1
+
+//Set console variables
+console_position 15 50
+console_color 255 255 255 255
+console_displayactivity 1
+console_fadedelay 3500
+console_chatopen 1
+console_screendir screenshots
+
+//Set game variables
+game_forceambientlight 1
+game_ambientlight 255 120 120 120
+game_gamma 50
+game_allowsetcursorpos 0
+game_exittype 1
+game_exitprompt 1
+game_allowresize 0
+
+//Set general variables
+//showfps 1
+// FPS Position - Use -75 1 to position it on the top right corner.
+//fps_position 5 5 //top left
+fps_position -75 1 //top right
+
+rawdistance set 10
+//Bind keys
+//Bind syntax is "bind <key> <up> <command>
+// ^ represents control- and ! is alt, eg !1 is alt-1
+bind !l game_forceambientlight
+bind !f showfps
+bind sysrq screenshot png hide
+bind ^v paste
+echo Toggle Lighting = Alt-l (Bump mapping must be off to work properly)
+echo Toggle FPS = Alt-f
+echo Paste Clipboard = Ctrl-V
+exec alias.txt
+
+//Sets ConsoleBG Background Position
+consolebg position 15 50
+
+// *** ALLIANCE TARGET KEYS ***
+// This lets you push Alt+F1-6 and Ctrl+F1-6 to  to target Alliance members.
+bind ^f1 input /ta <a10>
+bind ^f2 input /ta <a11>
+bind ^f3 input /ta <a12>
+bind ^f4 input /ta <a13>
+bind ^f5 input /ta <a14>
+bind ^f6 input /ta <a15>
+bind !f1 input /ta <a20>
+bind !f2 input /ta <a21>
+bind !f3 input /ta <a22>
+bind !f4 input /ta <a23>
+bind !f5 input /ta <a24>
+bind !f6 input /ta <a25>
+wait 20
+reload timers
+lua load XivParty
+// lua load azureSets
+// lua load Balloon
+// lua load Bars
+// lua load battlemod
+// lua load bluguide
+// lua load Bonanza
+lua load buynpc
+// lua load cancel
+// lua load capetrader
+// lua load Debuffed
+// lua load distance
+lua load drop
+// lua load findAll
+// lua load GearSwap
+// lua load InfoBar
+// lua load instaLS
+// lua load itemizer
+// lua load MAGA
+// lua load ohShi
+// lua load organizer
+lua load parse
+// lua load PetTP
+// lua load pointwatch
+lua load react
+// lua load scoreboard
+lua load schud
+lua load sellnpc
+// lua load sheolhelper
+// lua load shortcuts
+// lua load Silence
+lua load Skillchains
+// lua load Sparks
+lua load TargetBar
+// lua load TParty
+// lua load Treasury
+// lua load update
+lua load XIPivot
+// lua load XIVHotbar
+// lua load XIVHotbar2
+// lua load XIVPetBar

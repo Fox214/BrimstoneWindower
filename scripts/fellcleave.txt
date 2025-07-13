@@ -1,0 +1,14 @@
+exec warws.txt
+//exec seigan.txt
+//input /ja "Retaliation" <me>;
+//wait 1;
+//input /ja "Sekkanoki" <me>;
+//wait 1;
+input /equip neck "Breeze Gorget";
+input /ws "Fell Cleave" <t>;
+wait 4;
+//input /ja "Hasso" <me>;
+//wait 2;
+input /ja "Meditate" <me>;
+exec wartp.txt
+//exec warbuffs.txt

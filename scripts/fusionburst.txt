@@ -1,0 +1,14 @@
+input /ja "Immanence" <me>;
+wait 2;
+input /ma "Fire" <t>;
+wait 4;
+input /ja "Immanence" <me>;
+wait 2;
+input /ma "Thunder" <t>;
+wait 4;
+// input /ja "Ebullience" <me>;
+// wait 2;
+//input /ma "Luminohelix" <t>;
+// input /ma "Pyrohelix II" <t>;
+input /ma "Fire V" <t>;
+

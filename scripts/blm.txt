@@ -1,0 +1,60 @@
+alias g15_m1g1 input /ja "Light Arts" <me>
+alias g15_m1g2 input /ja "Dark Arts" <me>
+alias g15_m1g3 input /item "Echo Drops" <me>
+alias g15_m1g4 input /ja "Addendum: White" <me>
+alias g15_m1g5 input /ja "Addendum: Black" <me>
+alias g15_m1g6 exec enfeebles.txt
+alias g15_m1g7 input /ja "Penury" <me>
+alias g15_m1g8 input /ja "Parsimony" <me>
+alias g15_m1g9 input /ma "Cure" <stpt>
+alias g15_m1g10 input /ja "Celerity" <me>
+alias g15_m1g11 input /ja "Alacrity" <me>
+alias g15_m1g12 input /ma "Regen" <stpt>
+alias g15_m1g13 input /ja "Accession" <me>
+alias g15_m1g14 input /ja "Manifestation" <me>
+alias g15_m1g15 input /ma "Aspir" <t>
+alias g15_m1g16 input /ja "Rapture" <me>
+alias g15_m1g17 input /ja "Ebullience" <me>
+alias g15_m1g18 input /ja "Sublimation" <me>
+
+alias g15_m2g1 input /ma "Aeroja" <t>
+alias g15_m2g2 input /ma "Blizzaja" <t>
+alias g15_m2g3 input /ma "Firaja" <t>
+alias g15_m2g4 input /ma "Stoneja" <t>
+alias g15_m2g5 input /ma "Thundaja" <t>
+alias g15_m2g6 input /ma "Waterja" <t>
+alias g15_m2g7 exec buffs.txt
+alias g15_m2g8 
+alias g15_m2g9
+alias g15_m2g10 input /ws "Spirit Taker" <t>
+alias g15_m2g11 input /ws "Myrkr" <me>
+alias g15_m2g12 input /ma "Bio" <t>
+alias g15_m2g13 input /ma "Aero II" <t>
+alias g15_m2g14 input /ma "Blizzard II" <t>
+alias g15_m2g15 input /ma "Fire II"
+alias g15_m2g16 input /ma "Stone II" <t>
+alias g15_m2g17 input /ma "Thunder II" <t>
+alias g15_m2g18 input /ma "Water II" <t>
+
+alias g15_m3g1 input /ma "Blink" <me>
+alias g15_m3g2 input /ma "Stoneskin" <me>
+alias g15_m3g3 input /item "Echo Drops" <me>
+alias g15_m3g4 input /ma "Phalanx" <me>
+alias g15_m3g5 input /ma "Aquaveil" <me>
+alias g15_m3g6 input /ma "Erase" <stpt>
+alias g15_m3g7 input /ma "Reraise" <me>
+alias g15_m3g8 input /ma "Chocobo Mazurka" <me>
+alias g15_m3g9 input /ma "Goddess's Hymnus" <me>
+alias g15_m3g10 input /ws "Spirit Taker" <t>
+alias g15_m3g11 input /ja "Double-Up" <me>
+alias g15_m3g12 input /ws "Corsair's Roll" <me>
+alias g15_m3g13 input /macro set 1
+alias g15_m3g14 input /macro set 2
+alias g15_m3g15 input /macro set 3
+alias g15_m3g16 input /ma "Deodorize" <me>
+alias g15_m3g17 input /ma "Sneak" <me>
+alias g15_m3g18 input /ma "Invisible" <me>
+wait 1
+input /macro book 11
+input /macro set 1
+

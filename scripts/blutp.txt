@@ -1,0 +1,16 @@
+//input /equip main "X's Knife";
+//input /equip sub "Thief's Knife";
+input /equip ammo "Mavi Talthum";
+input /equip head "Mavi Kavuk +1";
+input /equip neck "Mavi Scarf";
+input /equip ear1 "Suppanomimi";
+input /equip ear2 "Brutal Earring";
+input /equip body "Mavi Mintan +2";
+input /equip hands "Homam Manopolas";
+input /equip ring1 "Rajas Ring";
+//input /equip ring2 "Ulthalam's Ring";
+input /equip ring2 "Tjukurrpa Annulet";
+input /equip back "Atheling Mantle";
+input /equip waist "Twilight Belt";
+input /equip legs "Mavi Tayt +1";
+input /equip feet "Homam Gambieras";

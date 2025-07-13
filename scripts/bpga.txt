@@ -1,0 +1,7 @@
+input /ja "Accession" <me>;
+wait 2;
+input /ma "Barpoison" <me>;
+wait 5;
+input /ja "Accession" <me>;
+wait 2;
+input /ma "Barwater" <me>;

@@ -1,0 +1,13 @@
+//input /equip sub "Thief's Knife";
+input /equip ring1 "Rogue's Ring";
+input /equip ear1 "Ethereal Earring";
+input /equip neck "Rabbit Charm";
+input /equip head "Assassin's Bonnet";
+input /equip hands "Assassin's Armlets +2";
+input /equip ear2 "Brutal Earring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Key Ring Belt";
+input /equip legs "Assassin's Culottes";
+input /equip feet "Raider's Poulaines +2";
+input /ja "Mug" <t>

@@ -1,0 +1,20 @@
+//input /equip main "Light Staff";
+//input /equip sub "Bugard Strap +1";
+//input /equip ammo "Morion Tathlum";
+//input /equip head "Scholar's Mortarboard";
+//input /equip neck "Enlightened Chain";
+//input /equip neck "Phalaina Locket";
+//input /equip lear "Moldavite Earring";
+//input /equip rear "Morion Earring";
+//input /equip body "Argute Gown";
+//input /equip hands "Argute Bracers";
+//input /equip ring1 "Diamond Ring";
+//input /equip ring2 "Tjukurrpa Annulet";
+//input /equip back "Red Cape +1";
+//input /equip waist "Reverend Sash";
+//input /equip legs "Scholar's Pants";
+//input /equip feet "Argute Loafers";
+input /ja "Light Arts" <me>;
+wait 1
+input /macro book 6
+input /macro set 2

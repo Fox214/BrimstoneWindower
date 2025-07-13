@@ -1,0 +1,2 @@
+input /equip Range "Vihuela";
+input /ma "Chocobo Mazurka" <me>

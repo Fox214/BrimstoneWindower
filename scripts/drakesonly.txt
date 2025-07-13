@@ -1,0 +1,4 @@
+exec drakesgear.txt
+input /ws "Drakesbane" <t>
+wait 1
+exec drgtp.txt

@@ -1,0 +1,59 @@
+alias g15_m1g1 input /ja "Hasso" <me>
+alias g15_m1g2 exec seigan.txt
+alias g15_m1g3 input /ws "Sonic Thrust" <t>
+alias g15_m1g4 exec jump.txt
+alias g15_m1g5 input /ja "Meditate" <me>
+alias g15_m1g6 input /ja "Sekkanoki" <me>
+alias g15_m1g7 exec doublelight.txt
+alias g15_m1g8 exec drgatt.txt
+alias g15_m1g9 input /ws "Geirskogul" <t>
+alias g15_m1g10 exec drgtp.txt
+alias g15_m1g11 input /ws "Stardiver" <t>
+alias g15_m1g12 input /ja "Third Eye" <me>
+alias g15_m1g13 input /ja "Restoring Breath" <me>
+alias g15_m1g14 input /ja "Smiting Breath" <t>
+alias g15_m1g15 input /ja "Deep Breathing" <me>
+alias g15_m1g16 input /ma "Utsusemi: Ni" <me>
+alias g15_m1g17 input /ws "Raiden Thrust" <t>
+alias g15_m1g18 input /ws "Drakesbane" <t>
+
+alias g15_m2g1 exec doublethrust.txt
+alias g15_m2g2 exec thunderthrust.txt
+alias g15_m2g3 exec raidenthrust.txt
+alias g15_m2g4 exec legsweep.txt
+alias g15_m2g5 exec pentathrust.txt
+alias g15_m2g6 exec vorpalthrust.txt
+alias g15_m2g7 exec skewer.txt
+alias g15_m2g8 exec wheelingthrust.txt
+alias g15_m2g9 exec impulsedrive.txt
+alias g15_m2g10 exec drakesbane.txt
+alias g15_m2g11 exec sonicthrust.txt
+alias g15_m2g12 input /ja "Sekkanoki" <me>
+alias g15_m2g13 exec zerg.txt
+alias g15_m2g14 exec drgtp.txt
+alias g15_m2g15 exec fullswing.txt
+alias g15_m2g16 exec blinkers.txt
+alias g15_m2g17 input /ma "Monomi: Ichi" <me>
+alias g15_m2g18 input /ma "Tonko: Ni" <me>
+
+alias g15_m3g1 input /ma "Blink" <me>
+alias g15_m3g2 exec sonicthrust.txt
+alias g15_m3g3 input /item "Echo Drops" <me>
+alias g15_m3g4 exec jump.txt
+alias g15_m3g5 input /ma "Aquaveil" <me>
+alias g15_m3g6 input /ja "Deep Breathing" <me>
+alias g15_m3g7 input /ma "Reraise" <me>
+alias g15_m3g8 input /ma "Regen II" <me>
+alias g15_m3g9 input /ma "Erase" <stpt>
+alias g15_m3g10 exec drgtp.txt
+alias g15_m3g11 input /ws "Stardiver" <t>
+alias g15_m3g12 input /ma "Haste" <me>
+alias g15_m3g13 input /ja "Restoring Breath" <me>
+alias g15_m3g14 input /ja "Smiting Breath" <t>
+alias g15_m3g15 input /ja "Deep Breathing" <me>
+alias g15_m3g16 input /ma "Dia" <t>
+alias g15_m3g17 input /ma "Sneak" <me>
+alias g15_m3g18 input /ma "Invisible" <me>
+wait 1
+input /macro book 1
+input /macro set 3

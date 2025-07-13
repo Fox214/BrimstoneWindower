@@ -1,0 +1,99 @@
+//echo Init script loaded.
+
+// *** THIRD PARTY APPLICATION SETTING ***
+// This MUST be set to true to make use of applications that use WindowerHelper
+// to send Keyboard Commands. If you do not use any applications that control your keyboard, then you
+// do not need to set this to 1. If you do, you must set this to 1 to make use of those applications.
+keyboard_allowmmf 1
+
+/////////////////////////////////////////////
+//Set console variables //
+////////////////////////////////////////////
+
+console_position 15 50
+console_color 255 255 0 0
+console_displayactivity 1
+console_fadedelay 3500
+console_chatopen 1
+console_screendir screenshots
+
+/////////////////////////////////////////////
+//Set game variables //
+/////////////////////////////////////////////
+
+game_forceambientlight 1
+game_ambientlight 255 120 120 120
+game_gamma 55
+game_allowsetcursorpos 0
+game_exittype 1
+game_exitprompt 1
+game_allowresize 0
+
+/////////////////////////////////////////////
+//Set general variables //
+/////////////////////////////////////////////
+//showfps 1
+// FPS Position - Use -75 1 to position it on the top right corner.
+//fps_position 5 5 //top left
+fps_position -75 1 //top right
+
+
+/////////////////////////////////////////////
+//wait 5 seconds before auto loading plugins
+wait 5
+/////////////////////////////////////////////
+
+/////////////////////////////////////////////
+//Load plugins
+// -- Remove the // from plugins you want to have autoloaded
+/////////////////////////////////////////////
+
+// TParty	: TP #'s beside party members names and HP% number on target
+// Distance	: Shows distance to current target
+// ConsoleBG	: Puts a background behind the console
+// Recast	: Shows Recast Timers for All Abilities and Spells
+// Timestamp 	: Adds time stamps to all chat log messages
+// Silence 	: Reduces spam of 'Equipment Changed' and other messages from the chat log.
+// SSOrganizer  : Organizes all screenshots you take so you may easily find them.
+// MANY MORE PLUGINS at www.windower.net
+
+load TParty
+load TimeStamp
+load SSOrganizer
+load Silence
+load Recast
+load Distance
+load ConsoleBG
+
+//Bind keys
+//Bind syntax is "bind <key> <up> <command>
+// ^ represents control- and ! is alt, eg !1 is alt-1
+bind !f10 drawdistance set 5
+bind ^f10 drawdistance set 1
+bind f11 game_forceambientlight
+bind f12 showfps
+bind sysrq screenshot png
+bind ^v paste
+echo Toggle Lighting = F11 (Bump mapping must be off to work properly)
+echo Toggle FPS = F12
+echo DrawDistance Lv 5: Alt-F10
+echo DrawDistance Lv 1: Ctrl-F10
+echo Paste Clipboard = Ctrl-V
+
+//Sets ConsoleBG Background Position
+consolebg position 15 50
+
+// *** ALLIANCE TARGET KEYS ***
+// This lets you push Alt+F1-6 and Ctrl+F1-6 to  to target Alliance members.
+bind ^f1 input /ta <a10>
+bind ^f2 input /ta <a11>
+bind ^f3 input /ta <a12>
+bind ^f4 input /ta <a13>
+bind ^f5 input /ta <a14>
+bind ^f6 input /ta <a15>
+bind !f1 input /ta <a20>
+bind !f2 input /ta <a21>
+bind !f3 input /ta <a22>
+bind !f4 input /ta <a23>
+bind !f5 input /ta <a24>
+bind !f6 input /ta <a25>

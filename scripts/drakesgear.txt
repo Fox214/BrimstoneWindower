@@ -1,0 +1,17 @@
+//input /equip main "Thalassocrat";
+//input /equip sub "Pole Grip";
+input /equip ammo "Thew Bomblet";
+input /equip head "Twilight Helm";
+input /equip neck "Light Gorget";
+input /equip ear1 "Brutal Earring";
+input /equip ear2 "Ethereal Earring";
+//input /equip body "Ares's Cuirass";
+input /equip body "Lancer's Plackart +2";
+//input /equip hands "Lncr. Vmbrc. +2";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+//input /equip waist "Warwolf Belt";
+input /equip waist "Light Belt";
+//input /equip legs "Lancer's Cuissots +2";
+input /equip feet "Hecatomb Leggings";

@@ -1,0 +1,19 @@
+//input /equip main "Senjuinrikio";
+//input /equip sub "Perdu Blade";
+//input /equip range "Ungur Boomerang";
+//input /equip head "Ninja Hatsuburi";
+input /equip head "Koga Hatsuburi";
+input /equip neck "Enlightened Chain";
+input /equip ear1 "Moldavite Earring";
+input /equip ear2 "Morion Earring";
+input /equip body "Kirin's Osode";
+input /equip hands "Iga Tekko +2";
+input /equip ring1 "Diamond Ring";
+input /equip ring2 "Diamond Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Koga Sarashi";
+input /equip legs "Denali Kecks";
+input /equip feet "Ninja Kyahan +1";
+//input /equip feet "Koga Kyahan";
+input /macro book 2
+input /macro set 4

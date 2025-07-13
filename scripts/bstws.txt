@@ -1,0 +1,16 @@
+input /equip ammo "Flame Sachet";
+input /equip head "Mekira-oto +1";
+input /equip neck "Breeze Gorget";
+input /equip ear1 "Brutal Earring";
+input /equip ear2 "Ethereal Earring";
+input /equip body "Kirin's Osode";
+input /equip hands "Hecatomb Mittens";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Breeze Belt";
+input /equip legs "Monster Trousers +2";
+input /equip feet "Ferine Ocreae +2";
+input /ws "Ruinator" <t>;
+wait 2;
+exec bsttp.txt

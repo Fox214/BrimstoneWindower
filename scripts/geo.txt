@@ -1,0 +1,60 @@
+alias g15_m1g1 input /ja "Light Arts" <me>
+alias g15_m1g2 input /ja "Dark Arts" <me>
+alias g15_m1g3 input /item "Echo Drops" <me>
+alias g15_m1g4 input /ja "Addendum: White" <me>
+alias g15_m1g5 input /ja "Addendum: Black" <me>
+alias g15_m1g6 input /ma "Geo-Gravity" <bt>
+alias g15_m1g7 input /ma "Indi-Refresh" <me>
+alias g15_m1g8 input /ma "Indi-Regen" <me>
+alias g15_m1g9 input /macro set 4
+alias g15_m1g10 input /ja "Collimated Fervor" <me>
+alias g15_m1g11 input /ja "Entrust" <me>
+alias g15_m1g12 input /ja "Theurgic Focus" <me>
+alias g15_m1g13 input /ja "Blaze of Glory" <me>
+alias g15_m1g14 input /ja "Dematerialize" <me>
+alias g15_m1g15 input /ja "Radial Arcana" <me>
+alias g15_m1g16 input /ja "Life Cycle" <me>
+alias g15_m1g17 input /ja "Ecliptic Attrition" <me>
+alias g15_m1g18 input /ja "Full Circle" <me>
+
+alias g15_m2g1 input /ma "Aera II" <t>
+alias g15_m2g2 input /ma "Blizzara II" <t>
+alias g15_m2g3 input /ma "Fira II" <t>
+alias g15_m2g4 input /ma "Stonera II" <t>
+alias g15_m2g5 input /ma "Thundara II" <t>
+alias g15_m2g6 input /ma "Watera II" <t>
+alias g15_m2g7 exec buffs.txt
+alias g15_m2g8 
+alias g15_m2g9
+alias g15_m2g10 input /ws "Spirit Taker" <t>
+alias g15_m2g11 input /ws "Myrkr" <t>
+alias g15_m2g12 input /ja "Ecliptic Attrition" <me>
+alias g15_m2g13 input /ma "Aero II" <t>
+alias g15_m2g14 input /ma "Blizzard II" <t>
+alias g15_m2g15 input /ma "Fire II"
+alias g15_m2g16 input /ma "Stone II" <t>
+alias g15_m2g17 input /ma "Thunder II" <t>
+alias g15_m2g18 input /ma "Water II" <t>
+
+alias g15_m3g1 input /ma "Blink" <me>
+alias g15_m3g2 input /ma "Stoneskin" <me>
+alias g15_m3g3 input /item "Echo Drops" <me>
+alias g15_m3g4 input /ma "Phalanx" <me>
+alias g15_m3g5 input /ma "Aquaveil" <me>
+alias g15_m3g6 input /ma "Erase" <stpt>
+alias g15_m3g7 input /ma "Reraise" <me>
+alias g15_m3g8 input /ma "Chocobo Mazurka" <me>
+alias g15_m3g9 input /ma "Goddess's Hymnus" <me>
+alias g15_m3g10 input /ja "Corsair's Roll" <me>
+alias g15_m3g11 input /ja "Double-Up" <me>
+alias g15_m3g12
+alias g15_m3g13 input /macro set 1
+alias g15_m3g14 input /macro set 2
+alias g15_m3g15 input /macro set 3
+alias g15_m3g16 input /ma "Deodorize" <me>
+alias g15_m3g17 input /ma "Sneak" <me>
+alias g15_m3g18 input /ma "Invisible" <me>
+wait 1
+input /macro book 20
+input /macro set 3
+

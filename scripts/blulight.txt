@@ -1,0 +1,15 @@
+input /ma "Cocoon" <me>
+wait 2
+input /p ý!tý =>  ý&jý = Light
+wait 4
+input /ja "Chain Affinity" <me>
+wait 2
+input /ja "Burst Affinity" <me>
+wait 2
+exec savageblade.txt
+wait 4
+exec cannonball.txt
+wait 4
+exec magichammer.txt
+wait 2
+exec blutp.txt

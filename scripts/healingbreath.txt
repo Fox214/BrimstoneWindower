@@ -1,0 +1,7 @@
+input /equip Head "Drachen Armet +1";
+exec wyvernHP.txt
+input /ma "Dia" <t>;
+//input /ma "Poisona" <me>;
+//input /ma "Poison" <t>;
+wait 2
+input /equip Head "Wyrm Armet +2";

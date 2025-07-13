@@ -1,0 +1,14 @@
+input /equip ammo "Mavi Talthum";
+input /equip head "Mirage Keffiyeh";
+input /equip neck "Mavi Scarf";
+input /equip ear1 "Brutal Earring";
+input /equip ear2 "Suppanomimi";
+input /equip body "Magus Jubbah";
+input /equip hands "Mv. Bazubands +2";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Warwolf Belt";
+input /equip legs "Denali Kecks";
+input /equip legs "Mavi Tayt +1";
+input /ma "Magic Hammer" <t>;

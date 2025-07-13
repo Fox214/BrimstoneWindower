@@ -1,0 +1,12 @@
+input /equip Main "Light Staff";
+input /equip hands "Argute Bracers";
+input /ma "Dia II" <t>
+wait 5
+input /equip Main "Earth Staff";
+input /ma "Slow" <t>
+wait 6
+input /equip Main "Dark Staff";
+input /ma "Blind" <t>
+wait 4
+input /equip Main "Aquilo's Staff";
+input /ma "Paralyze" <t>

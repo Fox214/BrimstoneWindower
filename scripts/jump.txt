@@ -1,0 +1,17 @@
+//exec drgtp.txt
+//input /equip head "Lancer's Mezail +2";
+//input /equip body "Lancer's Plackart +2";
+//input /equip hands "Lncr. Vmbrc. +2";
+//input /equip Waist "Wyrm Belt"
+//input /equip legs "Lancer's Cuissots +2";
+//input /equip feet "Lancer's Schynbalds +2";
+//input /equip Feet "Drachen Greaves" 
+//input /equip Legs "Barone Cosciales"
+//input /ja "Jump" <t>
+input /ja "Spirit Jump" <t>
+wait 2
+//input /equip Legs "Wyrm Brais"
+//input /ja "High Jump" <t>
+input /ja "Soul Jump" <t>
+//wait 1
+//exec drgtp.txt
