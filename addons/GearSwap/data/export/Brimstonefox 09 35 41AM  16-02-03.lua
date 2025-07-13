@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Grioavolr", augments={'Enh. Mag. eff. dur. +2','MND+3','Mag. Acc.+25','"Mag.Atk.Bns."+11',}},
+    sub="Niobid Strap",
+    ammo="Pemphredo Tathlum",
+    head="Befouled Crown",
+    body={ name="Amalric Doublet", augments={'MP+60','Mag. Acc.+15','"Mag.Atk.Bns."+15',}},
+    hands={ name="Amalric Gages", augments={'INT+10','Mag. Acc.+15','"Mag.Atk.Bns."+15',}},
+    legs={ name="Merlinic Shalwar", augments={'Mag. Acc.+25 "Mag.Atk.Bns."+25','"Occult Acumen"+3','Mag. Acc.+13',}},
+    feet={ name="Merlinic Crackows", augments={'Mag. Acc.+24 "Mag.Atk.Bns."+24','Enmity-5','MND+6','Mag. Acc.+15',}},
+    neck="Twilight Torque",
+    waist="Fucho-no-Obi",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','Latent effect: "Refresh"+1',}},
+    right_ear="Ethereal Earring",
+    left_ring="Strendu Ring",
+    right_ring="Renaye Ring",
+    back="Kumbira Cape",
+}

@@ -1,0 +1,739 @@
+closetCleaner Inventory Report:
+=====================
+
+Name: Phorcys Korazin Slot: body Bag: Inventory
+Name: Gishdubar Sash Slot: waist Bag: Inventory
+Name: Emicho Hose Slot: legs Bag: Inventory
+Name: Pelt. Schyn. +1 Slot: feet Bag: Inventory
+Name: Reiki Cloak Slot: back Bag: Inventory
+Name: Twilight Mail Slot: body Bag: Inventory
+Name: Vishap Mail +3 Slot: body Bag: Inventory
+Name: Flam. Gambieras +2 Slot: feet Bag: Inventory
+Name: Emicho Haubert Slot: body Bag: Inventory
+Name: Combatant's Torque Slot: neck Bag: Inventory
+Name: Carmine Cuisses +1 Slot: legs Bag: Inventory
+Name: Valorous Greaves Slot: feet Bag: Inventory
+Name: Vis. Fng. Gaunt. +3 Slot: hands Bag: Inventory
+Name: Flamma Korazin +1 Slot: body Bag: Inventory
+Name: Anu Torque Slot: neck Bag: Inventory
+Name: Ptero. Brais +1 Slot: legs Bag: Inventory
+Name: Amm Greaves Slot: feet Bag: Inventory
+Name: Lancer's Torque Slot: neck Bag: Inventory
+Name: Sulevia's Plate. +2 Slot: body Bag: Inventory
+Name: Ptero. Mail +1 Slot: body Bag: Inventory
+Name: Limbo Trousers Slot: legs Bag: Inventory
+Name: Fotia Gorget Slot: neck Bag: Inventory
+Name: Incarnation Sash Slot: waist Bag: Inventory
+Name: Vishap Brais +3 Slot: legs Bag: Inventory
+Name: Pelt. Plackart +1 Slot: body Bag: Inventory
+Name: Leyline Gloves Slot: hands Bag: Inventory
+Name: Lupine Cape Slot: back Bag: Inventory
+Name: Emicho Gauntlets Slot: hands Bag: Inventory
+Name: Vishap Greaves +2 Slot: feet Bag: Inventory
+Name: Ptero. Greaves +1 Slot: feet Bag: Inventory
+Name: Sulev. Cuisses +2 Slot: legs Bag: Inventory
+Name: Sulev. Gauntlets +2 Slot: hands Bag: Inventory
+Name: Lacono Neck. +1 Slot: neck Bag: Inventory
+Name: Red Curry Bun Slot: item Bag: Inventory
+Name: Valorous Hose Slot: legs Bag: Inventory
+Name: Brigantia's Mantle Slot: back Bag: Inventory
+Name: Sailfi Belt +1 Slot: waist Bag: Inventory
+Name: Flax Sash Slot: waist Bag: Inventory
+Name: Olseni Belt Slot: waist Bag: Inventory
+Name: Focal Orb Slot: ammo Bag: Inventory
+Name: Pel. Vambraces +1 Slot: hands Bag: Inventory
+Name: Amar Cluster Slot: ammo Bag: Inventory
+Name: Orunmila's Torque Slot: neck Bag: Inventory
+Name: Atheling Mantle Slot: back Bag: Inventory
+Name: Wanion Belt Slot: waist Bag: Inventory
+Name: Brigantia's Mantle Slot: back Bag: Inventory
+Name: Fravashi Mantle Slot: back Bag: Inventory
+Name: Ground. Mantle +1 Slot: back Bag: Inventory
+Name: Ptero. Fin. G. +2 Slot: hands Bag: Inventory
+Name: Asperity Necklace Slot: neck Bag: Inventory
+Name: Flamma Dirs +1 Slot: legs Bag: Inventory
+Name: Vishap Armet +3 Slot: head Bag: Inventory
+Name: Flam. Zucchetto +2 Slot: head Bag: Inventory
+Name: Glassblower's Belt Slot: waist Bag: Inventory
+Name: Sulev. Leggings +2 Slot: feet Bag: Inventory
+Name: Ganesha's Mala Slot: neck Bag: Inventory
+Name: Sulevia's Mask +2 Slot: head Bag: Inventory
+Name: Valorous Mask Slot: head Bag: Inventory
+Name: Ginsen Slot: ammo Bag: Inventory
+Name: Updraft Mantle Slot: back Bag: Inventory
+Name: Ptero. Armet +1 Slot: head Bag: Inventory
+Name: Twilight Torque Slot: neck Bag: Inventory
+Name: Flam. Manopolas +2 Slot: hands Bag: Inventory
+Name: Fotia Belt Slot: waist Bag: Inventory
+Name: Phalangite Mantle Slot: back Bag: Inventory
+Name: Gavialis Helm Slot: head Bag: Inventory
+Name: Peltast's Mezail +1 Slot: head Bag: Inventory
+Name: Crusher Gauntlets Slot: hands Bag: Inventory
+Name: Pelt. Cuissots +1 Slot: legs Bag: Inventory
+Name: Rhapsode's Cape Slot: back Bag: Safe
+Name: Odyssean Gauntlets Slot: hands Bag: Safe
+Name: Orblight Slot: item Bag: Safe
+Name: Imperial Standard Slot: item Bag: Safe
+Name: Campestres's Cape Slot: back Bag: Safe
+Name: Bookshelf Slot: item Bag: Safe
+Name: Taru Tot Toyset Slot: item Bag: Safe
+Name: San d'Orian Flag Slot: item Bag: Safe
+Name: Jeunoan Flag Slot: item Bag: Safe
+Name: Pantin Taj +1 Slot: head Bag: Safe
+Name: Plun. Armlets Slot: hands Bag: Safe
+Name: Hippomenes Socks Slot: feet Bag: Safe
+Name: Academic's Gown Slot: body Bag: Safe
+Name: Rosmerta's Cape Slot: back Bag: Safe
+Name: Sakonji Domaru +2 Slot: body Bag: Safe
+Name: Wakido Kabuto Slot: head Bag: Safe
+Name: Valorous Mitts Slot: hands Bag: Safe
+Name: Katana-kazari Slot: item Bag: Safe
+Name: Chironic Hose Slot: legs Bag: Safe
+Name: Umuthi Gloves Slot: hands Bag: Safe
+Name: Jokushu Haidate Slot: legs Bag: Safe
+Name: Lutian Cape Slot: back Bag: Safe
+Name: Mummu Kecks +2 Slot: legs Bag: Safe
+Name: Fafnir Statue Slot: item Bag: Safe
+Name: Stout Bonnet Slot: head Bag: Safe
+Name: Cornflower Cape Slot: back Bag: Safe
+Name: Meg. Chausses +2 Slot: legs Bag: Safe
+Name: Cupboard Slot: item Bag: Safe
+Name: Stationery Set Slot: item Bag: Safe
+Name: Izdubar Mantle Slot: back Bag: Safe
+Name: Kabuto-kazari Slot: item Bag: Safe
+Name: Anchoret's Mantle Slot: back Bag: Safe
+Name: Cornelia Statue Slot: item Bag: Safe
+Name: Wastebasket Slot: item Bag: Safe
+Name: Otronif Harness Slot: body Bag: Safe
+Name: Bagua Galero Slot: head Bag: Safe
+Name: Kumbira Cape Slot: back Bag: Safe
+Name: Carpenter's Sign Slot: item Bag: Safe
+Name: Bagua Pants +1 Slot: legs Bag: Safe
+Name: Orion Bracers +1 Slot: hands Bag: Safe
+Name: Bane Cape Slot: back Bag: Safe
+Name: Scintillating Cape Slot: back Bag: Safe
+Name: Nukumi Gausape Slot: body Bag: Safe
+Name: E♂ Mannequin Slot: item Bag: Safe
+Name: Merlinic Hood Slot: head Bag: Safe
+Name: R. Bamboo Grass Slot: item Bag: Safe
+Name: Bonbori Slot: item Bag: Safe
+Name: Kaabnax Trousers Slot: legs Bag: Safe
+Name: Navarch's Gants Slot: hands Bag: Safe
+Name: Lifestream Cape Slot: back Bag: Safe
+Name: San d'Orian Tree Slot: item Bag: Safe
+Name: Festival Dolls Slot: item Bag: Safe
+Name: Sayadio's Kaftan Slot: body Bag: Safe
+Name: Yellow 3D Almirah Slot: item Bag: Safe
+Name: Merlinic Crackows Slot: feet Bag: Safe
+Name: Telchine Chas. Slot: body Bag: Safe
+Name: Feast Hose Slot: legs Bag: Safe
+Name: Jhakri Robe +2 Slot: body Bag: Safe
+Name: Loyalist Sabatons Slot: feet Bag: Safe
+Name: Nukumi Ocreae Slot: feet Bag: Safe
+Name: Nantosuelta's Cape Slot: back Bag: Safe
+Name: Wakido Sune. +3 Slot: feet Bag: Safe
+Name: Arch. Coat Slot: body Bag: Safe
+Name: Anwig Salade Slot: head Bag: Safe
+Name: Adamant. Statue Slot: item Bag: Safe
+Name: Pahtli Cape Slot: back Bag: Safe
+Name: Skulk. Armlets +1 Slot: hands Bag: Safe
+Name: Mahogany Bed Slot: item Bag: Safe
+Name: Anchorite's Crown Slot: head Bag: Safe
+Name: Viti. Chapeau +1 Slot: head Bag: Safe
+Name: Emicho Coronet Slot: head Bag: Safe
+Name: Lugh's Cape Slot: back Bag: Safe
+Name: Ayao's Gages Slot: hands Bag: Safe
+Name: Yel. VCS Plaque Slot: item Bag: Safe
+Name: Windurstian Flag Slot: item Bag: Safe
+Name: Bastokan Flag Slot: item Bag: Safe
+Name: Guardian Board Slot: item Bag: Safe
+Name: Guild Flyers Slot: item Bag: Safe
+Name: Ignominy Cuirass +2 Slot: body Bag: Safe
+Name: Black VCS Plaque Slot: item Bag: Safe
+Name: Shango Robe Slot: body Bag: Locker
+Name: Skormoth Mask Slot: head Bag: Locker
+Name: Nukumi Cabasset Slot: head Bag: Locker
+Name: Uk'uxkaj Boots Slot: feet Bag: Locker
+Name: Conveyance Cape Slot: back Bag: Locker
+Name: Pumm. Calligae +2 Slot: feet Bag: Locker
+Name: Amini Glovelettes Slot: hands Bag: Locker
+Name: Mdk. Shalwar +1 Slot: legs Bag: Locker
+Name: Sarissapho. Belt Slot: waist Bag: Locker
+Name: Caller's Pendant Slot: neck Bag: Locker
+Name: Ioskeha Belt Slot: waist Bag: Locker
+Name: Bihu Cannions Slot: legs Bag: Locker
+Name: Passion Jacket Slot: body Bag: Locker
+Name: Odyss. Chestplate Slot: body Bag: Locker
+Name: Telchine Gloves Slot: hands Bag: Locker
+Name: Theo. Bliaut +2 Slot: body Bag: Locker
+Name: Thaumas Nails Slot: feet Bag: Locker
+Name: Luh. Keffiyeh +1 Slot: head Bag: Locker
+Name: Mallquis Saio +1 Slot: body Bag: Locker
+Name: Sulla Belt Slot: waist Bag: Locker
+Name: Ebers Cap +1 Slot: head Bag: Locker
+Name: Jokushu Chain Slot: neck Bag: Locker
+Name: Hag. Sabots +1 Slot: feet Bag: Locker
+Name: Yamabuki-no-Obi Slot: waist Bag: Locker
+Name: Ankusa Gaiters +1 Slot: feet Bag: Locker
+Name: Sakonji Sune-Ate Slot: feet Bag: Locker
+Name: Twilight Cloak Slot: body Bag: Locker
+Name: Ahosi Leggings Slot: feet Bag: Locker
+Name: Fucho-no-Obi Slot: waist Bag: Locker
+Name: Boii Calligae Slot: feet Bag: Locker
+Name: Regimen Mittens Slot: hands Bag: Locker
+Name: Yokaze Mantle Slot: back Bag: Locker
+Name: Theo. Pant. +1 Slot: legs Bag: Locker
+Name: Hes. Gaiters Slot: feet Bag: Locker
+Name: Fili Cothurnes +1 Slot: feet Bag: Locker
+Name: Hurch'lan Sash Slot: waist Bag: Locker
+Name: Black Belt Slot: waist Bag: Locker
+Name: Chironic Slippers Slot: feet Bag: Locker
+Name: Meghanada Visor +2 Slot: head Bag: Locker
+Name: Bhikku Crown Slot: head Bag: Locker
+Name: Siegel Sash Slot: waist Bag: Locker
+Name: Perimede Cape Slot: back Bag: Locker
+Name: Befouled Crown Slot: head Bag: Locker
+Name: Otronif Boots Slot: feet Bag: Locker
+Name: Bhikku Cyclas Slot: body Bag: Locker
+Name: Bhikku Gloves Slot: hands Bag: Locker
+Name: Peda. Loafers Slot: feet Bag: Locker
+Name: Taranus's Cape Slot: back Bag: Locker
+Name: Assim. Bazu. +1 Slot: hands Bag: Locker
+Name: Thereoid Greaves Slot: feet Bag: Locker
+Name: Hattori Kyahan +1 Slot: feet Bag: Locker
+Name: Kasuga Kote Slot: hands Bag: Locker
+Name: Geomancy Tunic Slot: body Bag: Locker
+Name: Marduk's Tiara +1 Slot: head Bag: Locker
+Name: Danzo Sune-Ate Slot: feet Bag: Locker
+Name: Agoge Calligae Slot: feet Bag: Locker
+Name: Orison Locket Slot: neck Bag: Locker
+Name: Desultor Tassets Slot: legs Bag: Locker
+Name: Merlinic Dastanas Slot: hands Bag: Locker
+Name: Toutatis's Cape Slot: back Bag: Locker
+Name: Azimuth Gaiters Slot: feet Bag: Locker
+Name: Grapevine Cape Slot: back Bag: Locker
+Name: Plun. Culottes Slot: legs Bag: Locker
+Name: Theo. Cap +1 Slot: head Bag: Locker
+Name: Hachiya Hatsu. +3 Slot: head Bag: Locker
+Name: Twilight Cape Slot: back Bag: Locker
+Name: Artio's Mantle Slot: back Bag: Locker
+Name: Ankusa Trousers +1 Slot: legs Bag: Locker
+Name: Inoshishinofuda Slot: item Bag: Locker
+Name: Glyphic Doublet Slot: body Bag: Locker
+Name: Ebers Pantaloons Slot: legs Bag: Locker
+Name: Andartia's Mantle Slot: back Bag: Locker
+Name: Runeist Bandeau Slot: head Bag: Locker
+Name: Buremte Gloves Slot: hands Bag: Locker
+Name: Shulmanu Collar Slot: neck Bag: Locker
+Name: Hagondes Cuffs +1 Slot: hands Bag: Locker
+Name: Asteria Mitts Slot: hands Bag: Locker
+Name: Hattori Ningi +1 Slot: body Bag: Locker
+Name: Zoar Subligar Slot: legs Bag: Locker
+Name: Mallquis Trews +1 Slot: legs Bag: Satchel
+Name: Hes. Hose Slot: legs Bag: Satchel
+Name: Arbatel Bracers +1 Slot: hands Bag: Satchel
+Name: Faith Torque Slot: neck Bag: Satchel
+Name: Agoge Lorica Slot: body Bag: Satchel
+Name: Kasuga Domaru Slot: body Bag: Satchel
+Name: Pet Food Theta Slot: ammo Bag: Satchel
+Name: Convoker's Horn +3 Slot: head Bag: Satchel
+Name: Querkening Brais Slot: legs Bag: Satchel
+Name: Psycloth Lappas Slot: legs Bag: Satchel
+Name: Pumm. Lorica +3 Slot: body Bag: Satchel
+Name: Hashishin Basmak Slot: feet Bag: Satchel
+Name: Thr. Tomahawk Slot: ammo Bag: Satchel
+Name: Aoidos' Matinee Slot: neck Bag: Satchel
+Name: Kasuga Kabuto Slot: head Bag: Satchel
+Name: Anchorite's Cyclas Slot: body Bag: Satchel
+Name: Queller Rod Slot: sub Bag: Satchel
+Name: Nexus Cape Slot: back Bag: Satchel
+Name: Maniacus Sash Slot: waist Bag: Satchel
+Name: Rubeus Boots Slot: feet Bag: Satchel
+Name: Portafurnace Slot: neck Bag: Satchel
+Name: Fili Calot +1 Slot: head Bag: Satchel
+Name: Beckoner's Bracers Slot: hands Bag: Satchel
+Name: Runeist Coat Slot: body Bag: Satchel
+Name: Bhikku Hose Slot: legs Bag: Satchel
+Name: Pet Food Theta Slot: ammo Bag: Satchel
+Name: Wicce Gloves Slot: hands Bag: Satchel
+Name: Mizu. Kubikazari Slot: neck Bag: Satchel
+Name: Agoge Mufflers +1 Slot: hands Bag: Satchel
+Name: Mummu Jacket +1 Slot: body Bag: Satchel
+Name: Sanjaku-Tenugui Slot: item Bag: Satchel
+Name: Divinity Slot: sub Bag: Satchel
+Name: Terpander Slot: range Bag: Satchel
+Name: Hiza. Hizayoroi +2 Slot: legs Bag: Satchel
+Name: Adad Amulet Slot: neck Bag: Satchel
+Name: Lapidary Tunic Slot: body Bag: Satchel
+Name: Bihu Jstcorps +1 Slot: body Bag: Satchel
+Name: Ebers Bliaut Slot: body Bag: Satchel
+Name: Smertrios's Mantle Slot: back Bag: Satchel
+Name: Holy Water Slot: item Bag: Satchel
+Name: Skulker's Vest Slot: body Bag: Satchel
+Name: Navon Crackows Slot: feet Bag: Satchel
+Name: Bookworm's Cape Slot: back Bag: Satchel
+Name: Amalric Doublet Slot: body Bag: Satchel
+Name: Intarabus's Cape Slot: back Bag: Satchel
+Name: Mochi. Chainmail +1 Slot: body Bag: Satchel
+Name: Mummu Gamash. +1 Slot: feet Bag: Satchel
+Name: Inyanga Jubbah +1 Slot: body Bag: Satchel
+Name: Geomancy Galero Slot: head Bag: Satchel
+Name: Inyanga Tiara +1 Slot: head Bag: Satchel
+Name: Beckoner's Doublet Slot: body Bag: Satchel
+Name: Azimuth Coat Slot: body Bag: Satchel
+Name: Phalaina Locket Slot: neck Bag: Satchel
+Name: Hachi. Kyahan +1 Slot: feet Bag: Satchel
+Name: Bagua Sandals +1 Slot: feet Bag: Satchel
+Name: Hashishin Mintan +1 Slot: body Bag: Satchel
+Name: Kasuga Haidate Slot: legs Bag: Satchel
+Name: Jhakri Pigaches +2 Slot: feet Bag: Satchel
+Name: Baetyl Pendant Slot: neck Bag: Satchel
+Name: Incanter's Torque Slot: neck Bag: Satchel
+Name: Summoning Belt Slot: waist Bag: Satchel
+Name: Beckoner's Spats Slot: legs Bag: Satchel
+Name: Pedagogy Gown Slot: body Bag: Satchel
+Name: Atrophy Gloves +1 Slot: hands Bag: Satchel
+Name: Apogee Slacks Slot: legs Bag: Satchel
+Name: Shinobi-Tabi Slot: item Bag: Satchel
+Name: Bagua Charm Slot: neck Bag: Satchel
+Name: Cichol's Mantle Slot: back Bag: Satchel
+Name: Hiza. Somen +2 Slot: head Bag: Satchel
+Name: Abs. Cuirass +2 Slot: body Bag: Satchel
+Name: Mdk. Dastanas +1 Slot: hands Bag: Satchel
+Name: Chironic Hat Slot: head Bag: Satchel
+Name: Sanctity Necklace Slot: neck Bag: Satchel
+Name: Trump Card Slot: item Bag: Satchel
+Name: Hattori Tekko Slot: hands Bag: Satchel
+Name: Mallquis Chapeau +1 Slot: head Bag: Satchel
+Name: Koga Sarashi Slot: waist Bag: Satchel
+Name: Arciela's Grace +1 Slot: neck Bag: Satchel
+Name: Storage Slip 08 Slot: item Bag: Sack
+Name: Storage Slip 14 Slot: item Bag: Sack
+Name: Storage Slip 12 Slot: item Bag: Sack
+Name: Storage Slip 04 Slot: item Bag: Sack
+Name: Apogee Crown Slot: head Bag: Sack
+Name: Storage Slip 02 Slot: item Bag: Sack
+Name: Storage Slip 20 Slot: item Bag: Sack
+Name: Storage Slip 19 Slot: item Bag: Sack
+Name: Storage Slip 01 Slot: item Bag: Sack
+Name: Ankusa Helm Slot: head Bag: Sack
+Name: Pummeler's Mask Slot: head Bag: Sack
+Name: Assim. Jubbah +3 Slot: body Bag: Sack
+Name: Tant. Broth Slot: ammo Bag: Sack
+Name: Mummu Bonnet +1 Slot: head Bag: Sack
+Name: Storage Slip 11 Slot: item Bag: Sack
+Name: Sinew Belt Slot: waist Bag: Sack
+Name: Mallquis Cuffs +1 Slot: hands Bag: Sack
+Name: Niobid Strap Slot: sub Bag: Sack
+Name: Pixie Hairpin +1 Slot: head Bag: Sack
+Name: Abs. Burgeonet +2 Slot: head Bag: Sack
+Name: Hashi. Bazubands Slot: hands Bag: Sack
+Name: Nahtirah Trousers Slot: legs Bag: Sack
+Name: Orion Beret +2 Slot: head Bag: Sack
+Name: Ghastly Tathlum +1 Slot: ammo Bag: Sack
+Name: Hydra Kofte +1 Slot: item Bag: Sack
+Name: Magoraga Beads Slot: neck Bag: Sack
+Name: Azimuth Hood +1 Slot: head Bag: Sack
+Name: Agoge Mask Slot: head Bag: Sack
+Name: Apogee Pumps +1 Slot: feet Bag: Sack
+Name: Chrono Bullet Slot: ammo Bag: Sack
+Name: Herculean Helm Slot: head Bag: Sack
+Name: Herculean Vest Slot: body Bag: Sack
+Name: Brioso Cuffs +1 Slot: hands Bag: Sack
+Name: Love Torque Slot: neck Bag: Sack
+Name: Leth. Fuseau +1 Slot: legs Bag: Sack
+Name: Skulker's Culottes Slot: legs Bag: Sack
+Name: Hes. Crown Slot: head Bag: Sack
+Name: Otronif Gloves +1 Slot: hands Bag: Sack
+Name: Hizamaru Kote +1 Slot: hands Bag: Sack
+Name: Mending Cape Slot: back Bag: Sack
+Name: Abdhaljs Seal Slot: item Bag: Sack
+Name: Tali'ah Manteel +1 Slot: body Bag: Sack
+Name: Eschan Stone Slot: waist Bag: Sack
+Name: Piety Duckbills +1 Slot: feet Bag: Sack
+Name: Abs. Gauntlets +2 Slot: hands Bag: Sack
+Name: Savant's Treatise Slot: ammo Bag: Sack
+Name: Lethargy Sayon +1 Slot: body Bag: Sack
+Name: Togakushi Shuriken Slot: ammo Bag: Sack
+Name: Rumination Sash Slot: waist Bag: Sack
+Name: Hiza. Haramaki +2 Slot: body Bag: Sack
+Name: Windy Greens Slot: ammo Bag: Sack
+Name: Demonry Core Slot: ammo Bag: Sack
+Name: Luhlaza Charuqs +1 Slot: feet Bag: Sack
+Name: Hattori Hakama +1 Slot: legs Bag: Sack
+Name: Geo. Sandals +2 Slot: feet Bag: Sack
+Name: Sancus Sachet +1 Slot: ammo Bag: Sack
+Name: Sakonji Kote Slot: hands Bag: Sack
+Name: Inyanga Shalwar +1 Slot: legs Bag: Sack
+Name: Wakido Haidate +3 Slot: legs Bag: Sack
+Name: Iuitl Wristbands Slot: hands Bag: Sack
+Name: Buremte Hat Slot: head Bag: Sack
+Name: Luhlaza Jubbah Slot: body Bag: Sack
+Name: Hachirin-no-Obi Slot: waist Bag: Sack
+Name: Norifusa Slot: main Bag: Sack
+Name: Jhakri Cuffs +2 Slot: hands Bag: Sack
+Name: Assim. Charuqs +1 Slot: feet Bag: Sack
+Name: Incantor Stone Slot: ammo Bag: Sack
+Name: Brioso Roundlet Slot: head Bag: Sack
+Name: Nukumi Manoplas +1 Slot: hands Bag: Sack
+Name: Amalric Gages Slot: hands Bag: Sack
+Name: Solemnity Cape Slot: back Bag: Sack
+Name: Storage Slip 06 Slot: item Bag: Sack
+Name: Spae. Coat +1 Slot: body Bag: Sack
+Name: Leth. Houseaux +1 Slot: feet Bag: Sack
+Name: Mochizuki Tekko +1 Slot: hands Bag: Sack
+Name: Wicce Petasos Slot: head Bag: Sack
+Name: Homiliary Slot: ammo Bag: Sack
+Name: Storage Slip 15 Slot: item Bag: Sack
+Name: Mochi. Hakama +1 Slot: legs Bag: Sack
+Name: Peda. M.Board Slot: head Bag: Case
+Name: Futhark Coat Slot: body Bag: Case
+Name: Sucellos's Cape Slot: back Bag: Case
+Name: Ogma's Cape Slot: back Bag: Case
+Name: Azimuth Gloves Slot: hands Bag: Case
+Name: Hattori Zukin +1 Slot: head Bag: Case
+Name: Herculean Trousers Slot: legs Bag: Case
+Name: Tot. Jackcoat +1 Slot: body Bag: Case
+Name: Luhlaza Bazubands Slot: hands Bag: Case
+Name: Vox Grip Slot: sub Bag: Case
+Name: Pill. Armlets +1 Slot: hands Bag: Case
+Name: Hashishin Kavuk Slot: head Bag: Case
+Name: Alaunus's Cape Slot: back Bag: Case
+Name: Manibozho Brais Slot: legs Bag: Case
+Name: Plun. Bonnet Slot: head Bag: Case
+Name: Skulk. Poulaines Slot: feet Bag: Case
+Name: Rune. Trousers +1 Slot: legs Bag: Case
+Name: Runeist Mitons Slot: hands Bag: Case
+Name: Belenus's Cape Slot: back Bag: Case
+Name: Azimuth Tights Slot: legs Bag: Case
+Name: Acad. Loafers Slot: feet Bag: Case
+Name: Merlinic Jubbah Slot: body Bag: Case
+Name: Boii Lorica Slot: body Bag: Case
+Name: Ankusa Gloves +1 Slot: hands Bag: Case
+Name: Odium Slot: sub Bag: Case
+Name: Evasionist's Cape Slot: back Bag: Case
+Name: Tantra Tathlum Slot: ammo Bag: Case
+Name: Wicce Sabots Slot: feet Bag: Case
+Name: Herculean Boots Slot: feet Bag: Case
+Name: Glyphic Bracers +1 Slot: hands Bag: Case
+Name: Hes. Gloves +1 Slot: hands Bag: Case
+Name: Arbatel Loafers +1 Slot: feet Bag: Case
+Name: Mummu Wrists +2 Slot: hands Bag: Case
+Name: Arch. Gloves Slot: hands Bag: Case
+Name: Tali'ah Crackows +2 Slot: feet Bag: Case
+Name: Mallquis Clogs +1 Slot: feet Bag: Case
+Name: Skd. Jambeaux +1 Slot: feet Bag: Case
+Name: Inyan. Dastanas +1 Slot: hands Bag: Case
+Name: Miasmic Pants Slot: legs Bag: Case
+Name: Hachiya Tekko Slot: hands Bag: Case
+Name: Yaoyotl Gloves Slot: hands Bag: Case
+Name: Iuitl Tights Slot: legs Bag: Case
+Name: Heka's Kalasiris Slot: body Bag: Case
+Name: Jhakri Slops +2 Slot: legs Bag: Case
+Name: Adapa Shield Slot: sub Bag: Case
+Name: Fettering Blade Slot: sub Bag: Case
+Name: Tzacab Grip Slot: sub Bag: Case
+Name: Toolbag (Ino) Slot: item Bag: Case
+Name: Samanisi Cape Slot: back Bag: Case
+Name: Sifahir Slacks Slot: legs Bag: Case
+Name: Uk'uxkaj Cap Slot: head Bag: Case
+Name: Ayanmo Corazza +2 Slot: body Bag: Case
+Name: Gende. Galoshes Slot: feet Bag: Case
+Name: Skulker's Bonnet Slot: head Bag: Case
+Name: Aya. Gambieras +2 Slot: feet Bag: Case
+Name: Smertrios's Mantle Slot: back Bag: Case
+Name: Meg. Jam. +2 Slot: feet Bag: Case
+Name: Nirvana Slot: main Bag: Case
+Name: Geo. Mitaines +2 Slot: hands Bag: Case
+Name: Fili Hongreline +1 Slot: body Bag: Case
+Name: Pillager's Poulaines Slot: feet Bag: Case
+Name: Pearlsack Slot: item Bag: Case
+Name: Hiza. Sune-Ate +2 Slot: feet Bag: Case
+Name: Ebers Mitts Slot: hands Bag: Case
+Name: Hagondes Hat Slot: head Bag: Case
+Name: Bagua Mitaines +1 Slot: hands Bag: Case
+Name: Boii Mufflers Slot: hands Bag: Case
+Name: Nukumi Quijotes +1 Slot: legs Bag: Case
+Name: Meg. Cuirie +2 Slot: body Bag: Case
+Name: Pedagogy Pants Slot: legs Bag: Case
+Name: Sekhmet Corset Slot: waist Bag: Case
+Name: Mavi Scarf Slot: neck Bag: Case
+Name: Phorcys Dirs Slot: legs Bag: Case
+Name: Gyve Trousers Slot: legs Bag: Case
+Name: Hagondes Pants +1 Slot: legs Bag: Case
+Name: Beckoner's Horn +1 Slot: head Bag: Case
+Name: Crepe B. Helene Slot: item Bag: Case
+Name: Iris Slot: sub Bag: Case
+Name: Skinflayer Slot: sub Bag: Wardrobe
+Name: Apaisante Slot: sub Bag: Wardrobe
+Name: Anahera Scythe Slot: main Bag: Wardrobe
+Name: Chatoyant Staff Slot: main Bag: Wardrobe
+Name: Aliyat Chakram Slot: range Bag: Wardrobe
+Name: Linos Slot: range Bag: Wardrobe
+Name: Deliverance Slot: sub Bag: Wardrobe
+Name: Gungnir Slot: main Bag: Wardrobe
+Name: Hatxiik Slot: sub Bag: Wardrobe
+Name: Cobra Staff Slot: main Bag: Wardrobe
+Name: Fourth Staff Slot: main Bag: Wardrobe
+Name: Ram Staff Slot: main Bag: Wardrobe
+Name: Tanmogayi +1 Slot: sub Bag: Wardrobe
+Name: Colada Slot: sub Bag: Wardrobe
+Name: Mephitis Grip Slot: sub Bag: Wardrobe
+Name: Oneiros Grip Slot: sub Bag: Wardrobe
+Name: Shijo Slot: sub Bag: Wardrobe
+Name: Nepenthe Grip +1 Slot: sub Bag: Wardrobe
+Name: Lathi Slot: main Bag: Wardrobe
+Name: Loxotic Mace Slot: sub Bag: Wardrobe
+Name: Ark Scythe Slot: main Bag: Wardrobe
+Name: Antitail +1 Slot: range Bag: Wardrobe
+Name: Fomalhaut Slot: range Bag: Wardrobe
+Name: Bloodrain Strap Slot: sub Bag: Wardrobe
+Name: Seeth. Bomblet +1 Slot: ammo Bag: Wardrobe
+Name: Bubbly Broth Slot: ammo Bag: Wardrobe
+Name: Pixquizpan Slot: main Bag: Wardrobe
+Name: Instigator Slot: main Bag: Wardrobe
+Name: Nusku Shield Slot: sub Bag: Wardrobe
+Name: Gozuki Mezuki Slot: main Bag: Wardrobe
+Name: Trainee Burin Slot: sub Bag: Wardrobe
+Name: Elan Strap +1 Slot: sub Bag: Wardrobe
+Name: Grioavolr Slot: main Bag: Wardrobe
+Name: Tamaxchi Slot: sub Bag: Wardrobe
+Name: Animator P Slot: range Bag: Wardrobe
+Name: Warp Cudgel Slot: sub Bag: Wardrobe
+Name: Pitchfork +1 Slot: main Bag: Wardrobe
+Name: Hardwood Katana Slot: main Bag: Wardrobe
+Name: Pemphredo Tathlum Slot: ammo Bag: Wardrobe
+Name: Thrace Strap Slot: sub Bag: Wardrobe
+Name: Mavi Tathlum Slot: ammo Bag: Wardrobe
+Name: Mantoptera Eye Slot: ammo Bag: Wardrobe
+Name: Enki Strap Slot: sub Bag: Wardrobe
+Name: Solstice Slot: sub Bag: Wardrobe
+Name: Izcalli Slot: sub Bag: Wardrobe
+Name: Bolelabunga Slot: sub Bag: Wardrobe
+Name: Tsoa. Crossbow Slot: range Bag: Wardrobe
+Name: Kannagi Slot: sub Bag: Wardrobe
+Name: Genmei Shield Slot: sub Bag: Wardrobe
+Name: Hangaku-no-Yumi Slot: range Bag: Wardrobe
+Name: Exemplar Slot: main Bag: Wardrobe
+Name: Akademos Slot: main Bag: Wardrobe
+Name: Dojikiri Yasutsuna Slot: main Bag: Wardrobe
+Name: Divinator II Slot: range Bag: Wardrobe
+Name: Perun +1 Slot: sub Bag: Wardrobe
+Name: Taming Sari Slot: sub Bag: Wardrobe
+Name: Achiuchikapu Slot: sub Bag: Wardrobe
+Name: Pole Grip Slot: sub Bag: Wardrobe
+Name: Astolfo Slot: sub Bag: Wardrobe
+Name: Charmer's Merlin Slot: sub Bag: Wardrobe
+Name: Kanaria Slot: sub Bag: Wardrobe
+Name: Dunna Slot: range Bag: Wardrobe
+Name: Yamarang Slot: ammo Bag: Wardrobe
+Name: Shigi Slot: sub Bag: Wardrobe
+Name: Aizushintogo Slot: sub Bag: Wardrobe
+Name: Kumbhakarna Slot: sub Bag: Wardrobe
+Name: Aganoshe Slot: main Bag: Wardrobe
+Name: Kali Slot: sub Bag: Wardrobe
+Name: Aettir Slot: main Bag: Wardrobe
+Name: Kustawi +1 Slot: sub Bag: Wardrobe
+Name: Arktoi Slot: sub Bag: Wardrobe
+Name: Ohtas Slot: main Bag: Wardrobe
+Name: Skullrender Slot: sub Bag: Wardrobe
+Name: Legato Dagger Slot: sub Bag: Wardrobe
+Name: Zulfiqar Slot: main Bag: Wardrobe
+Name: Usonmunku Slot: sub Bag: Wardrobe
+Name: Grioavolr Slot: main Bag: Wardrobe
+Name: Astolfo Slot: sub Bag: Wardrobe
+Name: Suwaiyas Slot: main Bag: Wardrobe
+Name: Acad. Mortarboard Slot: head Bag: Safe 2
+Name: Glyphic Horn +1 Slot: head Bag: Safe 2
+Name: Piety Pantaln. +1 Slot: legs Bag: Safe 2
+Name: Shihei Slot: item Bag: Safe 2
+Name: Savas Jawshan Slot: body Bag: Safe 2
+Name: Battlecast Gaiters Slot: feet Bag: Safe 2
+Name: Piety Bliaut +1 Slot: body Bag: Safe 2
+Name: Vana'clock Slot: item Bag: Safe 2
+Name: Beck. Pigaches Slot: feet Bag: Safe 2
+Name: Apogee Dalmatica Slot: body Bag: Safe 2
+Name: Mochi. Hatsuburi Slot: head Bag: Safe 2
+Name: Jhakri Coronal +2 Slot: head Bag: Safe 2
+Name: Ankusa Jackcoat Slot: body Bag: Safe 2
+Name: Arc. Braccae +1 Slot: legs Bag: Safe 2
+Name: Gende. Spats +1 Slot: legs Bag: Safe 2
+Name: Anchorite's Hose Slot: legs Bag: Safe 2
+Name: Adhemar Bonnet Slot: head Bag: Safe 2
+Name: Telchine Pigaches Slot: feet Bag: Safe 2
+Name: Con. Pigaches +1 Slot: feet Bag: Safe 2
+Name: Merlinic Shalwar Slot: legs Bag: Safe 2
+Name: Con. Doublet +3 Slot: body Bag: Safe 2
+Name: Geomancy Pants Slot: legs Bag: Safe 2
+Name: Moonbow Whistle Slot: neck Bag: Safe 2
+Name: Lithelimb Cap Slot: head Bag: Safe 2
+Name: Supay Weskit Slot: body Bag: Safe 2
+Name: Anch. Gaiters Slot: feet Bag: Safe 2
+Name: Ig. Burgeonet +2 Slot: head Bag: Safe 2
+Name: Spaekona's Gloves Slot: hands Bag: Safe 2
+Name: Kurys Gloves Slot: hands Bag: Safe 2
+Name: Pastoralist's Mantle Slot: back Bag: Safe 2
+Name: Emicho Gambieras Slot: feet Bag: Safe 2
+Name: Herculean Helm Slot: head Bag: Safe 2
+Name: Ebers Duckbills Slot: feet Bag: Safe 2
+Name: Acad. Pants +1 Slot: legs Bag: Safe 2
+Name: Erra Pendant Slot: neck Bag: Safe 2
+Name: Glyphic Spats Slot: legs Bag: Safe 2
+Name: Tali'ah Turban +2 Slot: head Bag: Safe 2
+Name: Count's Garb Slot: body Bag: Safe 2
+Name: Arbatel Bonnet Slot: head Bag: Safe 2
+Name: Official Reflector Slot: item Bag: Safe 2
+Name: Kasuga Sune-Ate Slot: feet Bag: Safe 2
+Name: Inyan. Crackows +1 Slot: feet Bag: Safe 2
+Name: Deathbane Slot: main Bag: Safe 2
+Name: Valorous Mail Slot: body Bag: Safe 2
+Name: Imbodla Necklace Slot: neck Bag: Safe 2
+Name: Nantosuelta's Cape Slot: back Bag: Safe 2
+Name: Channeler's Stone Slot: waist Bag: Safe 2
+Name: Brioso Slippers +3 Slot: feet Bag: Safe 2
+Name: Fili Rhingrave +1 Slot: legs Bag: Safe 2
+Name: Eddy Necklace Slot: neck Bag: Safe 2
+Name: Canny Cape Slot: back Bag: Safe 2
+Name: Herculean Gloves Slot: hands Bag: Safe 2
+Name: Tatena. Haramaki Slot: body Bag: Safe 2
+Name: Ferine Necklace Slot: neck Bag: Safe 2
+Name: Pillager's Vest Slot: body Bag: Safe 2
+Name: Tali'ah Sera. +2 Slot: legs Bag: Safe 2
+Name: Bagua Tunic +1 Slot: body Bag: Safe 2
+Name: Pillager's Culottes Slot: legs Bag: Safe 2
+Name: Meg. Gloves +2 Slot: hands Bag: Safe 2
+Name: Iga Erimaki Slot: neck Bag: Safe 2
+Name: Count's Cuffs Slot: hands Bag: Safe 2
+Name: Aya. Manopolas +2 Slot: hands Bag: Safe 2
+Name: Rawhide Mask Slot: head Bag: Safe 2
+Name: Chironic Gloves Slot: hands Bag: Safe 2
+Name: Aya. Cosciales +2 Slot: legs Bag: Safe 2
+Name: Segomo's Mantle Slot: back Bag: Safe 2
+Name: Runeist Bottes Slot: feet Bag: Safe 2
+Name: Luminary Sash Slot: waist Bag: Safe 2
+Name: Hachiya Chain. +3 Slot: body Bag: Safe 2
+Name: Arbatel Pants Slot: legs Bag: Safe 2
+Name: Tali'ah Gages +2 Slot: hands Bag: Safe 2
+Name: Bihu Slippers Slot: feet Bag: Safe 2
+Name: Mauler's Mantle Slot: back Bag: Safe 2
+Name: Bhikku Gaiters Slot: feet Bag: Safe 2
+Name: Yemaya Belt Slot: waist Bag: Safe 2
+Name: Phorcys Mitts Slot: hands Bag: Safe 2
+Name: Hashishin Tayt +1 Slot: legs Bag: Safe 2
+Name: Helios Gloves Slot: hands Bag: Safe 2
+Name: Ig. Gauntlets +2 Slot: hands Bag: Safe 2
+Name: Paqichikaji Ring Slot: left_ring Bag: Wardrobe 2
+Name: Zennaroi Earring Slot: left_ear Bag: Wardrobe 2
+Name: Ethereal Earring Slot: left_ear Bag: Wardrobe 2
+Name: Ishvara Earring Slot: left_ear Bag: Wardrobe 2
+Name: Friomisi Earring Slot: left_ear Bag: Wardrobe 2
+Name: Musical Earring Slot: left_ear Bag: Wardrobe 2
+Name: Etiolation Earring Slot: left_ear Bag: Wardrobe 2
+Name: Pratik Earring Slot: left_ear Bag: Wardrobe 2
+Name: Dragoon's Earring Slot: left_ear Bag: Wardrobe 2
+Name: Infused Earring Slot: left_ear Bag: Wardrobe 2
+Name: Digni. Earring Slot: left_ear Bag: Wardrobe 2
+Name: Crematio Earring Slot: left_ear Bag: Wardrobe 2
+Name: Tripudio Earring Slot: left_ear Bag: Wardrobe 2
+Name: Sherida Earring Slot: left_ear Bag: Wardrobe 2
+Name: Lifestorm Earring Slot: left_ear Bag: Wardrobe 2
+Name: Psystorm Earring Slot: left_ear Bag: Wardrobe 2
+Name: Signal Pearl Slot: left_ear Bag: Wardrobe 2
+Name: Diamond Ring Slot: left_ring Bag: Wardrobe 2
+Name: Moonshade Earring Slot: left_ear Bag: Wardrobe 2
+Name: Cacoethic Ring +1 Slot: left_ring Bag: Wardrobe 2
+Name: Brutal Earring Slot: left_ear Bag: Wardrobe 2
+Name: Roundel Earring Slot: left_ear Bag: Wardrobe 2
+Name: Angel's Ring Slot: left_ring Bag: Wardrobe 2
+Name: Hetairoi Ring Slot: left_ring Bag: Wardrobe 2
+Name: Handler's Earring Slot: left_ear Bag: Wardrobe 2
+Name: Tavnazian Ring Slot: left_ring Bag: Wardrobe 2
+Name: Olduum Ring Slot: left_ring Bag: Wardrobe 2
+Name: Nereid Ring Slot: left_ring Bag: Wardrobe 2
+Name: Strophadic Earring Slot: left_ear Bag: Wardrobe 2
+Name: Defending Ring Slot: left_ring Bag: Wardrobe 2
+Name: Ulthalam's Ring Slot: left_ring Bag: Wardrobe 2
+Name: Suppanomimi Slot: left_ear Bag: Wardrobe 2
+Name: Dim. Ring (Holla) Slot: left_ring Bag: Wardrobe 2
+Name: Aoidos' Earring Slot: left_ear Bag: Wardrobe 2
+Name: Glorious Earring Slot: left_ear Bag: Wardrobe 2
+Name: Evanescence Ring Slot: left_ring Bag: Wardrobe 2
+Name: Niqmaddu Ring Slot: left_ring Bag: Wardrobe 2
+Name: Patricius Ring Slot: left_ring Bag: Wardrobe 2
+Name: Steelflash Earring Slot: left_ear Bag: Wardrobe 2
+Name: Rajas Ring Slot: left_ring Bag: Wardrobe 2
+Name: Andoaa Earring Slot: left_ear Bag: Wardrobe 2
+Name: Barataria Ring Slot: left_ring Bag: Wardrobe 2
+Name: Bladeborn Earring Slot: left_ear Bag: Wardrobe 2
+Name: Barkaro. Earring Slot: left_ear Bag: Wardrobe 2
+Name: Regal Ring Slot: left_ring Bag: Wardrobe 2
+Name: Moonbeam Ring Slot: left_ring Bag: Wardrobe 2
+Name: Reraise Ring Slot: left_ring Bag: Wardrobe 2
+Name: Domes. Earring Slot: left_ear Bag: Wardrobe 2
+Name: Rimeice Earring Slot: left_ear Bag: Wardrobe 2
+Name: Evans Earring Slot: left_ear Bag: Wardrobe 2
+Name: Lebeche Ring Slot: left_ring Bag: Wardrobe 2
+Name: K'ayres Ring Slot: left_ring Bag: Wardrobe 2
+Name: Dudgeon Earring Slot: left_ear Bag: Wardrobe 2
+Name: Naji's Loop Slot: left_ring Bag: Wardrobe 2
+Name: Warp Ring Slot: left_ring Bag: Wardrobe 2
+Name: Epaminondas's Ring Slot: left_ring Bag: Wardrobe 2
+Name: Prolix Ring Slot: left_ring Bag: Wardrobe 2
+Name: Gelos Earring Slot: left_ear Bag: Wardrobe 2
+Name: Lancer's Earring Slot: left_ear Bag: Wardrobe 2
+Name: Globidonta Ring Slot: left_ring Bag: Wardrobe 2
+Name: Cho'j Band Slot: left_ring Bag: Wardrobe 2
+Name: Excelsis Ring Slot: left_ring Bag: Wardrobe 2
+Name: Vengeful Ring Slot: left_ring Bag: Wardrobe 2
+Name: Overbearing Ring Slot: left_ring Bag: Wardrobe 2
+Name: Mavi Earring Slot: left_ear Bag: Wardrobe 2
+Name: Trux Earring Slot: left_ear Bag: Wardrobe 2
+Name: Eabani Earring Slot: left_ear Bag: Wardrobe 2
+Name: Evoker's Ring Slot: left_ring Bag: Wardrobe 2
+Name: Zodiac Ring Slot: left_ring Bag: Wardrobe 2
+Name: Mars's Ring Slot: left_ring Bag: Wardrobe 2
+Name: Epona's Ring Slot: left_ring Bag: Wardrobe 2
+Name: Perception Ring Slot: left_ring Bag: Wardrobe 2
+Name: Strendu Ring Slot: left_ring Bag: Wardrobe 2
+Name: Aife's Ring Slot: left_ring Bag: Wardrobe 2
+Name: Ephedra Ring Slot: left_ring Bag: Wardrobe 2
+Name: Enmerkar Earring Slot: left_ear Bag: Wardrobe 2
+Name: Apate Ring Slot: left_ring Bag: Wardrobe 2
+Name: Beeline Ring Slot: left_ring Bag: Wardrobe 2
+Name: Kishar Ring Slot: left_ring Bag: Wardrobe 2
+Name: Renaye Ring +1 Slot: left_ring Bag: Wardrobe 2
+Name: Per. Lucky Egg Slot: ammo Bag: Wardrobe 3
+Name: Maat's Cap Slot: head Bag: Wardrobe 3
+Name: Aya. Zucchetto +2 Slot: head Bag: Wardrobe 3
+Name: Vanya Hood Slot: head Bag: Wardrobe 3
+Name: Theurgist's Slacks Slot: legs Bag: Wardrobe 3
+Name: Claidheamh Soluis Slot: sub Bag: Wardrobe 3
+Name: Knobkierrie Slot: ammo Bag: Wardrobe 3
+Name: Chaac Belt Slot: waist Bag: Wardrobe 3
+Name: Tokkosho Slot: main Bag: Wardrobe 3
+Name: Tengu War Fan Slot: sub Bag: Wardrobe 3
+Name: Meatball Slot: ammo Bag: Wardrobe 3
+Name: Midras's Helm +1 Slot: head Bag: Wardrobe 3
+Name: Tengu Shawl Slot: back Bag: Wardrobe 3
+Name: Thunder Hammer Slot: sub Bag: Wardrobe 3
+Name: Insect Ball Slot: ammo Bag: Wardrobe 3
+Name: Crayfish Ball Slot: ammo Bag: Wardrobe 3
+Name: Espiritus Slot: main Bag: Wardrobe 3
+Name: Apkallu Scepter Slot: sub Bag: Wardrobe 3
+Name: Worm Lure Slot: ammo Bag: Wardrobe 3
+Name: Minnow Slot: ammo Bag: Wardrobe 3
+Name: Sinking Minnow Slot: ammo Bag: Wardrobe 3
+Name: Umuthi Hat Slot: head Bag: Wardrobe 3
+Name: Twilight Helm Slot: head Bag: Wardrobe 3
+Name: Carver's Torque Slot: neck Bag: Wardrobe 3
+Name: Carpenter's Apron Slot: body Bag: Wardrobe 3
+Name: Carpenter's Gloves Slot: hands Bag: Wardrobe 3
+Name: Chocobo Whistle Slot: neck Bag: Wardrobe 3
+Name: Kgd. Stable Collar Slot: neck Bag: Wardrobe 3
+Name: Key Ring Belt Slot: waist Bag: Wardrobe 3
+Name: Twinned Shield Slot: sub Bag: Wardrobe 3
+Name: Rounsey Wand Slot: sub Bag: Wardrobe 3
+Name: Iapetus Slot: main Bag: Wardrobe 3
+Name: Twinned Blade Slot: sub Bag: Wardrobe 3
+Name: Gridarvor Slot: main Bag: Wardrobe 3
+Name: Narigitsune Slot: sub Bag: Wardrobe 3

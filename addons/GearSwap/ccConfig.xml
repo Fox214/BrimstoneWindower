@@ -1,0 +1,32 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <ccignore>Wastebasket,Tavnazian Ring,P. * Card,Sickle,Nexus Cape,Storage Slip *,Plovid Effluvium,*Sushi*,* Apron,Inoshishinofuda,Abdhaljs Seal,* Statue,* Stable Collar,* Mannequin,Mecisto. Mantle,Cupboard,Bam. Grass Basket,Warp Cudgel,Kin&apos;s Scale,Coiled Yarn,* Bed,* Flag,Windy Greens,* Virtue,San d&apos;Orian Tree,R. Bamboo Grass,Rem&apos;s Tale*,Toolbag *,Trizek Ring,Glittering Yarn,Cobra Staff,Homing Ring,Imperial Standard,Bookshelf,Yellow 3D Almirah,Official Reflector,Guild Flyers,Ichigohitofuri,Warp Ring,Trench Tunic,Katana-kazari,Olduum Ring,Crepe B. Helene,Facility Ring,* Crepe,Chonofuda,Caliber Ring,*Abjuration*,Fourth Staff,Kyou&apos;s Scale,Signal Pearl,Pet Food *,Stationery Set,Orblight,Bonbori,Trbl. Hatchet,Gem of the *,Etched Memory,* Sign,Luminion Chip,Festival Dolls,Rounsey Wand,Linkpearl,Fu&apos;s Scale,Tant. Broth,*Curry*,Portafurnace,Kabuto-kazari,Carver&apos;s Torque,Vana&apos;clock,Midras*Helm*,*Signet Staff,Maat&apos;s Cap,Dim. Ring*,Reraise *,*VCS*,Dredger Hose,* Broth,* Organ,Deed of*,Sanjaku-Tenugui,* Pie,Ram Staff,Dragua&apos;s Scale,Shinob*Tabi,Capacity Ring,Carpenter&apos;s Gloves,Shihei,* Plans,Pashhow Ring,Trbl. Pickaxe,Guardian Board,Shikanofuda,Adamant. Statue,Chocobo Whistle,Taru Tot Toyset,Diorite,Kei&apos;s Scale,Tavnazian Taco,Dawn Mulsum,Black. I. Card,Trump Card,Pearlsack,Shadow Lord Shirt,Carpntr. Stall,Silent Oil,Prism Powder,Remedy</ccignore>
+        <ccjobs>
+            <1>BLM</1>
+            <2>BLU</2>
+            <3>BRD</3>
+            <4>BST</4>
+            <5>COR</5>
+            <6>DNC</6>
+            <7>DRG</7>
+            <8>DRK</8>
+            <9>GEO</9>
+            <10>MNK</10>
+            <11>NIN</11>
+            <12>PLD</12>
+            <13>PUP</13>
+            <14>RDM</14>
+            <15>RNG</15>
+            <16>RUN</16>
+            <17>SAM</17>
+            <18>SCH</18>
+            <19>SMN</19>
+            <20>THF</20>
+            <21>WAR</21>
+            <22>WHM</22>
+        </ccjobs>
+        <ccskipBags>Storage,Temporary,Wardrobe 5</ccskipBags>
+        <ccDebug>true</ccDebug>
+    </global>
+</settings>

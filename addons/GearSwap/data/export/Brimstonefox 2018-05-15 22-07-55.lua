@@ -1,0 +1,15 @@
+sets.exported={
+    ammo="Sancus Sachet +1",
+    head="Beckoner's Horn +1",
+    body={ name="Apogee Dalmatica", augments={'MP+60','Pet: "Mag.Atk.Bns."+30','Blood Pact Dmg.+7',}},
+    hands={ name="Telchine Gloves", augments={'Mag. Evasion+18','"Regen"+2','Enh. Mag. eff. dur. +9',}},
+    legs="Inyanga Shalwar +1",
+    feet="Inyan. Crackows +1",
+    neck="Twilight Torque",
+    waist="Fucho-no-Obi",
+    left_ear="Etiolation Earring",
+    right_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','Latent effect: "Refresh"+1',}},
+    left_ring="Defending Ring",
+    right_ring="Renaye Ring +1",
+    back="Solemnity Cape",
+}

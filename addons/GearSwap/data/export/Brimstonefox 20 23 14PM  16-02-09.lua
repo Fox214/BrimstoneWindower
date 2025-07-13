@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Kanaria", augments={'"Store TP"+1','STR+4','Accuracy+15','Attack+5',}},
+    sub="Achiuchikapu",
+    range="Aliyat Chakram",
+    head="Hizamaru Somen +1",
+    body="Hachi. Chain. +1",
+    hands={ name="Herculean Gloves", augments={'Accuracy+29','"Triple Atk."+3','STR+5',}},
+    legs={ name="Mochi. Hakama +1", augments={'Enhances "Mijin Gakure" effect',}},
+    feet="Hiza. Sune-Ate +1",
+    neck="Sanctity Necklace",
+    waist="Sarissapho. Belt",
+    left_ear="Brutal Earring",
+    right_ear="Suppanomimi",
+    left_ring="Epona's Ring",
+    right_ring="Hetairoi Ring",
+    back={ name="Mecisto. Mantle", augments={'Cap. Point+47%','Accuracy+2','DEF+7',}},
+}

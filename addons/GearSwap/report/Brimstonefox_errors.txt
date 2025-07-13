@@ -1,0 +1,2 @@
+Error: Val needs to be table or string boolean
+Item: 'Leth. Fuseasu +1' not found in gearswap.resources! legs

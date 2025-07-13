@@ -1,0 +1,16 @@
+sets.exported={
+    main="Chatoyant Staff",
+    range={ name="Dunna", augments={'MP+14','Mag. Acc.+7','"Fast Cast"+1',}},
+    head="Befouled Crown",
+    body={ name="Amalric Doublet", augments={'MP+60','Mag. Acc.+15','"Mag.Atk.Bns."+15',}},
+    hands={ name="Bagua Mitaines +1", augments={'Enhances "Curative Recantation" effect',}},
+    legs={ name="Merlinic Shalwar", augments={'Mag. Acc.+24 "Mag.Atk.Bns."+24','Mag. Acc.+6','"Mag.Atk.Bns."+12',}},
+    feet="Geo. Sandals +1",
+    neck="Twilight Torque",
+    waist="Siegel Sash",
+    left_ear="Psystorm Earring",
+    right_ear="Lifestorm Earring",
+    left_ring="Strendu Ring",
+    right_ring="Facility Ring",
+    back="Kumbira Cape",
+}

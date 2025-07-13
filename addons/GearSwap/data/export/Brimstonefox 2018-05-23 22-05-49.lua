@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tanmogayi +1",
+    sub={ name="Colada", augments={'"Dbl.Atk."+2','DEX+2','Accuracy+16','Attack+3','DMG:+17',}},
+    ammo="Mavi Tathlum",
+    head={ name="Luh. Keffiyeh +1", augments={'Enhances "Convergence" effect',}},
+    body="Assim. Jubbah +3",
+    hands={ name="Telchine Gloves", augments={'Mag. Evasion+18','"Regen"+2','Enh. Mag. eff. dur. +9',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Hippomenes Socks",
+    neck="Mavi Scarf",
+    waist="Flax Sash",
+    left_ear={ name="Moonshade Earring", augments={'"Mag.Atk.Bns."+4','Latent effect: "Refresh"+1',}},
+    right_ear="Ethereal Earring",
+    left_ring="Defending Ring",
+    right_ring="Warp Ring",
+    back="Solemnity Cape",
+}
