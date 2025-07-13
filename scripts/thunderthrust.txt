@@ -1,0 +1,7 @@
+exec drakesgear.txt
+input /ws "Thunder Thrust" <t>
+//wait 4
+//input /ja "Hasso" <me>
+//wait 2
+//input /ja "Meditate" <me>
+exec drgtp.txt

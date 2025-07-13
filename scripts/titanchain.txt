@@ -1,0 +1,5 @@
+//input /pet "Assault" <t>;
+//wait 2;
+input /pet "Megalith Throw" <t>;
+wait 7;
+input /ws "Retribution" <t>;

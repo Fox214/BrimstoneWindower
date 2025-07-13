@@ -1,0 +1,7 @@
+exec warws.txt
+input /ws "Raging Rush" <t>
+//wait 4
+//input /ja "Hasso" <me>
+wait 2
+//input /ja "Meditate" <me>
+exec wartp.txt

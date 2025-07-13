@@ -1,0 +1,17 @@
+//exec seigan.txt;
+//wait 2;
+input /ja "Berserk" <me>;
+wait 2;
+//input /ja "Defender" <me>;
+//wait 1;
+//input /ja "Warcry" <me>;
+//wait 1;
+input /ja "Aggressor" <me>;
+wait 2;
+input /ja "Retaliation" <me>;
+wait 2;
+input /ja "Restraint" <me>;
+wait 2;
+input /ja "Blood Rage" <me>;
+
+

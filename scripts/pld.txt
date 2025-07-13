@@ -1,0 +1,60 @@
+alias g15_m1g1 exec nineva.txt
+alias g15_m1g2 input /ja "Innin" <me>
+alias g15_m1g3 input /item "Echo Drops" <me>
+alias g15_m1g4 input /ws "Blade: Retsu" <t>
+alias g15_m1g5
+alias g15_m1g6 input /p TP=<tp>
+alias g15_m1g7
+alias g15_m1g8
+alias g15_m1g9
+alias g15_m1g10 input /ja "Boost" <me>;wait 1;/ws "Sturmwind" <t>
+alias g15_m1g11 input /ws "Fast Blade" <t>
+alias g15_m1g12 input /ja "Aggressor" <me>
+alias g15_m1g13 input /ja "Berserk" <me>
+alias g15_m1g14 input /ja "Warcry" <me>
+alias g15_m1g15 input /ja "Defender" <me>
+alias g15_m1g16 input /ma "Utsusemi: Ni" <me>
+alias g15_m1g17 input /ma "Utsusemi: Ichi" <me>
+alias g15_m1g18 input /ja "Provoke" <t>
+
+alias g15_m2g1 exec nineva.txt
+alias g15_m2g2 input /ja "Innin" <me>
+alias g15_m2g3 input /item "Echo Drops" <me>
+alias g15_m2g4 input /ws "Blade: Retsu" <t>
+alias g15_m2g5
+alias g15_m2g6 input /p TP=<tp>
+alias g15_m2g7
+alias g15_m2g8
+alias g15_m2g9
+alias g15_m2g10 exec ninnighttp.txt
+alias g15_m2g11 exec ninnightjin.txt
+alias g15_m2g12 exec ninnightku.txt
+alias g15_m2g13 input /ja "Berserk" <me>
+alias g15_m2g14 input /ja "Warcry" <me>
+alias g15_m2g15 input /ja "Defender" <me>
+alias g15_m2g16 input /ma "Utsusemi: Ni" <me>
+alias g15_m2g17 input /ma "Utsusemi: Ichi" <me>
+alias g15_m2g18 input /ja "Provoke" <t>
+
+alias g15_m3g1 input /ma "Blink" <me>
+alias g15_m3g2 input /ma "Stoneskin" <me>
+alias g15_m3g3 input /item "Echo Drops" <me>
+alias g15_m3g4 input /ma "Mage's Ballad" <me>
+alias g15_m3g5 input /ma "Mage's Ballad II" <me>
+alias g15_m3g6 input /ma "Erase" <pt>
+alias g15_m3g7 input /ma "Reraise" <me>
+alias g15_m3g8
+alias g15_m3g9
+alias g15_m3g10
+alias g15_m3g11
+alias g15_m3g12
+alias g15_m3g13 input /ma "Tonko: Ichi" <me>
+alias g15_m3g14 input /ma "Monomi: Ichi" <me>
+alias g15_m3g15 input /ma "Tonko: Ni" <me>
+alias g15_m3g16 input /ma "Deodorize" <me>
+alias g15_m3g17 input /ma "Sneak" <me>
+alias g15_m3g18 input /ma "Invisible" <me>
+wait 1
+input /macro book 13
+input /macro set 1
+

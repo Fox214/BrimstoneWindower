@@ -1,0 +1,16 @@
+input /equip ammo "Olibanum Sachet";
+input /equip head "Anwig Salade";
+input /equip neck "Chivalrous Chain";
+input /equip ear1 "Brutal Earring";
+input /equip ear2 "Suppanomimi";
+input /equip body "Mirke Wardecors";
+input /equip hands "Mirage Bazubands";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Warwolf Belt";
+input /equip legs "Mavi Tayt +1";
+input /equip feet "Rutter Sabatons";
+input /ws "Vorpal Blade" <t>;
+wait 1;
+exec blutp.txt;

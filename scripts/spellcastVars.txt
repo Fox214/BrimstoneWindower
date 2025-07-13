@@ -1,0 +1,178 @@
+    //Save this file to your scripts folder in Windower. You will either need to enter a line in the windower init file, or run the command manually after staring the game.  
+	//Used to change conditional vars in the spellcast.xml files
+    //  put this line in your init.txt:   exec spellcastVars.txt
+    //or run this from the command line: //exec spellcastVars.txt
+     
+//weapons
+alias weapon gs c cycle WeaponMode
+alias club gs c set WeaponMode Club
+alias dagger gs c set WeaponMode Dagger
+alias gaxe gs c set WeaponMode GreatAxe
+alias gkatana gs c set WeaponMode GreatKatana
+alias gsword gs c set WeaponMode GreatSword
+alias h2h gs c set WeaponMode H2H
+alias katana gs c set WeaponMode Katana
+alias polearm gs c set WeaponMode Polearm
+alias scythe gs c set WeaponMode Scythe
+alias staff gs c set WeaponMode Staff
+alias sword gs c set WeaponMode Sword
+
+//Offsense Modes
+alias offense gs c cycle OffenseMode
+alias normal gs c set OffenseMode Normal
+alias acc gs c set OffenseMode Acc
+alias att gs c set OffenseMode Att
+alias crit gs c set OffenseMode Crit
+alias da gs c set OffenseMode DA
+alias hst gs c set OffenseMode Haste
+alias stp gs c set OffenseMode sTP
+alias str gs c set OffenseMode STR
+
+//WS Modes
+alias wsmode gs c cycle WeaponskillMode
+alias wsnormal gs c set WeaponskillMode Normal
+alias wsacc gs c set WeaponskillMode Acc
+alias wsmod gs c set WeaponskillMode Mod
+	
+//Defense Modes
+alias defense gs c cycle DefenseMode
+alias defnormal gs c set DefenseMode Normal
+alias eva gs c set DefenseMode Evasion
+alias pdt gs c set DefenseMode pdt
+alias mdt gs c set DefenseMode mdt
+
+//Magic Modes
+alias casting gs c cycle CastingMode
+alias castnormal gs c set CastingMode Normal
+alias int gs c set CastingMode INT
+alias macc gs c set CastingMode Macc
+alias mdmg gs c set CastingMode MDmg
+alias mab gs c set CastingMode MAB
+alias skill gs c set CastingMode Skill
+
+//play styles
+// offense/defense automate using things like hasso/seigan/berserk/defender
+// off disables all automation
+// none disables some automation but not all (may still automate jumps or other things)
+alias stance gs c cycle stance
+
+//Magic Defense
+alias mdfire gs c set MagicalDefenseMode Fire
+alias mdearth gs c set MagicalDefenseMode Earth
+alias mdwind gs c set MagicalDefenseMode Wind
+alias mdwater gs c set MagicalDefenseMode Water
+alias mdice gs c set MagicalDefenseMode Ice
+alias mdthunder gs c set MagicalDefenseMode Thunder
+alias mdlight gs c set MagicalDefenseMode Light
+alias mddark gs c set MagicalDefenseMode Dark
+alias mdmdt gs c set MagicalDefenseMode MDT
+alias mdeva c set MagicalDefenseMode Evasion
+alias mdcycle gs c set MagicalDefenseMode  Cycle
+
+//pet items
+alias theta input gs c set RewardFood Pet Food Theta
+alias eta input gs c set RewardFood Pet Food Eta
+alias zeta input gs c set RewardFood Pet Food Zeta
+alias epsilon input gs c set RewardFood Pet Food Epsilon
+alias delta input gs c set RewardFood Pet Food Delta
+alias gamma input gs c set RewardFood Pet Food Gamma
+alias beta input gs c set RewardFood Pet Food Beta
+alias alpha input gs c set RewardFood Pet Food Alpha
+alias poultice input gs c set RewardFood Pet Poultice
+alias roborant input gs c set RewardFood Pet Roborant
+ 
+//pets
+alias Silas input /sc var set Broth Wormy Broth; Foxfire
+alias rabbit input /sc var set Broth Carrot Broth; Foxfire
+alias sheep input /sc var set Broth Herbal Broth; Foxfire
+alias tiger input /sc var set Broth Meat Broth; Foxfire
+alias bill input /sc var set Broth Humus; Foxfire
+alias flytrap input /sc var set Broth Grass. Broth; Foxfire
+alias lizard input /sc var set Broth Carrion Broth; Foxfire
+alias eft input /sc var set Broth Mole Broth; Foxfire
+alias beetle input /sc var set Broth Tree Sap; Foxfire
+alias antlion input /sc var set Broth Antica Broth; Foxfire
+alias crab input /sc var set Broth Fish Broth; Foxfire
+alias mite input /sc var set Broth Blood Broth; Foxfire
+alias steffi input /sc var set Broth F. Carrot Broth; Foxfire
+alias melodia input /sc var set Broth S. Herbal Broth; Foxfire
+alias ben input /sc var set Broth Rich Humus; Foxfire
+alias saber input /sc var set Broth W. Meat Broth; Foxfire
+alias funguar input /sc var set Broth Seedbed Soil; Foxfire
+alias orob input /sc var set Broth Q. Bug Broth; Foxfire
+alias como input /sc var set Broth C. Carrion Broth; Foxfire
+alias carrie input /sc var set Broth Fish Oil Broth; Foxfire
+alias homunculus input /sc var set Broth Alchemist Water; Foxfire
+alias audrey input /sc var set Broth N. Grass. Broth; Foxfire
+alias allie input /sc var set Broth L. Mole Broth; Foxfire
+alias panzer input /sc var set Broth Scarlet Sap; Foxfire
+alias lars input /sc var set Broth C. Blood Broth; Foxfire
+alias chucky input /sc var set Broth F. Antica Broth; Foxfire
+alias amigo input /sc var set Broth Sun Water; Foxfire
+alias clyvonne input /sc var set Broth Cng. Brain Broth; Foxfire
+alias lulush input /sc var set Broth L. Carrot Broth; Foxfire
+alias yuly input /sc var set Broth Wool Grease; Foxfire
+alias merle input /sc var set Broth Vermihumus; Foxfire
+alias nazuna input /sc var set Broth D. Herbal Broth; Foxfire
+alias mac input /sc var set Broth Briny Broth; Foxfire
+alias louise input /sc var set Broth Deepbed Soil; Foxfire
+alias fargann input /sc var set Broth C. Plasma Broth; Foxfire
+alias julio input /sc var set Broth C. Grass Broth; Foxfire
+alias cetas input /sc var set Broth Gob. Bug Broth; Foxfire
+alias anna input /sc var set Broth Bubbling Carrion Broth
+alias sieghard input /sc var set Broth Mlw. Bird Broth; Foxfire
+//alias falcorr gs c set Broth Lucky Broth; gs c callbeast now
+alias falcorr gs c set Broth Lucky Broth; input /ja "Call Beast" <me>
+alias shasra input /sc var set Broth Rzr. Brain Broth; Foxfire
+alias broncha input /sc var set Broth Svg. Mole Broth; Foxfire
+alias hobs input /sc var set Broth Burning Carrion Broth; Foxfire
+alias gooey input /sc var set Broth Cl. Wheat Broth; Foxfire
+alias raphie input /sc var set Broth Shadowy Broth; Foxfire
+alias toloi input /sc var set Broth Auroral Broth; Foxfire
+
+//Sch shortcuts
+alias larts gs c scholar light   
+alias darts gs c scholar dark                               
+alias cost gs c scholar cost      
+alias speed gs c scholar speed    
+alias aoe gs c scholar aoe    
+alias power gs c scholar power            
+alias duration gs c scholar duration  
+alias accuracy gs c scholar accuracy        
+alias enmity gs c scholar enmity    
+alias skillchain gs c scholar skillchain                           
+alias addendum gs c scholar addendum    
+
+
+//spells and abilities
+alias ichi input /nin "Utsusemi:Ichi" <me>
+alias ni input /nin "Utsusemi:Ni" <me>
+alias voke input /ja "Provoke" <t>
+alias monomi input /ma "Monomi:Ichi" <me>
+alias tonko input /ma "Tonko:Ni" <me>
+alias snk input /ma "Sneak" <me>
+alias invis input /ma "Invisible" <me>
+alias do input /ma "Deodorize" <me>
+alias jig input /ja "Chocobo Jig" <me>
+alias stun input /ma "Stun" <t>
+alias rr input /ma "Reraise" <me>
+alias rr2 input /ma "Reraise II" <me>
+alias rr3 input /ma "Reraise III" <me>
+alias maz input /ma "Chocobo Mazurka" <me>
+alias gav input /ma "Goblin Gavotte" <me>
+alias hymn input /ma "Goddess Hymnus" <me>
+alias bal1 input /ma "Mage's Ballad" <me>
+alias bal2 input /ma "Mage's Ballad II" <me>
+alias bal3 input /ma "Mage's Ballad III" <me>
+alias int1 input /ma "Learned Etude" <me>
+alias int2 input /ma "Sage Etude" <me>
+alias str1 input /ma "Sinewy Etude" <me>
+alias str2 input /ma "Herculean Etdue" <me>
+
+
+//misc
+alias siphon gs c siphon
+alias dummy gs c set ExtraSongsMode Dummy
+alias th gs c cycle treasuremode
+alias exml gs export mainjob sets xml overwrite
+alias gear gs org

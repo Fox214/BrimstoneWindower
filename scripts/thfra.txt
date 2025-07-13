@@ -1,0 +1,21 @@
+//input /equip main "X's Knife";
+//input /equip sub "Thief's Knife";
+//input /equip sub "Blau Dolch";
+//input /equip ranged "Arbalest +1";
+//input /equip ammo "Acid Bolt";
+//input /equip ammo "Bomb Core";
+input /equip head "OPtical Hat";
+input /equip neck "Arctier's Torque";
+input /equip ear1 "Suppanomimi";
+input /equip ear2 "Brutal Earring";
+input /equip body "Pahluwan Khazagand";
+//input /equip hands "Dusk Gloves";
+input /equip hands "Assassin's Armlets +2";
+input /equip ring1 "Scorpion Ring +1";
+input /equip ring2 "Scorpion Ring +1";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Swift Belt";
+input /equip legs "Aurore Brais";
+input /equip feet "Raider's Poulaines +2";
+//input /equip feet "Assassin's Pouln.";
+input /ra <t>

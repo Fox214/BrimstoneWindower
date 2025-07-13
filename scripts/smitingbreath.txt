@@ -1,0 +1,7 @@
+input /equip Head "Wyrm Armet +2";
+input /equip Neck "Lancer's Torque";
+input /equip Ear1 "Lancer's Earring";
+input /equip Ear2 "Dragoon's Earring";
+input /equip Waist "Glassblower's Belt";
+input /equip Legs "Wyrm brais +2";
+input /ja "Smiting Breath" <t>

@@ -1,0 +1,12 @@
+//input /equip Neck "Chanoix's Gorget";
+input /equip Neck "Lancer's Torque";
+input /equip Ear1 "Lancer's Earring";
+input /equip Ear2 "Dragoon's Earring";
+input /equip body "Lancer's Plackart +2";
+//input /equip Body "Wyvern Mail";
+input /equip Hands "Ostreger Mitts";
+input /equip Back "Lancer's Pelerine";
+input /equip Waist "Glassblower's Belt";
+//input /equip Legs "Drachen brais +1";
+//input /equip feet "Homam Gambieras";
+input /equip feet "Wym. Greaves +2";

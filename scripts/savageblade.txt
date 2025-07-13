@@ -1,0 +1,15 @@
+//input /equip head "Optical Hat";
+input /equip head "Anwig Salade";
+input /equip neck "Breeze Gorget";
+input /equip ammo "Olibanum Sachet";
+input /equip ear1 "Brutal Earring";
+input /equip ear2 "Suppanomimi";
+input /equip body "Magus Jubbah";
+input /equip hands "Mirage Bazubands";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Warwolf Belt";
+input /equip legs "Mirage Shalwar";
+input /equip feet "Rutter Sabatons";
+input /ws "Savage Blade" <t>;

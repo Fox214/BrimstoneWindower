@@ -1,0 +1,7 @@
+exec drgstr.txt
+input /ja "Sneak Attack" <me>
+wait 1
+input /ja "Trick Attack" <me>
+wait 1
+input /ws "Wheeling Thrust" <t>
+exec drgtp.txt

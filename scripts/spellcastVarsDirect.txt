@@ -1,0 +1,130 @@
+    //Save this file to your scripts folder in Windower. You will either need to enter a line in the windower init file, or run the command manually after staring the game.  
+	//Used to change conditional vars in the spellcast.xml files
+    //  put this line in your init.txt:   exec spellcastVars.txt
+    //or run this from the command line: //exec spellcastVars.txt
+     
+//weapons
+alias club input /sc var set TPWeapon Club
+alias dagger input /sc var set TPWeapon Dagger
+alias gaxe input /sc var set TPWeapon Greataxe
+alias gkatana input /sc var set TPWeapon Greatkatana
+alias gsword input /sc var set TPWeapon Greatsword
+alias h2h input /sc var set TPWeapon H2H
+alias katana input /sc var set TPWeapon Katana
+alias polearm input /sc var set TPWeapon Polearm
+alias staff input /sc var set TPWeapon Staff
+alias sword input /sc var set TPWeapon Sword
+ 
+//Offsense Modes
+//alias offnormal input /sc var set OffenseMode Normal
+//alias offskill input /sc var set OffenseMode Skill
+//alias offhaste input /sc var set OffenseMode Haste
+//alias offacc input /sc var set OffenseMode Acc
+//alias offatt input /sc var set OffenseMode Att
+//alias offstr input /sc var set OffenseMode STR
+//alias offcrit input /sc var set OffenseMode Crit
+//alias off2hr input /sc var set OffenseMode 2HR
+//alias offlowdmg input /sc var set OffenseMode LowDmg
+//alias offnormal input /sc var set OffenseMode Normal
+alias offskill input /sc var set OffenseMode Skill
+alias offhaste input /sc var set OffenseMode Haste
+alias offacc input /sc var set OffenseMode Acc
+alias offatt input /sc var set OffenseMode Att
+alias offstr input /sc var set OffenseMode STR
+alias offcrit input /sc var set OffenseMode Crit
+alias off2hr input /sc var set OffenseMode 2HR
+alias offlowdmg input /sc var set OffenseMode LowDmg
+	
+//Defense Modes
+alias defnormal input /sc var set DefenseMode Normal
+alias defpdt input /sc var set DefenseMode PDT
+alias defeva input /sc var set DefenseMode Evasion
+alias defshield input /sc var set DefenseMode Shield
+alias defcounter input /sc var set DefenseMode Counter
+
+//Magic Modes
+alias castnormal input /sc var set CastingMode Normal
+alias castdmg input /sc var set CastingMode MDmg
+alias castmab input /sc var set CastingMode MAB
+alias castint input /sc var set CastingMode INT
+alias castmacc input /sc var set CastingMode Macc
+alias castskill input /sc var set CastingMode Skill
+
+//play styles
+alias playstyle input /ja ClassTrigger Playstyle
+alias stance input /ja ClassTrigger Stance
+alias resetall input /ja Reset All
+alias resetdef input /ja Reset Defense
+
+//Magic Defense
+alias mdfire input /ma MagicalDefense Element:Fire
+alias mdearth input /ma MagicalDefense Element:Earth
+alias mdwind input /ma MagicalDefense Element:Wind
+alias mdwater input /ma MagicalDefense Element:Water
+alias mdice input /ma MagicalDefense Element:Ice
+alias mdthunder input /ma MagicalDefense Element:Thunder
+alias mdlight input /ma MagicalDefense Element:Light
+alias mddark input /ma MagicalDefense Element:Dark
+alias mdon input /ma MagicalDefense On
+alias mdoff input /ma MagicalDefense Off
+alias mdcycle input /ma MagicalDefense Cycle
+
+//pet items
+alias theta input /sc var set PFood Pet Food Theta
+alias eta input /sc var set PFood Pet Food Eta
+alias zeta input /sc var set PFood Pet Food Zeta
+alias epsilon input /sc var set PFood Pet Food Epsilon
+alias delta input /sc var set PFood Pet Food Delta
+alias gamma input /sc var set PFood Pet Food Gamma
+alias beta input /sc var set PFood Pet Food Beta
+alias alpha input /sc var set PFood Pet Food Alpha
+alias poultice input /sc var set PFood Pet Poultice
+alias roborant input /sc var set PFood Pet Roborant
+ 
+//pets
+alias Silas input /sc var set Broth Wormy Broth; Foxfire
+alias rabbit input /sc var set Broth Carrot Broth; Foxfire
+alias sheep input /sc var set Broth Herbal Broth; Foxfire
+alias tiger input /sc var set Broth Meat Broth; Foxfire
+alias bill input /sc var set Broth Humus; Foxfire
+alias flytrap input /sc var set Broth Grass. Broth; Foxfire
+alias lizard input /sc var set Broth Carrion Broth; Foxfire
+alias eft input /sc var set Broth Mole Broth; Foxfire
+alias beetle input /sc var set Broth Tree Sap; Foxfire
+alias antlion input /sc var set Broth Antica Broth; Foxfire
+alias crab input /sc var set Broth Fish Broth; Foxfire
+alias mite input /sc var set Broth Blood Broth; Foxfire
+alias steffi input /sc var set Broth F. Carrot Broth; Foxfire
+alias melodia input /sc var set Broth S. Herbal Broth; Foxfire
+alias ben input /sc var set Broth Rich Humus; Foxfire
+alias saber input /sc var set Broth W. Meat Broth; Foxfire
+alias funguar input /sc var set Broth Seedbed Soil; Foxfire
+alias orob input /sc var set Broth Q. Bug Broth; Foxfire
+alias como input /sc var set Broth C. Carrion Broth; Foxfire
+alias carrie input /sc var set Broth Fish Oil Broth; Foxfire
+alias homunculus input /sc var set Broth Alchemist Water; Foxfire
+alias audrey input /sc var set Broth N. Grass. Broth; Foxfire
+alias allie input /sc var set Broth L. Mole Broth; Foxfire
+alias panzer input /sc var set Broth Scarlet Sap; Foxfire
+alias lars input /sc var set Broth C. Blood Broth; Foxfire
+alias chucky input /sc var set Broth F. Antica Broth; Foxfire
+alias amigo input /sc var set Broth Sun Water; Foxfire
+alias clyvonne input /sc var set Broth Cng. Brain Broth; Foxfire
+alias lulush input /sc var set Broth L. Carrot Broth; Foxfire
+alias yuly input /sc var set Broth Wool Grease; Foxfire
+alias merle input /sc var set Broth Vermihumus; Foxfire
+alias nazuna input /sc var set Broth D. Herbal Broth; Foxfire
+alias mac input /sc var set Broth Briny Broth; Foxfire
+alias louise input /sc var set Broth Deepbed Soil; Foxfire
+alias fargann input /sc var set Broth C. Plasma Broth; Foxfire
+alias julio input /sc var set Broth C. Grass Broth; Foxfire
+alias cetas input /sc var set Broth Gob. Bug Broth; Foxfire
+alias anna input /sc var set Broth Bubbling Carrion Broth
+alias sieghard input /sc var set Broth Mlw. Bird Broth; Foxfire
+alias falcorr input /sc var set Broth Lucky Broth; Foxfire
+alias shasra input /sc var set Broth Rzr. Brain Broth; Foxfire
+alias broncha input /sc var set Broth Svg. Mole Broth; Foxfire
+alias hobs input /sc var set Broth Burning Carrion Broth; Foxfire
+alias gooey input /sc var set Broth Cl. Wheat Broth; Foxfire
+alias raphie input /sc var set Broth Shadowy Broth; Foxfire
+alias toloi input /sc var set Broth Auroral Broth; Foxfire

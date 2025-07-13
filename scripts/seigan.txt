@@ -1,0 +1,3 @@
+input /ja "Seigan" <me>;
+wait 2;
+input /ja "Third Eye" <me>;

@@ -1,0 +1,15 @@
+//input /equip main "Thalassocrat";
+//input /equip sub "Pole Grip";
+//input /equip ammo "Thew Bomblet";
+input /equip head "Twilight Helm";
+input /equip neck "Light Gorget";
+input /equip ear1 "Brutal Earring";
+input /equip ear2 "Ethereal Earring";
+input /equip body "Kirin's Osode";
+input /equip hands "Ochimusha Kote";
+input /equip ring1 "Rajas Ring";
+input /equip ring2 "Ulthalam's Ring";
+input /equip back "Amemet Mantle +1";
+input /equip waist "Warwolf Belt";
+input /equip legs "Ares's Flanchard";
+input /equip feet "Rasetsu Sune-Ate";

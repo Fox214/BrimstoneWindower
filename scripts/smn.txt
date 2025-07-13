@@ -1,0 +1,58 @@
+alias g15_m1g1 exec mlo.txt
+alias g15_m1g2 exec nto.txt
+alias g15_m1g3 input /item "Echo Drops" <me>
+alias g15_m1g4 input /ja "Addendum: White" <me>
+alias g15_m1g5 input /ja "Addendum: Black" <me>
+alias g15_m1g6 input /pet "Volt Strike" <t>
+alias g15_m1g7 input /ma "Dia II" <bt>
+alias g15_m1g8 exec titanchain.txt
+//alias g15_m1g9 exec levichain.txt
+alias g15_m1g9 input /pet "Flaming Crush" <t>
+alias g15_m1g10 input /ws "Full Swing" <t>
+alias g15_m1g11 input /ws "Spirit Taker" <t>
+alias g15_m1g12 input /ma "Regen II" <stpt>
+alias g15_m1g13 input /ja "Apogee" <me>
+alias g15_m1g14 input /ja "Dark Arts" <me>
+alias g15_m1g15 input /ma "Refresh" <st>
+//alias g15_m1g16 input /item "Forbidden Key" <t>
+alias g15_m1g16 input /console gs c siphon
+alias g15_m1g17 input /pet "Assault" <t>
+alias g15_m1g18 input /pet "Avatar's Favor" <me>
+
+alias g15_m2g1 input /ja "Astral Flow" <me>
+alias g15_m2g2 exec drgtp.txt
+alias g15_m2g3 input /item "Echo Drops" <me>
+alias g15_m2g4 input /ja "Apogee" <me>
+alias g15_m2g5 input /ja "Mana Cede" <me>
+alias g15_m2g6
+alias g15_m2g7 input /pet "Volt Strike" <t>
+alias g15_m2g8 input /ja "Convert" <me>
+alias g15_m2g9 input /pet "Meteor Strike" <t>
+alias g15_m2g10 input /pet "Heavenly Strike" <t>
+alias g15_m2g11 input /pet "Flaming Crush" <t>
+alias g15_m2g12 input /ma "Cure IV" Truffle-Buffle
+alias g15_m2g13 input /ja "Apogee" <me>
+alias g15_m2g14
+alias g15_m2g15
+alias g15_m2g16 input /ja "Astral Conduit" <me>
+alias g15_m2g17 input /pet "Assault" <t>
+alias g15_m2g18 input /pet "Avatar's Favor" <me>
+
+alias g15_m3g1 input /ma "Blink" <me>
+alias g15_m3g2 input /ma "Stoneskin" <me>
+alias g15_m3g3 input /item "Echo Drops" <me>
+alias g15_m3g4 input /ma "Phalanx" <me>
+alias g15_m3g5 input /ma "Aquaveil" <me>
+alias g15_m3g6 input /ma "Erase" <stpt>
+alias g15_m3g7 input /ma "Reraise" <me>
+alias g15_m3g8 input /ma "Chocobo Mazurka" <me>
+alias g15_m3g9 input /ma "Goddess's Hymnus" <me>
+alias g15_m3g10 input /ja "Corsair's Roll" <me>
+alias g15_m3g11 input /ja "Double-Up" <me>
+alias g15_m3g12
+alias g15_m3g13 input /macro set 1
+alias g15_m3g14 input /macro set 2
+alias g15_m3g15 input /macro set 3
+alias g15_m3g16 input /ma "Deodorize" <me>
+alias g15_m3g17 input /ma "Sneak" <me>
+alias g15_m3g18 input /ma "Invisible" <me>

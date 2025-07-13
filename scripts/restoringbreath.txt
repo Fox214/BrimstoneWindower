@@ -1,0 +1,3 @@
+input /equip Head "Wyrm Armet +2";
+exec wyvernHP.txt;
+input /ja "Restoring Breath" <me>

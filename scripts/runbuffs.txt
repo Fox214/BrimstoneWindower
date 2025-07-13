@@ -1,0 +1,16 @@
+//input /ma "Barwatera" <me>
+// input /ma "Baraera" <me>
+input /ma "Barstonra" <me>
+// input /ma "Barblizzara" <me>
+wait 4
+// input /ma "Barsilenra" <me>
+// input /ma "Barpoisonra" <me>
+// input /ma "Baramnesra" <me>
+// input /ma "Barpetra" <me>
+// input /ma "Barparalyzra" <me>
+input /ma "Barblindra" <me>
+wait 6
+input /ma "Auspice" <me>
+wait 5
+input /ma "Boost-STR" <me>
+wait 4

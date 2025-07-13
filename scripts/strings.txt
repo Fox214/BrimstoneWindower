@@ -1,0 +1,9 @@
+input /equip Range "Rose Harp +1";
+//wait 1;
+input /ma "Fire Threnody" <t>;
+wait 5;
+input /ma "Ice Threnody" <t>;
+wait 4;
+input /ma "Wind Threnody" <t>;
+wait 4;
+input /ma "Earth Threnody" <t>;
