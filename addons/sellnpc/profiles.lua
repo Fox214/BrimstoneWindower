@@ -6,11 +6,8 @@ profiles['usual'] = S{
     'prize powder',
     'acheron shield',
 	'culverin',
-    'royal squire\'s halberd',
-	'earth crystal',
-	'wind crystal',
-	'wind cluster',
-	'water crystal',
+    "royal squire's halberd",
+    "Mrc.Cpt. Scythe",
 	'insect wing',
 	'beetle shell',
 	'beetle jaw',
@@ -37,7 +34,16 @@ profiles['usual'] = S{
 	'scorpion claw',
 	'fruit seeds',
 	'treant bulb',
-	'pebble',
+	'Colibri Beak',
+	'Colibri Feather',
+    }
+	
+profiles['crystals'] = S{
+	'earth crystal',
+	'fire crystal',
+	'water crystal',
+	'wind cluster',
+	'wind crystal',
     }
 
 -- //sellnpc ore
@@ -60,10 +66,13 @@ profiles['upinarms'] = S{
 	'Aquamarine',
 	'Black Pearl',
 	'Black Rock',
+	'Chrysoberyl',
 	'Dem Ring',
+	'Gold Ingot',
 	'Jadeite',
     'Moonstone',
     'Oxblood',
+    'Painite',
     'Pearl',
 	'Philomath Stole',
 	'Steel Ingot',
@@ -71,6 +80,37 @@ profiles['upinarms'] = S{
 	'Translucent Rock',
     'Walkure Mask',
 	'Zircon'
+    }
+	
+profiles['incursion'] = S{
+	'Arborscent Seed',
+	'Beehive Chip',
+	'Bird Egg',
+	'Chapuli Horn',
+	'Chapuli Wing',
+	'Colibri Beak',
+	'Colibri Feather',
+	'Crab Shell',
+	'Craklaw Pincer',
+	'Fenrite',
+	'Flytrap Leaf',
+	'Giant Stinger',
+	'H.Q. Crab Shell',
+	'Hare Meat',
+	'Honey',
+	'Land Crab Meat',
+	'Matamata Shell',
+	'Raaz Hide',
+	'Raaz Tusk',
+	'Rabbit Hide',
+	'Raptor Skin',
+	'Snap. Secretion',
+	'Snap. Tendril',
+	'Tulfaire Feather',
+	'Velkk Mask',
+	'Velkk Necklace',
+	'Voay Staff -1',
+	'Voay Sword -1',
     }
 
 return profiles
