@@ -172,7 +172,7 @@ function init_gear_sets()
 	sets.engaged.Grip.Polearm = set_combine(sets.engaged, {main="Kaja Lance", sub="Bloodrain Strap"})
 	sets.engaged.Grip.Staff = set_combine(sets.engaged, {main="Ungeri Staff", sub="Bloodrain Strap"})
 	sets.engaged.DW.Sword = set_combine(sets.engaged, {main="Naegling",sub="Sakpata's Sword"})
-	sets.engaged.Shield.Sword = set_combine(sets.engaged, {main="Naegling",sub="Steadfast Shield"})
+	sets.engaged.Shield.Sword = set_combine(sets.engaged, {main="Naegling",sub="Rinda Shield"})
 
 	sets.engaged.Grip.GreatSword.Acc = set_combine(sets.engaged.Grip.GreatSword, sets.Mode.Acc)
 	sets.engaged.Grip.GreatSword.Att = set_combine(sets.engaged.Grip.GreatSword, sets.Mode.Att)

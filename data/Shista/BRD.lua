@@ -163,7 +163,7 @@ function init_gear_sets()
 		back="Intarabus's Cape",waist="Famine Sash",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
 	sets.PDL = {}
 	sets.empy = {head="Fili Calot +1",
-		body="Fili Hongreline",hands="Fili Manchettes +1",
+		body="Fili Hongreline +1",hands="Fili Manchettes +1",
 		legs="Fili Rhingrave",feet="Fili Cothurnes"}
 
 	-- Sets with weapons defined.
@@ -254,7 +254,7 @@ function init_gear_sets()
 		body="Brioso Just.",hands="Inyan. Dastanas +2",feet="Marduk's Crackows"}) 
 	sets.Wind = set_combine(sets.Singing, {
 		neck="Wind Torque",rear="Musical Earring",
-		body="Fili Hongreline",hands="Inyan. Dastanas +2",ring1="Nereid Ring",ring2="Nereid Ring",
+		body="Fili Hongreline +1",hands="Inyan. Dastanas +2",ring1="Nereid Ring",ring2="Nereid Ring",
 		back="Rhapsode's Cape",legs="Brioso Cannions",feet="Oracle's Pigaches"}) 
 
 	-- Waltz set (chr and vit)
@@ -263,13 +263,13 @@ function init_gear_sets()
 	-- For song buffs (duration and AF3 set bonus)
 	sets.midcast.SongEffect = {main="Legato Dagger",sub="Genmei Shield",range="Gjallarhorn",
 		head="Fili Calot +1",neck="Moonbow Whistle",
-		body="Fili Hongreline",hands="Fili Manchettes +1",
+		body="Fili Hongreline +1",hands="Fili Manchettes +1",
 		legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
 
 	-- Gear to enhance certain classes of songs. No instruments added here since Gjallarhorn is being used.
 	sets.midcast.Ballad = {range="Gjallarhorn",legs="Fili Rhingrave"}
 	sets.midcast.Carol = {range="Gjallarhorn",head="Fili Calot +1",
-		body="Fili Hongreline",hands="Fili Manchettes +1",
+		body="Fili Hongreline +1",hands="Fili Manchettes +1",
 		legs="Fili Rhingrave",feet="Fili Cothurnes"}
 	sets.midcast.Elegy = set_combine(sets.Wind, {range="Gjallarhorn"})
 	sets.midcast.Etude = {range="Gjallarhorn"}
@@ -280,7 +280,7 @@ function init_gear_sets()
 	sets.midcast.March = {range="Gjallarhorn",hands="Fili Manchettes +1"}
 	sets.midcast.Mazurka = {range="Gjallarhorn"}
 	sets.midcast.Minne = {range="Gjallarhorn"}
-	sets.midcast.Minuet = {range="Gjallarhorn",body="Fili Hongreline"}
+	sets.midcast.Minuet = {range="Gjallarhorn",body="Fili Hongreline +1"}
 	sets.midcast.Paeon = {range="Gjallarhorn",head="Brioso Roundlet"}
 	sets.midcast.Prelude = {range="Gjallarhorn",head="Fili Calot +1",back="Intarabus's Cape"}
 	sets.midcast.Requiem = set_combine(sets.Wind,{range="Gjallarhorn"})
@@ -563,7 +563,7 @@ function calculate_duration(spellName, spellMap)
 	if player.equipment.main == "Legato Dagger" then mult = mult + 0.05 end
 	if player.equipment.sub == "Legato Dagger" then mult = mult + 0.05 end
 	if player.equipment.neck == "Aoidos' Matinee" then mult = mult + 0.1 end
-	if player.equipment.body == "Fili Hongreline" then mult = mult + 0.1 end
+	if player.equipment.body == "Fili Hongreline +1" then mult = mult + 0.1 end
 	if player.equipment.legs == "Mdk. Shalwar +1" then mult = mult + 0.1 end
 	if player.equipment.legs == "Inyanga Shalwar +2" then mult = mult + 0.15 end
 	if player.equipment.feet == "Brioso Slippers +1" then mult = mult + 0.1 end
@@ -573,7 +573,7 @@ function calculate_duration(spellName, spellMap)
 	if spellMap == 'Paeon' and player.equipment.head == "Brioso Roundlet" then mult = mult + 0.1 end
 	if spellMap == 'Paeon' and player.equipment.head == "Brioso Roundlet +1" then mult = mult + 0.1 end
 	if spellMap == 'Madrigal' and player.equipment.head == "Fili Calot +1" then mult = mult + 0.1 end
-	if spellMap == 'Minuet' and player.equipment.body == "Fili Hongreline" then mult = mult + 0.1 end
+	if spellMap == 'Minuet' and player.equipment.body == "Fili Hongreline +1" then mult = mult + 0.1 end
 	if spellMap == 'March' and player.equipment.hands == 'Fili Manchettes +1' then mult = mult + 0.1 end
 	if spellMap == 'Ballad' and player.equipment.legs == "Fili Rhingrave" then mult = mult + 0.1 end
 	if spellName == "Sentinel's Scherzo" and player.equipment.feet == "Fili Cothurnes" then mult = mult + 0.1 end
