@@ -641,3 +641,22 @@ function job_handle_equipping_gear(status, eventArgs)
 	pick_tp_weapon()
     handle_twilight()
 end
+
+function job_post_aftercast(spell, action, spellMap, eventArgs)
+	-- add_to_chat(7,'post aftercast '..spell.name)
+	-- don't do anything after these conditions
+	if spell.type == 'Trust' or spell.name == 'Jump' or spell.name == 'Spirit Jump' then
+		return
+	end
+	if spell.type == 'WeaponSkill' then
+		delay = 4
+	else	
+		delay = 1
+	end
+	if player.sub_job == 'SAM' then
+		handle_sam_ja:schedule(delay)
+	end
+	if player.sub_job == 'WAR' then
+		handle_war_ja:schedule(delay)
+	end
+end

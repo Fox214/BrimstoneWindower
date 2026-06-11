@@ -312,7 +312,7 @@ function init_gear_sets()
 
 	-- Precast sets to enhance JAs
 	sets.precast.JA['Bounty Shot'] = {hands="Amini Glove. +1"}
-	sets.precast.JA['Double Shot'] = {head="Amini Gapette +1",back="Belenus's Cape"}
+	sets.precast.JA['Double Shot'] = {head="Amini Gapette +1",body="Arc. Jerkin +2",back="Belenus's Cape"}
 	sets.precast.JA['Camouflage'] = {body="Hunter's Jerkin"}
 	sets.precast.JA['Scavenge'] = {feet="Orion Socks +2"}
 	sets.precast.JA['Shadowbind'] = {hands="Orion Bracers +1"}
@@ -331,7 +331,7 @@ function init_gear_sets()
 	-- Ranged sets (snapshot)
 	sets.precast.RA = {
 		head="Orion Beret +2",neck="Scout's Gorget +1",
-		body="Amini Caban +2",hands="Iuitl Wristbands",
+		body="Arc. Jerkin +2",hands="Iuitl Wristbands",
 		back="Lutian Cape",waist="Yemaya Belt",legs="Orion Braccae +2",feet="Meg. Jam. +2"}
 
 	--------------------------------------
@@ -341,7 +341,7 @@ function init_gear_sets()
 
 	-- Ranged sets, use Ratt by default and can switch Racc as needed
 	sets.midcast.RA = {
-		head="Meghanada Visor +2",neck="Iskur Gorget",lear="Enervating Earring",rear="Crep. Earring",
+		head="Arcadian Beret +2",neck="Iskur Gorget",lear="Enervating Earring",rear="Crep. Earring",
 		body="Amini Caban +2",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
 		back="Belenus's Cape",waist="Eschan Stone",legs="Meg. Chausses +2",feet="Amini Bottillons +2"}
 	

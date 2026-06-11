@@ -232,7 +232,7 @@ function init_gear_sets()
 	sets.idle = {ammo="Amar Cluster",
 		head="Null Masque",neck="Elite Royal Collar",lear="Alabaster Earring",rear="Moonshade Earring",
 		body="Hashishin Mintan +3",hands="Hashi. Bazu. +2",ring1="Murky Ring",ring2="Renaye Ring +1",
-		back="Solemnity Cape",waist="Null Belt",legs="Carmine Cuisses +1",feet="Nyame Sollerets"}
+		back="Rosmerta's Cape",waist="Null Belt",legs="Carmine Cuisses +1",feet="Nyame Sollerets"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Learning = set_combine(sets.idle, sets.Learning)
@@ -384,8 +384,8 @@ function init_gear_sets()
 	sets.engaged.MABClub = { main="Bunzi's Rod", sub="Maxentius" }
 	sets.engaged.MAB = { ammo="Pemphredo Tathlum",
 		head="Hashishin Kavuk +2",neck="Baetyl Pendant",lear="Friomisi Earring",rear="Regal Earring",
-		body="Hashishin Mintan +3",hands="Jhakri Cuffs +2",ring1="Strendu Ring",
-		back="Cornflower Cape",waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
+		body="Hashishin Mintan +3",hands="Hashi. Bazu +2",ring1="Strendu Ring",
+		back="Cornflower Cape",waist="Sacro Cord",legs="Luhlaza Shalwar +3",feet="Jhakri Pigaches +2"}
 	sets.engaged.BlueSkill = set_combine(sets.macc, {ammo="Mavi Tathlum",
 		head="Luh. Keffiyeh +1",neck="Incanter's Torque",lear="Mavi Earring",rear="Hashi. Earring +1",
 		body="Assim. Jubbah +3",hands="Ayao's Gages",ring2="Renaye Ring +1",
@@ -422,7 +422,7 @@ function init_gear_sets()
 	sets.precast.WS = set_combine(sets.Mode.STR, {ammo="Oshasha's Treatise",
 		head="Hashishin Kavuk +2",neck="Fotia Gorget",rear="Ishvara Earring",
         body="Assim. Jubbah +3",hands="Jhakri Cuffs +2",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
-        back="Rosmerta's Cape",waist="Fotia Belt"})
+        back="Rosmerta's Cape",waist="Fotia Belt",legs="Luhlaza Shalwar +3"})
 
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 	-- Earth, STR 40% DEX 40%
@@ -597,7 +597,7 @@ end
 function job_post_aftercast(spell, action, spellMap, eventArgs)
 	-- add_to_chat(7,'post aftercast '..spell.name)
 	-- don't do anything after these conditions
-	if spell.type == 'Trust' then
+	if spell.type == 'Trust' or spell.name == 'Jump' or spell.name == 'Spirit Jump' then
 		return
 	end
 	if spell.type == 'WeaponSkill' then
@@ -605,11 +605,14 @@ function job_post_aftercast(spell, action, spellMap, eventArgs)
 	else	
 		delay = 1
 	end
+	if player.sub_job == 'SAM' then
+		handle_sam_ja:schedule(delay)
+	end
 	if player.sub_job == 'WAR' then
 		handle_war_ja:schedule(delay)
 	end
 end
- 
+
 -------------------------------------------------------------------------------------------------------------------
 -- Job-specific hooks for non-casting events.
 -------------------------------------------------------------------------------------------------------------------

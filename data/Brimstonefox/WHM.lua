@@ -274,7 +274,7 @@ function init_gear_sets()
 	sets.midcast.Enfeebling.Skill = set_combine(sets.macc, {
         head="Befouled Crown",neck="Incanter's Torque",
         body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring2="Globidonta Ring",
-        back="Alaunus's Cape",waist="Rumination Sash",feet="Piety Duckbills +1"})
+        back="Alaunus's Cape",waist="Rumination Sash",legs="Mystagog Slacks",feet="Piety Duckbills +1"})
 	sets.midcast.Enfeebling.MND = {}
 	sets.midcast.Enfeebling.INT = {}
 	sets.midcast.Enfeebling.effect = {feet="Uk'uxkaj Boots"}

@@ -306,7 +306,7 @@ function init_gear_sets()
 
     sets.midcast.Impact = set_combine(sets.midcast['Elemental Magic'], {head=empty,body="Crepuscular Cloak"})
 
-	sets.midcast['Divine Magic'] = set_combine(sets.macc, {feet="Medium's Sabots"})
+	sets.midcast['Divine Magic'] = set_combine(sets.macc, {legs="Mystagog Slacks",feet="Medium's Sabots"})
     sets.midcast['Dark Magic'] = set_combine(sets.macc, {sub="Mephitis Grip",
         head="Atrophy Chapeau +1",neck="Erra Pendant",lear="Lifestorm Earring",rear="Psystorm Earring",
         body="Vanir Cotehardie",ring1="Evanescence Ring",ring1="Kishar Ring",

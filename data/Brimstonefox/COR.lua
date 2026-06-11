@@ -59,7 +59,6 @@ function user_setup()
 	state.RWeaponMode:set('Gun') 
 	state.RangedMode:options('Normal', 'Acc')
 	state.WeaponskillMode:options('Normal')
-
     gear.RAbullet = "Chrono Bullet"
     gear.WSbullet = "Chrono Bullet"
     gear.MAbullet = "Chrono Bullet"
@@ -616,7 +615,6 @@ function job_handle_equipping_gear(status, eventArgs)
 	check_tp_lock()
 	set_combat_form()
 	pick_tp_weapon()
-	handle_twilight()
 end
 
 function pick_tp_weapon()
