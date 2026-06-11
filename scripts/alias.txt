@@ -28,6 +28,11 @@ alias da gs c set OffenseMode DA
 alias sb gs c set OffenseMode SB
 alias stp gs c set OffenseMode sTP
 alias str gs c set OffenseMode STR
+alias eva gs c set OffenseMode Eva
+alias dt gs c set OffenseMode DT
+alias meva gs c set OffenseMode Meva
+alias hp gs c set OffenseMode HP
+alias counter gs c set OffenseMode Counter
 
 //WS Modes
 alias wsmode gs c cycle WeaponskillMode
@@ -38,7 +43,7 @@ alias wsmod gs c set WeaponskillMode Mod
 //Defense Modes
 alias defense gs c cycle DefenseMode
 alias defnormal gs c set DefenseMode Normal
-alias eva gs c set DefenseMode Evasion
+alias evasion gs c set DefenseMode Evasion
 alias pdt gs c set DefenseMode pdt
 alias mdt gs c set DefenseMode mdt
 
@@ -63,6 +68,8 @@ alias stance gs c cycle stance
 alias holdtp gs c cycle holdtp
 // true forces bestial loyalty instead of call beast
 alias loyalty gs c cycle loyalty
+// true puts on immunobreak gear
+alias immuno gs c cycle immuno
 
 //Magic Defense
 alias mdfire gs c set MagicalDefenseMode Fire
@@ -173,11 +180,13 @@ alias accuracy gs c scholar accuracy
 alias enmity gs c scholar enmity    
 alias skillchain gs c scholar skillchain                           
 alias addendum gs c scholar addendum    
-
+alias fusionburst exec fusionburst.txt
+alias gravburst exec gravburst.txt
 
 //spells and abilities
 alias ichi input /nin "Utsusemi:Ichi" <me>
 alias ni input /nin "Utsusemi:Ni" <me>
+alias san input /nin "Utsusemi:San" <me>
 alias voke input /ja "Provoke" <t>
 alias monomi input /ma "Monomi:Ichi" <me>
 alias tonko input /ma "Tonko:Ni" <me>
@@ -202,13 +211,14 @@ alias int2 input /ma "Sage Etude" <me>
 alias str1 input /ma "Sinewy Etude" <me>
 alias str2 input /ma "Herculean Etdue" <me>
 alias av input /ma "Aquaveil" <me>
-alias cinvis input /console cancel 69
-alias dropwing drop "Obsid. Wing" 
+alias vis input /console cancel 69
 alias lockempy exec lockempy.txt
 
 //misc
 alias siphon gs c siphon
+alias luzaf gs c toggle LuzafRing
 alias dummy gs c set ExtraSongsMode Dummy
+alias hordemode gs c cycle HordeMode
 alias th gs c cycle treasuremode
 alias exml gs export mainjob sets xml overwrite
 alias gear gs org
@@ -218,20 +228,30 @@ alias trusts exec trusts.txt
 alias vtrusts exec vtrusts.txt
 alias btrusts exec btrusts.txt
 alias strusts exec strusts.txt
+alias shtrusts exec shtrusts.txt
 
 //element mode - this defaults certain actions to an element
 alias em gs c cycle ElementMode
 alias emdark gs c set ElementMode dark
 alias emlight gs c set ElementMode light
 alias emwind gs c set ElementMode wind
+alias emaero gs c set ElementMode wind
 alias emearth gs c set ElementMode earth
+alias emstone gs c set ElementMode earth
 alias emthunder gs c set ElementMode thunder
+alias emlightning gs c set ElementMode thunder
 alias emwater gs c set ElementMode water
 alias emfire gs c set ElementMode fire
 alias emice gs c set ElementMode ice
+alias emblizzard gs c set ElementMode ice
 alias helix gs c useElement helix
 alias nuke gs c useElement nuke
 alias storm gs c useElement storm
+
+//wincontrol
+alias fullsize wincontrol resize 3840 2160
+alias halfsize wincontrol resize 1920 1080
+alias qtrsize wincontrol resize 960 540
 
 //spells
 alias a1 input /ma "Aero" <t>
@@ -321,14 +341,36 @@ alias rbuffs exec runbuffs.txt
 
 alias fishgear exec fishgear.txt 
 alias craftgear exec craftgear.txt 
+alias syngear exec syngear.txt 
+alias crafthq exec crafthq.txt 
 alias nekkid exec nekkid.txt
-
+alias dropwing gs c drop wing
 alias nosound exec mute.txt
 
 alias bnsandy exec bnsandy.txt
 alias bssandy exec bssandy.txt
-alias bshields exec bshields.txt
-alias bpowders exec bshields.txt
+alias bwwoods exec bwwoods.txt
+alias bwwaters exec bwwaters.txt
+alias buyshields exec buyshields.txt
 
 alias bpga exec bpga.txt
 alias tabulabuffs exec tabulabuffs.txt
+
+alias craftdark craft make "Compression Sphere 5" 99
+alias craftwind craft make "Detonation Sphere 5" 99
+alias craftlightning craft make "Impaction Sphere 5" 99
+alias craftice craft make "Induration Sphere 4" 99
+alias craftfire craft make "Liquefaction Sphere 5" 99
+alias craftwater craft make "Reverberation Sphere 4" 99
+alias craftearth craft make "Scission Sphere 5" 99
+alias craftlight craft make "Transfixion Sphere 5" 99
+
+alias craftaqua craft make "Distortion Sphere" 99
+alias craftstorm craft make "Fragmentation Sphere" 99
+alias craftradiance craft make "Fusion Sphere" 99
+alias craftgloom craft make "Gravitation Sphere" 99
+
+alias scgrav synthchain setchain Transfixion Scission Gravitation
+alias scfusion synthchain setchain Induration Reverberation Fusion
+alias scfrag synthchain setchain Liquefaction Impaction Fragmentation
+alias scdist synthchain setchain Detonation Compression Distortion

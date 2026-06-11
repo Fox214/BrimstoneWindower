@@ -1,0 +1,2 @@
+buy "Puroiko-Maiko, W.W." "mercenary captain's scythe" full;
+sellnpc usual;

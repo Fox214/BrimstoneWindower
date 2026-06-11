@@ -1,6 +1,6 @@
 alias g15_m1g1 exec lightarts.txt
 alias g15_m1g2 exec darkarts.txt
-alias g15_m1g3 input /item "Echo Drops" <me>
+alias g15_m1g3 input /item "Remedy" <me>
 alias g15_m1g4 gs c scholar addendum
 alias g15_m1g5 gs c scholar skillchain
 alias g15_m1g6 gs c scholar enmity
@@ -17,17 +17,17 @@ alias g15_m1g16 gs c scholar duration
 alias g15_m1g17 gs c scholar power
 alias g15_m1g18 input /ja "Sublimation" <me>
 
-alias g15_m2g1 exec 2hrdmg.txt
-alias g15_m2g2 exec fusionburst.txt
+alias g15_m2g1 
+alias g15_m2g2 send Shista exec intetudes.txt
 alias g15_m2g3 input /item "Echo Drops" <me>
-alias g15_m2g4 exec dots.txt
+alias g15_m2g4 
 alias g15_m2g5 input /ja "Double-Up" <me>
 alias g15_m2g6
-alias g15_m2g7
-alias g15_m2g8
-alias g15_m2g9
-alias g15_m2g10
-alias g15_m2g11 exec imfusion.txt
+alias g15_m2g7 exec 2hrdmg.txt
+alias g15_m2g8 exec imfusion.txt
+alias g15_m2g9 exec dots.txt
+alias g15_m2g10 exec fusionburst.txt
+alias g15_m2g11 exec gravburst.txt
 alias g15_m2g12
 alias g15_m2g13
 alias g15_m2g14
@@ -44,9 +44,9 @@ alias g15_m3g5 input /ma "Aquaveil" <me>
 alias g15_m3g6 input /ma "Refresh" <stpt>
 alias g15_m3g7 input /ma "Reraise III" <me>
 alias g15_m3g8 input /ma "Regen III" <stpt>
-alias g15_m3g9 input /ma "Goddess's Hymnus" <me>
-alias g15_m3g10 input /ja "Corsair's Roll" <me>
-alias g15_m3g11 input /ja "Double-Up" <me>
+alias g15_m3g9 input /ma "Erase" <stpt>
+alias g15_m3g10 input /ma "Poison II" <t>
+alias g15_m3g11 input /ja "Paralyze" <t>
 alias g15_m3g12 input /ma "Erase" <stpt>
 alias g15_m3g13 input /macro set 1
 alias g15_m3g14 input /macro set 2

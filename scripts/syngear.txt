@@ -6,7 +6,7 @@ input /equip neck "Carver's Torque";
 // input /equip lear "Brutal Earring";
 // input /equip rear "Ethereal Earring";
 input /equip body "Carpenter's Smock";
-input /equip hands "Carpenter's Gloves";
+input /equip hands "Carpenter's Cuffs";
 input /equip ring1 "Artificer's Ring";
 input /equip ring2 "Craftkeeper's Ring";
 // input /equip back "Amemet Mantle +1";

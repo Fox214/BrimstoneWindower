@@ -1,5 +1,5 @@
-input /ma "August" <me>
-wait 6
+// input /ma "August" <me>
+// wait 6
 // input /ma "Valaineral" <me>
 // wait 6
 // input /ma "AAEV" <me>
@@ -18,13 +18,15 @@ wait 6
 // wait 6
 input /ma "Koru-Moru" <me>
 wait 6
-// input /ma "Joachim" <me>
-// wait 6
-// input /ma "Ulmia" <me>
-// wait 6
+input /ma "Joachim" <me>
+wait 6
+input /ma "Ulmia" <me>
+wait 6
 // input /ma "Qultada" <me>
 // wait 6
-input /ma "Apururu (UC)" <me>
+// input /ma "Apururu (UC)" <me>
+// wait 6
+input /ma "Monberaux" <me>
 wait 6
 // input /ma "Kupipi" <me>
 // wait 6

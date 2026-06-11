@@ -15,8 +15,8 @@ wait 6
 // wait 6
 
 //dd
-input /ma "AAGK" <me>
-wait 6
+// input /ma "AAGK" <me>
+// wait 6
 //input /ma "Nashmeira" <me>
 //wait 6
 // input /ma "Iroha II" <me>
@@ -33,18 +33,16 @@ input /ma "Koru-Moru" <me>
 wait 6
 // input /ma "Joachim" <me>
 // wait 6
-// input /ma "Ulmia" <me>
-// wait 6
-// input /ma "Qultada" <me>
-// wait 6
+input /ma "Ulmia" <me>
+wait 6
+input /ma "Qultada" <me>
+wait 6
 // input /ma "Arciela II" <me>
-// wait 6
-// input /ma "Selh'teus" <me>
 // wait 6
 
 //mages
-input /ma "Shantotto II" <me>
-wait 6
+// input /ma "Shantotto II" <me>
+// wait 6
 //input /ma "Shantotto" <me>
 //wait 6
 // input /ma "Ingrid" <me>
@@ -53,10 +51,10 @@ wait 6
 // wait 6
 
 // healers
-input /ma "Apururu (UC)" <me>
-wait 6
-// input /ma "Monbreaux" <me>
+// input /ma "Apururu (UC)" <me>
 // wait 6
+input /ma "Monberaux" <me>
+wait 6
 // input /ma "Yoran-Oran" <me>
 // wait 6
 // input /ma "Kupipi" <me>
