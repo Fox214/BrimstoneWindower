@@ -88,34 +88,34 @@ function init_gear_sets()
  
     -- Normal refresh idle set
     sets.idle = {main="Naegling",sub="Archduke's Shield",ammo="Homiliary",
-        head="Viti. Chapeau +1",neck="Twilight Torque",lear="Moonshade Earring",rear="Ethereal Earring",
+        head="Viti. Chapeau +1",neck="Null Loop",lear="Moonshade Earring",rear="Ethereal Earring",
         body="Jhakri Robe +2",hands="Telchine Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
-        back="Sucellos's Cape",waist="Plat. Mog. Belt",legs="Crimson Cuisses",feet="Atro. Boots +3"}
+        back="Sucellos's Cape",waist="Plat. Mog. Belt",legs="Carmine Cuisses +1",feet="Atro. Boots +3"}
 
     -- Resting sets
     sets.resting = set_combine(sets.idle, {main="Chatoyant Staff"})
 
     -- Normal melee group
     sets.engaged = { ammo="Coiste Bodhar",
-        head="Aya. Zucchetto +2",neck="Combatant's Torque",lear="Sherida Earring",rear="Brutal Earring",
-        body="Ayanmo Corazza +2",hands="Atrophy Gloves +3",ring1="Patricius Ring",ring2="Apate Ring",
+        head="Aya. Zucchetto +2",neck="Null Loop",lear="Sherida Earring",rear="Brutal Earring",
+        body="Ayanmo Corazza +2",hands="Atrophy Gloves +3",ring1="Adoulin Ring",ring2="Apate Ring",
         back="Ground. Mantle +1",waist="Sailfi Belt +1",legs="Atrophy Tights +3",feet="Atro. Boots +3"}
 		
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
-        head="Malignance Chapeau",neck="Combatant's Torque",rear="Leth. Earring +1",
+        head="Malignance Chapeau",neck="Null Loop",rear="Leth. Earring +1",
 		body="Ayanmo Corazza +2",hands="Atrophy Gloves +3",ring1="Mars's Ring",ring2="Cacoethic Ring +1",
         back="Lupine Cape",legs="Atrophy Tights +3",feet="Atro. Boots +3"})
 	sets.Mode.Att= set_combine(sets.engaged, {
         head="Jhakri Coronal +2",neck="Rep. Plat. Medal",
-        body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Overbearing Ring",ring2="Ilabrat Ring",
+        body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Adoulin Ring",ring2="Ilabrat Ring",
         waist="Sulla Belt",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"})
 	sets.Mode.Crit = set_combine(sets.engaged, {feet="Aya. Gambieras +2"})
 	sets.Mode.DA = set_combine(sets.engaged, { ammo="Coiste Bodhar",
 		neck="Asperity Necklace",lear="Sherida Earring",rear="Leth. Earring +1",
         body="Ayanmo Corazza +2",legs="Zoar Subligar"})
-	sets.Mode.SB = set_combine(sets.engaged, {})
+	sets.Mode.SB = set_combine(sets.engaged, {lear="Sherida Earring"})
 	sets.Mode.sTP = set_combine(sets.engaged, { ammo="Coiste Bodhar",
         head="Malignance Chapeau",neck="Anu Torque",lear="Sherida Earring",rear="Digni. Earring",
         back="Lupine Cape",legs="Jhakri Slops +2",ring2="Ilabrat Ring"})
@@ -124,7 +124,7 @@ function init_gear_sets()
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Rajas Ring",ring2="Apate Ring",
 		back="Buquwik Cape",waist="Sailfi Belt +1",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"})
 	sets.Mode.DT = set_combine(sets.engaged, {
-        head="Nyame Helm",neck="Twilight Torque",
+        head="Nyame Helm",neck="Null Loop",
         body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Defending Ring",
         back="Sucellos's Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
     sets.Mode.Meva = set_combine(sets.engaged, {
@@ -132,8 +132,8 @@ function init_gear_sets()
         body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Shadow Ring",
         back="Reiki Cloak",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})	
 	-- other Sets    
-	sets.macc = {main="Marin Staff +1",sub="Benthos Grip",ammo="Pemphredo Tathlum",
-        head="Atrophy Chapeau +3",neck="Erra Pendant",lear="Gwati Earring",rear="Leth. Earring +1",
+	sets.macc = {main="Marin Staff +1",sub="Enki Strap",ammo="Pemphredo Tathlum",
+        head="Atrophy Chapeau +3",neck="Null Loop",lear="Snotra Earring",rear="Leth. Earring +1",
         body="Atrophy Tabard +3",hands="Jhakri Cuffs +2",ring1="Sangoma Ring",ring2="Metamor. Ring +1",
         back="Sucellos's Cape",waist="Famine Sash",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 	sets.PDL = {head="Malignance Chapeau"}
@@ -261,7 +261,7 @@ function init_gear_sets()
 	-- Elemental Magic sets
 	sets.midcast['Elemental Magic'] = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
         head="Merlinic Hood",neck="Sanctity Necklace",lear="Malignance Earring",rear="Friomisi Earring",
-        body="Merlinic Jubbah",hands="Jhakri Cuffs +2",ring1="Strendu Ring",ring2="Metamor. Ring +1",
+        body="Merlinic Jubbah",hands="Jhakri Cuffs +2",ring1="Adoulin Ring",ring2="Metamor. Ring +1",
         back="Sucellos's Cape",waist="Eschan Stone",legs="Merlinic Shalwar",feet="Merlinic Crackows"}
 
     sets.midcast['Elemental Magic'].INT = set_combine(sets.midcast['Elemental Magic'], 
@@ -273,7 +273,7 @@ function init_gear_sets()
     sets.midcast['Elemental Magic'].MAB = set_combine(sets.midcast['Elemental Magic'], 
 	   {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
         head="Merlinic Hood",neck="Baetyl Pendant",lear="Malignance Earring",rear="Friomisi Earring",
-        body="Merlinic Jubbah",hands="Jhakri Cuffs +2",ring1="Strendu Ring",
+        body="Merlinic Jubbah",hands="Jhakri Cuffs +2",ring1="Adoulin Ring",
         back="Sucellos's Cape",waist="Eschan Stone",legs="Hagondes Pants +1",feet="Merlinic Crackows"})
   
     sets.midcast['Elemental Magic'].MB = set_combine(sets.midcast['Elemental Magic'], 
@@ -302,7 +302,7 @@ function init_gear_sets()
 	sets.midcast.Enfeebling.MND = {}
 	sets.midcast.Enfeebling.INT = {}
 	sets.midcast.Enfeebling.effect = {feet="Uk'uxkaj Boots"}
-	sets.midcast.Enfeebling.duration = {ring1="Kishar Ring"}
+	sets.midcast.Enfeebling.duration = {lear="Snotra Earring",ring1="Kishar Ring"}
 	sets.midcast.Enfeebling.immuno = {}
 
 
@@ -311,7 +311,7 @@ function init_gear_sets()
 
 	sets.midcast['Divine Magic'] = set_combine(sets.macc, {feet="Medium's Sabots"})
     sets.midcast['Dark Magic'] = set_combine(sets.macc, {sub="Mephitis Grip",
-        head="Atrophy Chapeau +3",neck="Erra Pendant",lear="Lifestorm Earring",rear="Psystorm Earring",
+        head="Atrophy Chapeau +3",neck="Erra Pendant",lear="Abyssal Earring",rear="Psystorm Earring",
         body="Vanir Cotehardie",ring1="Evanescence Ring",ring1="Kishar Ring",
         back="Refraction Cape"})
 

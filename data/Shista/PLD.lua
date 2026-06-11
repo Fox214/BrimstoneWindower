@@ -84,9 +84,9 @@ function init_gear_sets()
 	}
 
 	-- Idle sets
-	sets.idle = {head="Nyame Helm",neck="Twilight Torque",lear="Alabaster Earring",rear="Moonshade Earring",
+	sets.idle = {head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",rear="Moonshade Earring",
 		body="Sacro Breastplate",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Moonbeam Ring",
-		back="Rudianos's Mantle",waist="Null Belt",legs="Crimson Cuisses",feet="Nyame Sollerets"}
+		back="Rudianos's Mantle",waist="Null Belt",legs="Carmine Cuisses +1",feet="Nyame Sollerets"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -98,8 +98,8 @@ function init_gear_sets()
 
 		-- Normal melee group
 	sets.engaged = { ammo="Paeapua",
-		head="Flam. Zucchetto +2",neck="Asperity Necklace",lear="Steelflash Earring",rear="Brutal Earring",
-		body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Flamma Ring",ring2="Cacoethic Ring +1",
+		head="Flam. Zucchetto +2",neck="Null Loop",lear="Steelflash Earring",rear="Brutal Earring",
+		body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Adoulin Ring",ring2="Cacoethic Ring +1",
 		back="Rudianos's Mantle",waist="Sailfi Belt +1",legs="Sakpata's Cuisses",feet="Rev. Leggings +3"}
 			
 	-- Basic Mode definitions
@@ -110,7 +110,7 @@ function init_gear_sets()
         back="Null Shawl",waist="Null Belt",legs="Rev. Breeches +3",feet="Rev. Leggings +3"})
 	sets.Mode.Att= set_combine(sets.engaged, { ammo="Coiste Bodhar",
         head="Sulevia's Mask +2",neck="Rep. Plat. Medal",lear="Bladeborn Earring",rear="Dudgeon Earring",
-        body="Phorcys Korazin",hands="Sulev. Gauntlets +2",ring1="Overbearing Ring",ring2="Regal Ring",
+        body="Phorcys Korazin",hands="Sulev. Gauntlets +2",ring1="Adoulin Ring",ring2="Regal Ring",
         back="Atheling Mantle",waist="Zoran's Belt",legs="Emicho Hose",feet="Sulev. Leggings +2"})
 	sets.Mode.Crit = set_combine(sets.engaged, {hands="Flam. Manopolas +2"})
 	sets.Mode.DA = set_combine(sets.engaged, { ammo="Coiste Bodhar",
@@ -131,15 +131,15 @@ function init_gear_sets()
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Vengeful Ring",ring2="Beeline Ring",
         back="Null Shawl",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
     sets.Mode.DT = set_combine(sets.engaged, { ammo="Crepuscular Pebble",
-        head="Sakapata's Helm",neck="Twilight Torque",lear="Alabaster Earring",rear="Chev. Earring +1",
+        head="Sakpata's Helm",neck="Null Loop",lear="Alabaster Earring",rear="Chev. Earring +1",
         body="Rev. Surcoat +3",hands="Sakpata's Gauntlets",ring1="Murky Ring",
         back="Shadow Mantle",waist="Plat. Mog. Belt",legs="Sakpata's Cuisses",feet="Sakpata's Leggings"})
     sets.Mode.Meva = set_combine(sets.engaged, {
-        head="Sakapata's Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Chev. Earring +1",
+        head="Sakpata's Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Chev. Earring +1",
         body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Murky Ring",ring2="Moonbeam Ring",
         back="Null Shawl",waist="Null Belt",legs="Sakpata's Cuisses",feet="Sakpata's Leggings"})
     sets.Mode.HP = set_combine(sets.engaged, {
-        head="Sakapata's Helm",neck="Null Loop",lear="Alabaster Earring",rear="Eabani Earring",
+        head="Sakpata's Helm",neck="Null Loop",lear="Alabaster Earring",rear="Eabani Earring",
         body="Rev. Surcoat +3",hands="Rev. Gauntlets +3",ring1="Murky Ring",ring2="Moonbeam Ring",
         back="Reiki Cloak",waist="Plat. Mog. Belt",legs="Rev. Breeches +3",feet="Nyame Sollerets"})
     sets.Mode.Charm = {ammo="Iron Gobbet",
@@ -169,7 +169,7 @@ function init_gear_sets()
 	sets.engaged.DW.Club = set_combine(sets.engaged, {main="Divinity",sub="Kumbhakarna"})
 	sets.engaged.Shield.Club = set_combine(sets.engaged, {main="Divinity",sub="Archduke's Shield"})
 	sets.engaged.Grip.GreatSword = set_combine(sets.engaged, {main="Kaja Claymore",sub="Bloodrain Strap"})
-	sets.engaged.Grip.Polearm = set_combine(sets.engaged, {main="Kaja Lance", sub="Bloodrain Strap"})
+	sets.engaged.Grip.Polearm = set_combine(sets.engaged, {main="Shining One", sub="Bloodrain Strap"})
 	sets.engaged.Grip.Staff = set_combine(sets.engaged, {main="Ungeri Staff", sub="Bloodrain Strap"})
 	sets.engaged.DW.Sword = set_combine(sets.engaged, {main="Naegling",sub="Sakpata's Sword"})
 	sets.engaged.Shield.Sword = set_combine(sets.engaged, {main="Naegling",sub="Rinda Shield"})
@@ -409,7 +409,7 @@ function init_gear_sets()
     sets.midcast['Enhancing Magic'].Phalanx = set_combine(sets.midcast['Enhancing Magic'], {back="Weard Mantle"})
     
 	sets.midcast['Divine Magic'] = set_combine(sets.macc, {
-        head="Jumalik Helm",body="Rev. Surcoat +3"})
+        head="Jumalik Helm",body="Rev. Surcoat +3",ring1="Adoulin Ring"})
 
     sets.midcast.Protect = {ring1="Sheltered Ring"}
     sets.midcast.Shell = {ring1="Sheltered Ring"}
@@ -640,4 +640,23 @@ function job_handle_equipping_gear(status, eventArgs)
 	set_combat_form()
 	pick_tp_weapon()
     handle_twilight()
+end
+
+function job_post_aftercast(spell, action, spellMap, eventArgs)
+	-- add_to_chat(7,'post aftercast '..spell.name)
+	-- don't do anything after these conditions
+	if spell.type == 'Trust' or spell.name == 'Jump' or spell.name == 'Spirit Jump' then
+		return
+	end
+	if spell.type == 'WeaponSkill' then
+		delay = 4
+	else	
+		delay = 1
+	end
+	if player.sub_job == 'SAM' then
+		handle_sam_ja:schedule(delay)
+	end
+	if player.sub_job == 'WAR' then
+		handle_war_ja:schedule(delay)
+	end
 end

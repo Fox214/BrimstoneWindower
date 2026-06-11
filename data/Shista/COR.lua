@@ -53,12 +53,12 @@ function user_setup()
 	state.CastingMode:options('Normal', 'Resistant')
 	state.WeaponMode:set('Dagger')
 	state.Stance:set('Offensive')
-	state.SubMode:set('Shield')
+	state.holdtp:set('false')
+	state.immuno:set('false')
+	state.SubMode:set('DW')
 	state.RWeaponMode:set('Gun') 
 	state.RangedMode:options('Normal', 'Acc')
 	state.WeaponskillMode:options('Normal')
-	state.holdtp:set('false')
-	state.immuno:set('false')
     gear.RAbullet = "Decimating Bullet"
     gear.WSbullet = "Decimating Bullet"
     gear.MAbullet = "Decimating Bullet"
@@ -108,9 +108,9 @@ function init_gear_sets()
     -- Sets to return to when not performing an action.
     -- Idle sets
     sets.idle = {ammo=gear.RAbullet,
-        head="Meghanada Visor +2",neck="Twilight Torque",lear="Infused Earring",rear="Etiolation Earring",
+        head="Meghanada Visor +2",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
         body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Defending Ring",ring2="Patricius Ring",
-        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Crimson Cuisses",feet="Meg. Jam. +2"}
+        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Carmine Cuisses +1",feet="Meg. Jam. +2"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -128,19 +128,19 @@ function init_gear_sets()
 
 	-- Normal melee group
 	sets.engaged = {
-        head="Meghanada Visor +2",neck="Combatant's Torque",lear="Odr Earring",rear="Chas. Earring +1",
-        body="Meg. Cuirie +2",hands="Herculean Gloves",ring1="Epona's Ring",ring2="Hetairoi Ring",
+        head="Meghanada Visor +2",neck="Null Loop",lear="Odr Earring",rear="Chas. Earring +1",
+        body="Meg. Cuirie +2",hands="Herculean Gloves",ring1="Epona's Ring",ring2="Adoulin Ring",
         back="Ground. Mantle +1",waist="Sarissapho. Belt",legs="Carmine Cuisses +1",feet="Meg. Jam. +2"}
 			
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
-        head="Malignance Chapeau",neck="Combatant's Torque",lear="Odr Earring",rear="Chas. Earring +1",
+        head="Malignance Chapeau",neck="Null Loop",lear="Odr Earring",rear="Chas. Earring +1",
         body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Cacoethic Ring +1",ring2="Regal Ring",
         back="Lupine Cape",legs="Carmine Cuisses +1",feet="Meg. Jam. +2"})
 	sets.Mode.Att= set_combine(sets.engaged, {
-        head="Meghanada Visor +2 +2",neck="Rep. Plat. Medal",
-        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Ilabrat Ring",ring2="Regal Ring",
+        head="Meghanada Visor +2",neck="Rep. Plat. Medal",
+        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Ilabrat Ring",ring2="Adoulin Ring",
         legs="Carmine Cuisses +1",feet="Meg. Jam. +2"})
 	sets.Mode.Crit = set_combine(sets.engaged, { lear="Odr Earring",rear="Chas. Earring +1",
 		body="Meg. Cuirie +2",hands="Mummu Wrists +2",ring1="Mummu Ring",legs="Mummu Kecks +2"})
@@ -153,11 +153,11 @@ function init_gear_sets()
 		body="Pursuer's Doublet",ring1="Ilabrat Ring",
 		back="Lupine Cape"})
 	sets.Mode.STR = set_combine(sets.engaged, {
-		head="Lanun Tricorne",neck="Rep. Plat. Medal",
+		head="Lanun Tricorne +1",neck="Rep. Plat. Medal",
 		body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Apate Ring",ring2="Regal Ring",
 		back="Buquwik Cape",waist="Sailfi Belt +1",legs="Herculean Trousers",feet="Meg. Jam. +2"})
     sets.Mode.DT = {
-        head="Nyame Helm",neck="Twilight Torque",
+        head="Nyame Helm",neck="Null Loop",
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
     sets.Mode.Meva = {
@@ -167,8 +167,8 @@ function init_gear_sets()
 			
 	-- other Sets    
 	sets.macc = {
-		head="Malignance Chapeau",lear="Gwati Earring",rear="Chas. Earring +1",
-		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Sangoma Ring",ring2="Balrahn's Ring",
+		head="Malignance Chapeau",neck="Null Loop",lear="Gwati Earring",rear="Chas. Earring +1",
+		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Sangoma Ring",ring2="Adoulin Ring",
 		legs="Nyame Flanchard",feet="Nyame Sollerets"}
 	sets.PDL = {head="Malignance Chapeau"}
 	sets.empy = {head="Chasseur's Tricorne",
@@ -187,8 +187,8 @@ function init_gear_sets()
 	sets.engaged.Shield.Sword = set_combine(sets.engaged, {main="Naegling",sub="Nusku Shield"})
 	sets.engaged.DW.Club = set_combine(sets.engaged, {main="Warp Cudgel",sub="Kumbhakarna"})
 	sets.engaged.Shield.Club = set_combine(sets.engaged, {main="Warp Cudgel",sub="Nusku Shield"})
-	sets.engaged.DW.Dagger = set_combine(sets.engaged, {main="Lanun Knife",sub="Kustawi +1"})
-	sets.engaged.Shield.Dagger = set_combine(sets.engaged, {main="Lanun Knife",sub="Nusku Shield"})
+	sets.engaged.DW.Dagger = set_combine(sets.engaged, {main="Rostam",sub="Kustawi +1"})
+	sets.engaged.Shield.Dagger = set_combine(sets.engaged, {main="Rostam",sub="Nusku Shield"})
 	sets.engaged.Grip.Staff = set_combine(sets.engaged, {main="Gozuki Mezuki", sub="Bloodrain Strap"})
 	--Add in appropriate Ranged weapons
 	sets.ranged = {}
@@ -262,7 +262,7 @@ function init_gear_sets()
 	sets.WSDayBonus = {} 
 	sets.precast.WS = set_combine(sets.Mode.STR, {
 		neck="Fotia Gorget",rear="Ishvara Earring",
-		body="Laksa. Frac",hands="Meg. Gloves +2",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
+		body="Laksa. Frac +1",hands="Meg. Gloves +2",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
 		waist="Fotia Belt",feet="Lanun Bottes +2"})    
  
 	-- Light/Dark/Earth, DEX 50%
@@ -298,11 +298,11 @@ function init_gear_sets()
     sets.precast.JA['Triple Shot'] = {body="Navarch's Frac +2",back="Camulus's Mantle"}
     sets.precast.JA['Snake Eye'] = {legs="Lanun Trews"}
     sets.precast.JA['Wild Card'] = {feet="Lanun Bottes +2"}
-    sets.precast.JA['Random Deal'] = {body="Commodore Frac"}
+    sets.precast.JA['Random Deal'] = {body="Comm. Frac +2"}
 
     sets.precast.CorsairRoll = {
-		main="Lanun Knife",head="Lanun Tricorne",
-		hands="Chasseur's Gants",ring1="Barataria Ring",
+		main="Rostam",head="Lanun Tricorne +1",
+		hands="Chasseur's Gants",
 		back="Camulus's Mantle"}
     sets.precast.CorsairRoll["Caster's Roll"] = set_combine(sets.precast.CorsairRoll, {legs="Navarch's Culottes +2"})
     sets.precast.CorsairRoll["Courser's Roll"] = set_combine(sets.precast.CorsairRoll, {feet="Navarch's Bottes +2"})
@@ -331,23 +331,23 @@ function init_gear_sets()
 
     sets.precast.RA = {ammo=gear.RAbullet,
         head="Meghanada Visor +2",neck="Comm. Charm +1",
-        body="Laksa. Frac",hands="Lanun Gants",
+        body="Laksa. Frac +1",hands="Lanun Gants",
         back="Navarch's Mantle",waist="Commodore Belt",legs="Laksa. Trews",feet="Meg. Jam. +2"}
     
     sets.midcast.CorsairShot = {ammo=gear.QDbullet,
-        lear="Friomisi Earring",
-        body="Commodore Frac",
+        neck="Null Loop",lear="Friomisi Earring",
+        body="Comm. Frac +2",ring2="Adoulin Ring",
         back="Toro Cape",legs="Iuitl Tights",feet="Lanun Bottes +2"}
 
     sets.midcast.CorsairShot.Acc = {ammo=gear.QDbullet,
-        head="Laksa. Tricorne",lear="Lifestorm Earring",rear="Psystorm Earring",
-        body="Commodore Frac",
+        head="Laksa. Tricorne",neck="Null Loop",lear="Lifestorm Earring",rear="Psystorm Earring",
+        body="Comm. Frac +2",
         back="Navarch's Mantle",legs="Iuitl Tights"}
 
 	sets.midcast.QuickDraw = {ammo=gear.QDbullet,
-        head="Laksa. Tricorne",lear="Lifestorm Earring",rear="Psystorm Earring",
-        body="Commodore Frac",
-        back="Navarch's Mantle",legs="Iuitl Tights",feet="Laksa. Bottes"}
+        head="Laksa. Tricorne",neck="Null Loop",
+        body="Comm. Frac +2",
+        back="Navarch's Mantle",legs="Iuitl Tights",feet="Laksa. Bottes +1"}
 		
     sets.midcast.CorsairShot['Dark Shot'] = set_combine(sets.midcast.QuickDraw, {})
     sets.midcast.CorsairShot['Earth Shot'] = set_combine(sets.midcast.QuickDraw, {})
@@ -360,12 +360,12 @@ function init_gear_sets()
 
     -- Ranged gear
 	sets.midcast.RA = {
-		head="Meghanada Visor +2 +2",neck="Gaudryi Necklace",lear="Infused Earring",rear="Enervating Earring",
-		body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
+		head="Meghanada Visor +2",neck="Null Loop",lear="Infused Earring",rear="Enervating Earring",
+		body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Adoulin Ring",
 		waist="Eschan Stone",legs="Meg. Chausses +2",feet="Meg. Jam. +2"}
 
 	sets.midcast.RA.Acc = set_combine(sets.midcast.RA,
-		{head="Malignance Chapeau",neck="Iskur Gorget",
+		{head="Malignance Chapeau",neck="Null Loop",
 		body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
 		waist="Eschan Stone",legs="Meg. Chausses +2",feet="Meg. Jam. +2"})
     
@@ -616,7 +616,6 @@ function job_handle_equipping_gear(status, eventArgs)
 	check_tp_lock()
 	set_combat_form()
 	pick_tp_weapon()
-	handle_twilight()
 end
 
 function pick_tp_weapon()

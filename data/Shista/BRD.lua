@@ -104,7 +104,7 @@ function init_gear_sets()
 	sets.idle = {range="Terpander",
 		head="Inyanga Tiara +2",neck="Twilight Torque",lear="Musical Earring",rear="Magnetic Earring",
 		body="Bunzi's Robe",hands="Inyan. Dastanas +2",ring1="Defending Ring",ring2="Setae Ring",
-		back="Intarabus's Cape",waist="Warwolf Belt",legs="Inyanga Shalwar +2",feet="Fili Cothurnes"}
+		back="Intarabus's Cape",waist="Warwolf Belt",legs="Inyanga Shalwar +2",feet="Fili Cothurnes +1"}
     
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -121,19 +121,19 @@ function init_gear_sets()
 	-- EG: sets.engaged.Dagger.Accuracy.Evasion
 	-- Basic set for if no TP weapon is defined.
 	sets.engaged = {
-		head="Brioso Roundlet",neck="Combatant's Torque",lear="Digni. Earring",rear="Fili Earring +2",
-		body="Brioso Just.",hands="Aya. Manopolas +2",ring1="Patricius Ring",ring2="Hetairoi Ring",
+		head="Brioso Roundlet",neck="Null Loop",lear="Digni. Earring",rear="Fili Earring +2",
+		body="Brioso Just.",hands="Aya. Manopolas +2",ring1="Adoulin Ring",ring2="Hetairoi Ring",
 		back="Atheling Mantle",waist="Olseni Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"}
 
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
-		head="Aya. Zucchetto +2",neck="Combatant's Torque",lear="Zennaroi Earring",rear="Fili Earring +2",
+		head="Aya. Zucchetto +2",neck="Null Loop",lear="Zennaroi Earring",rear="Fili Earring +2",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Mars's Ring",ring2="Cacoethic Ring +1",
 		back="Ground. Mantle +1",waist="Olseni Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"})
 	sets.Mode.Att= set_combine(sets.engaged, {
 		neck="Rep. Plat. Medal",lear="Bladeborn Earring",rear="Dudgeon Earring",
-		body="Bihu Jstcorps +1",hands="Chironic Gloves",ring1="Ilabrat Ring",ring2="Cho'j Band",
+		body="Bihu Jstcorps +1",hands="Chironic Gloves",ring1="Adoulin Ring",ring2="Cho'j Band",
 		back="Phalangite Mantle",waist="Sulla Belt",legs="Querkening Brais",feet="Chironic Slippers"})
 	sets.Mode.Crit = set_combine(sets.engaged, {ring2="Hetairoi Ring",
         legs="Jokushu Haidate",feet="Aya. Gambieras +2"})
@@ -149,7 +149,7 @@ function init_gear_sets()
 		body="Brioso Just.",hands="Aya. Manopolas +2",ring1="Rajas Ring",ring2="Apate Ring",
 		back="Buquwik Cape",waist="Sailfi Belt +1",legs="Brioso Cannions",feet="Brioso Slippers +1"})
 	sets.Mode.DT = set_combine(sets.engaged, {
-		head="Nyame Helm",neck="Twilight Torque",ring1="Defending Ring",ring2="Patricius Ring",
+		head="Nyame Helm",neck="Null Loop",ring1="Defending Ring",ring2="Patricius Ring",
 		body="Bunzi's Robe",hands="Nyame Gauntlets",
 		back="Intarabus's Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	sets.Mode.Meva = set_combine(sets.engaged, {
@@ -157,20 +157,20 @@ function init_gear_sets()
 		body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Moonbeam Ring",
 		back="Reiki Cloak",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	-- other Sets    
-	sets.macc = {main="Marin Staff +1",sub="Benthos Grip",
-		head="Brioso Roundlet",neck="Moonbow Whistle",lear="Gwati Earring",rear="Fili Earring +2",
+	sets.macc = {main="Marin Staff +1",sub="Enki Strap",
+		head="Brioso Roundlet",neck="Null Loop",lear="Gwati Earring",rear="Fili Earring +2",
 		body="Bunzi's Robe",hands="Inyan. Dastanas +2",ring1="Sangoma Ring",ring2="Balrahn's Ring",
 		back="Intarabus's Cape",waist="Famine Sash",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
 	sets.PDL = {}
 	sets.empy = {head="Fili Calot +1",
 		body="Fili Hongreline +1",hands="Fili Manchettes +1",
-		legs="Fili Rhingrave",feet="Fili Cothurnes"}
+		legs="Fili Rhingrave",feet="Fili Cothurnes +1"}
 
 	-- Sets with weapons defined.
 	sets.engaged.Dagger = {}
 	sets.engaged.Staff = {}
 	sets.engaged.Sword = {}
-	sets.engaged.Dagger = set_combine(sets.engaged, {main="Legato Dagger", sub="Genmei Shield"})
+	sets.engaged.Dagger = set_combine(sets.engaged, {main="Kali", sub="Genmei Shield"})
 	sets.engaged.Dagger.Acc = set_combine(sets.engaged.Dagger, sets.Mode.Acc)
 	sets.engaged.Dagger.Att = set_combine(sets.engaged.Dagger, sets.Mode.Att)
 	sets.engaged.Dagger.Crit = set_combine(sets.engaged.Dagger, sets.Mode.Crit)
@@ -261,7 +261,7 @@ function init_gear_sets()
 	sets.precast.Waltz = set_combine(sets.CHR, {})
 		
 	-- For song buffs (duration and AF3 set bonus)
-	sets.midcast.SongEffect = {main="Legato Dagger",sub="Genmei Shield",range="Gjallarhorn",
+	sets.midcast.SongEffect = {main="Kali",sub="Genmei Shield",range="Gjallarhorn",
 		head="Fili Calot +1",neck="Moonbow Whistle",
 		body="Fili Hongreline +1",hands="Fili Manchettes +1",
 		legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
@@ -270,7 +270,7 @@ function init_gear_sets()
 	sets.midcast.Ballad = {range="Gjallarhorn",legs="Fili Rhingrave"}
 	sets.midcast.Carol = {range="Gjallarhorn",head="Fili Calot +1",
 		body="Fili Hongreline +1",hands="Fili Manchettes +1",
-		legs="Fili Rhingrave",feet="Fili Cothurnes"}
+		legs="Fili Rhingrave",feet="Fili Cothurnes +1"}
 	sets.midcast.Elegy = set_combine(sets.Wind, {range="Gjallarhorn"})
 	sets.midcast.Etude = {range="Gjallarhorn"}
 	sets.midcast.Lullaby = set_combine(sets.Wind, {range="Gjallarhorn",hands="Brioso Cuffs +1"})
@@ -285,7 +285,7 @@ function init_gear_sets()
 	sets.midcast.Prelude = {range="Gjallarhorn",head="Fili Calot +1",back="Intarabus's Cape"}
 	sets.midcast.Requiem = set_combine(sets.Wind,{range="Gjallarhorn"})
 	sets.midcast.Threnody = set_combine(sets.Wind,{range="Gjallarhorn"}) 
-	sets.midcast["Sentinel's Scherzo"] = {range="Gjallarhorn",feet="Fili Cothurnes"}
+	sets.midcast["Sentinel's Scherzo"] = {range="Gjallarhorn",feet="Fili Cothurnes +1"}
 	sets.midcast['Magic Finale'] = set_combine(sets.Wind,{range="Gjallarhorn",legs="Fili Rhingrave"})
 
 	-- Song-specific recast reduction
@@ -331,7 +331,7 @@ function init_gear_sets()
 	sets.defense.MDT = set_combine(sets.Mode.Meva, {})
 	sets.debuffed = set_combine(sets.Mode.DT,sets.Mode.Meva)
 	sets.doom = set_combine(sets.debuffed,{waist="Gishdubar Sash"})
-	sets.Kiting = {feet="Fili Cothurnes"}
+	sets.Kiting = {feet="Fili Cothurnes +1"}
 	sets.latent_refresh = {sub="Oneiros Grip",waist="Fucho-no-obi",legs="Assid. Pants +1"}
 	sets.buff.FullSublimation = {waist="Embla Sash"}
     sets.buff.PDTSublimation = set_combine(sets.buff.FullSublimation,{})
@@ -576,7 +576,7 @@ function calculate_duration(spellName, spellMap)
 	if spellMap == 'Minuet' and player.equipment.body == "Fili Hongreline +1" then mult = mult + 0.1 end
 	if spellMap == 'March' and player.equipment.hands == 'Fili Manchettes +1' then mult = mult + 0.1 end
 	if spellMap == 'Ballad' and player.equipment.legs == "Fili Rhingrave" then mult = mult + 0.1 end
-	if spellName == "Sentinel's Scherzo" and player.equipment.feet == "Fili Cothurnes" then mult = mult + 0.1 end
+	if spellName == "Sentinel's Scherzo" and player.equipment.feet == "Fili Cothurnes +1" then mult = mult + 0.1 end
 	if buffactive.Troubadour then
 		mult = mult*2
 	end

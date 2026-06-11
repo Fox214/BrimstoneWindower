@@ -65,28 +65,28 @@ function init_gear_sets()
 	}
     -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
     sets.idle = { sub="Archduke's Shield",ammo="Homiliary",
-        head="Aya. Zucchetto +2",neck="Twilight Torque",lear="Moonshade Earring",rear="Ethereal Earring",
+        head="Aya. Zucchetto +2",neck="Null Loop",lear="Moonshade Earring",rear="Ethereal Earring",
         body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
-        back="Mecisto. Mantle",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="Herald's Gaiters"}
+        back="Alaunus's Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="Herald's Gaiters"}
 
     -- Resting sets
     sets.resting = set_combine(sets.idle, {})
 
     -- Normal melee group
     sets.engaged = {
-        head="Aya. Zucchetto +2",neck="Combatant's Torque",lear="Bladeborn Earring",rear="Ebers Earring +1",
-        body="Ayanmo Corazza +2",hands="Bunzi's Gloves",ring1="Patricius Ring",ring2="Hetairoi Ring",
-        back="Mecisto. Mantle",waist="Olseni Belt",legs="Bunzi's Pants",feet="Aya. Gambieras +2"}
+        head="Aya. Zucchetto +2",neck="Null Loop",lear="Bladeborn Earring",rear="Ebers Earring +1",
+        body="Ayanmo Corazza +2",hands="Bunzi's Gloves",ring1="Adoulin Ring",ring2="Hetairoi Ring",
+        back="Alaunus's Cape",waist="Olseni Belt",legs="Bunzi's Pants",feet="Aya. Gambieras +2"}
 
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
-        head="Alhazen Hat +1",neck="Combatant's Torque",lear="Zennaroi Earring",rear="Ebers Earring +1",
+        head="Alhazen Hat +1",neck="Null Loop",lear="Zennaroi Earring",rear="Ebers Earring +1",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Mars's Ring",ring2="Cacoethic Ring +1",
 		waist="Olseni Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"})
 	sets.Mode.Att = set_combine(sets.engaged, {
         head="Nyame Helm",neck="Rep. Plat. Medal",lear="Bladeborn Earring",rear="Dudgeon Earring",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Overbearing Ring",ring2="Ilabrat Ring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Adoulin Ring",ring2="Ilabrat Ring",
 		waist="Eschan Stone",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	sets.Mode.Crit = set_combine(sets.engaged, {ring1="Hetairoi Ring",feet="Aya. Gambieras +2"})
 	sets.Mode.DA = set_combine(sets.engaged, {
@@ -103,7 +103,7 @@ function init_gear_sets()
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Rajas Ring",ring2="Apate Ring",
 		back="Buquwik Cape",waist="Cornelia's Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"})
 	sets.Mode.DT = {
-        head="Nyame Helm",neck="Twilight Torque",rear="Ebers Earring +1",
+        head="Nyame Helm",neck="Null Loop",rear="Ebers Earring +1",
 		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Patricius Ring",
 		back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="Nyame Sollerets"}
     sets.Mode.Meva = {
@@ -112,8 +112,8 @@ function init_gear_sets()
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="Nyame Sollerets"}			
 		
 	-- other Sets    
-	sets.macc = { main="Marin Staff +1",sub="Benthos Grip",
-		head="Nahtirah Hat",lear="Malignance Earring",rear="Gwati Earring",
+	sets.macc = { main="Marin Staff +1",sub="Enki Strap",
+		head="Nahtirah Hat",neck="Null Loop",lear="Malignance Earring",rear="Gwati Earring",
 		body="Nyame Mail",hands="Aya. Manopolas +2",ring1="Sangoma Ring",ring2="Balrahn's Ring",
 		back="Alaunus's Cape",waist="Famine Sash",legs="Inyanga Shalwar +2",feet="Nyame Sollerets"}
 	sets.PDL = {}
@@ -166,7 +166,7 @@ function init_gear_sets()
     sets.precast.FC = {main=gear.FastcastStaff,ammo="Incantor Stone",
         head="Marduk's Tiara",neck="Orunmila's Torque",lear="Malignance Earring",rear="Etiolation Earring",
         body="Inyanga Jubbah +2",hands="Marduk's Dastanas",ring1="Kishar Ring",ring2="Prolix Ring",
-        back="Alaunus's Cape",waist="Embla Sash",legs="Maruk's Shalwar",feet="Marduk's Crackows"}
+        back="Alaunus's Cape",waist="Embla Sash",legs="Marduk's Shalwar",feet="Marduk's Crackows"}
        
     sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
 
@@ -252,11 +252,11 @@ function init_gear_sets()
 
     sets.midcast['Divine Magic'] = set_combine(sets.macc, {ammo="Pemphredo Tathlum",
         head="Marduk's Tiara",neck="Incanter's Torque",lear="Malignance Earring",
-        body="Nyame Mail",hands="Bunzi's Gloves",ring1="Globidonta Ring",
+        body="Nyame Mail",hands="Bunzi's Gloves",ring1="Adoulin Ring",
         waist="Eschan Stone",legs="Theo. Pant. +1",feet="Chironic Slippers"})
 
     sets.midcast['Dark Magic'] = set_combine(sets.macc, {ammo="Pemphredo Tathlum",
-        head="Inyanga Tiara +2",neck="Erra Pendant",lear="Digni. Earring",rear="Gwati Earring",
+        head="Inyanga Tiara +2",neck="Erra Pendant",lear="Digni. Earring",rear="Abyssal Earring",
         body="Shango Robe",hands="Inyan. Dastanas +2",ring1="Evanescence Ring",ring2="Kishar Ring",
         back="Perimede Cape",waist="Luminary Sash",legs="Inyanga Shalwar +2",feet="Inyan. Crackows +2"})
 	

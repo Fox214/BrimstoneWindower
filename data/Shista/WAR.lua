@@ -102,7 +102,7 @@ function init_gear_sets()
 	sets.vars = { main=gear.WSAmmo, sub=gear.XBowAmmo, ranged=gear.XBowRanged, ammo=gear.StatsAmmo,
 		body=gear.Boomerrang, ring1=gear.useWSAmmo}
 	-- Idle sets
-	sets.idle = {head="Valorous Mask",neck="Twilight Torque",lear="Infused Earring",rear="Etiolation Earring",
+	sets.idle = {head="Valorous Mask",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
 		body="Sakpata's Plate",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Patricius Ring",
 		back=gear.tpCape,waist="Plat. Mog. Belt",legs="Sakpata's Cuisses",feet="Nyame Sollerets"}
 
@@ -123,18 +123,18 @@ function init_gear_sets()
 	-- Normal melee group
 	sets.engaged = {
 		head="Flam. Zucchetto +2",neck="Asperity Necklace",lear="Mache Earring",rear="Brutal Earring",
-		body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Flamma Ring",ring2="Cacoethic Ring +1",
+		body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Adoulin Ring",ring2="Cacoethic Ring +1",
 		back=gear.tpCape,waist="Sailfi Belt +1",legs="Sakpata's Cuisses",feet="Flamma Gambieras +2"}
 			
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
-		head="Alhazen Hat +1",neck="Combatant's Torque",lear="Zennaroi Earring",rear="Digni. Earring",
+		head="Alhazen Hat +1",neck="Null Loop",lear="Zennaroi Earring",rear="Digni. Earring",
 		body="Flamma Korazin +2",hands="Tatena. Gote +1",ring1="Flamma Ring",ring2="Woodsman Ring",
 		back="Ground. Mantle +1",waist="Olseni Belt",legs="Sulev. Cuisses +2",feet="Arke Gambieras"})
 	sets.Mode.Att= set_combine(sets.engaged, {
 		head="Sulevia's Mask +2",neck="Rep. Plat. Medal",lear="Bladeborn Earring",rear="Dudgeon Earring",
-		body="Sacro Breastplate",hands="Sulev. Gauntlets +2",ring1="Overbearing Ring",ring2="Regal Ring",
+		body="Sacro Breastplate",hands="Sulev. Gauntlets +2",ring1="Adoulin Ring",ring2="Regal Ring",
 		back="Phalangite Mantle",waist="Sulla Belt",legs="Emicho Hose",feet="Sulev. Leggings +2"})
 	sets.Mode.Crit = set_combine(sets.engaged, {
 		head="Valorous Mask",
@@ -157,7 +157,7 @@ function init_gear_sets()
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Vengeful Ring",ring2="Beeline Ring",
 		back="Lupine Cape",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	sets.Mode.DT = set_combine(sets.engaged, {
-		head="Nyame Helm",neck="Twilight Torque",
+		head="Nyame Helm",neck="Null Loop",
 		body="Arke Corazza",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Patricius Ring",
 		back=gear.tpCape,waist="Plat. Mog. Belt",legs="Arke Cosciales",feet="Sakpata's Leggings"})
 	sets.Mode.Meva = set_combine(sets.engaged, {
@@ -167,8 +167,8 @@ function init_gear_sets()
 	
 	-- other Sets 
 	sets.macc = {
-		head="Flam. Zucchetto +2",lear="Gwati Earring",
-		body="Sakpata's Plate",hands="Nyame Gauntlets",ring1="Sangoma Ring",
+		head="Flam. Zucchetto +2",neck="Null Loop",lear="Gwati Earring",
+		body="Sakpata's Plate",hands="Nyame Gauntlets",ring1="Flamma Ring",ring2="Sangoma Ring",
 		legs="Sakpata's Cuisses",feet="Flam. Gambieras +1"}
 	sets.PDL = {body="Sakpata's Plate",legs="Sakpata's Cuisses",feet="Sakpata's Leggings"}
 	sets.empy = {head="Boii Mask",
@@ -192,22 +192,22 @@ function init_gear_sets()
 	sets.engaged.Shield = set_combine(sets.engaged, {})
 	sets.engaged.Grip = set_combine(sets.engaged, {})
 	sets.engaged.DW.Axe = set_combine(sets.engaged, {main="Beryllium Pick",sub="Kustawi +1"})
-	sets.engaged.Shield.Axe = set_combine(sets.engaged, {main="Beryllium Pick",sub="Deliverance"})
+	sets.engaged.Shield.Axe = set_combine(sets.engaged, {main="Beryllium Pick",sub="Adapa Shield"})
 	sets.engaged.DW.Club = set_combine(sets.engaged, {main="Loxotic Mace",sub="Beryllium Pick"})
-	sets.engaged.Shield.Club = set_combine(sets.engaged, {main="Loxotic Mace",sub="Deliverance"})
+	sets.engaged.Shield.Club = set_combine(sets.engaged, {main="Loxotic Mace",sub="Adapa Shield"})
 	sets.engaged.DW.Dagger = set_combine(sets.engaged, {main="Kustawi +1",sub="Kumbhakarna"})
-	sets.engaged.Shield.Dagger = set_combine(sets.engaged, {main="Kustawi +1",sub="Deliverance"})
-	sets.engaged.Grip.GreatAxe = set_combine(sets.engaged, {main="Bunzi's Chopper",sub="Kaja Grip"})
-	sets.engaged.Grip.GreatKatana = set_combine(sets.engaged, {main="Ark Tachi",sub="Kaja Grip"})
-	sets.engaged.Grip.GreatSword = set_combine(sets.engaged, {main="Kaja Claymore",sub="Kaja Grip"})
+	sets.engaged.Shield.Dagger = set_combine(sets.engaged, {main="Kustawi +1",sub="Adapa Shield"})
+	sets.engaged.Grip.GreatAxe = set_combine(sets.engaged, {main="Bunzi's Chopper",sub="Khonsu"})
+	sets.engaged.Grip.GreatKatana = set_combine(sets.engaged, {main="Ark Tachi",sub="Khonsu"})
+	sets.engaged.Grip.GreatSword = set_combine(sets.engaged, {main="Kaja Claymore",sub="Khonsu"})
 	sets.engaged.Grip.H2H = set_combine(sets.engaged, {main=empty,sub=empty})
 	sets.engaged.DW.Katana = set_combine(sets.engaged, {main="Trainee Burin",sub="Kumbhakarna"})
-	sets.engaged.Shield.Katana = set_combine(sets.engaged, {main="Trainee Burin",sub="Deliverance"})
-	sets.engaged.Grip.Polearm = set_combine(sets.engaged, {main="Kaja Lance", sub="Kaja Grip"})
-	sets.engaged.Grip.Scythe = set_combine(sets.engaged, {main="Maliya Sickle", sub="Kaja Grip"})
-	sets.engaged.Grip.Staff = set_combine(sets.engaged, {main="Ungeri Staff", sub="Kaja Grip"})
+	sets.engaged.Shield.Katana = set_combine(sets.engaged, {main="Trainee Burin",sub="Adapa Shield"})
+	sets.engaged.Grip.Polearm = set_combine(sets.engaged, {main="Shining One", sub="Khonsu"})
+	sets.engaged.Grip.Scythe = set_combine(sets.engaged, {main="Maliya Sickle", sub="Khonsu"})
+	sets.engaged.Grip.Staff = set_combine(sets.engaged, {main="Ungeri Staff", sub="Khonsu"})
 	sets.engaged.DW.Sword = set_combine(sets.engaged, {main="Naegling",sub="Kumbhakarna"})
-	sets.engaged.Shield.Sword = set_combine(sets.engaged, {main="Naegling",sub="Deliverance"})
+	sets.engaged.Shield.Sword = set_combine(sets.engaged, {main="Naegling",sub="Adapa Shield"})
 	--Add in appropriate Ranged weapons
 	sets.ranged = {}
 	sets.ranged.Stats = {range=gear.JobRanged,ammo=gear.JobAmmo}
@@ -412,7 +412,7 @@ function init_gear_sets()
     sets.precast.JA['Aggressor'] = {head="Fighter's Mask",body="Warrior's Lorica"}
     sets.precast.JA['Mighty Strikes'] = {hands="Agoge Mufflers +1"}
     sets.precast.JA['Blood Rage'] = {body="Boii Lorica"}
-    sets.precast.JA['Warcry'] = {head="Agoge Mask +1"}
+    sets.precast.JA['Warcry'] = {head="Agoge Mask +2"}
     sets.precast.JA['Restraint'] = {head="Boii Mufflers"}
     sets.precast.JA['Retaliation'] = {head="Boii Calligae",hands="Pumm. Mufflers"}
     sets.precast.JA['Tomahawk'] = {ammo="Thr. Tomahawk",feet="Agoge Calligae"}
@@ -443,7 +443,7 @@ function init_gear_sets()
 
 	-- Ranged gear
     sets.midcast.RA = {
-        head="Nyame Helm",neck="Gaudryi Necklace",lear="Enervating Earring",
+        head="Nyame Helm",neck="Null Loop",lear="Enervating Earring",
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
         waist="Eschan Stone",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 		   
@@ -451,7 +451,7 @@ function init_gear_sets()
 	-- Default set for any weaponskill that isn't any more specifically defined
 	sets.WSDayBonus = {head="Gavialis Helm"} 
 	sets.precast.WS = set_combine(sets.Mode.STR, {
-		head="Agoge Mask +1",neck="Fotia Gorget",lear="Thrud Earring",rear="Ishvara Earring",
+		head="Agoge Mask +2",neck="Fotia Gorget",lear="Thrud Earring",rear="Ishvara Earring",
 		body="Pumm. Lorica +1",hands="Sakpata's Gauntlets",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
 		back=gear.wsdCape,waist="Fotia Belt",feet="Sulev. Leggings +2"})
    

@@ -34,9 +34,10 @@ function job_setup()
     
     -- Var to track the current pet mode.
     state.PetMode = M{['description']='Pet Mode', 'None', 'Melee', 'Ranged', 'Tank', 'Magic', 'Heal', 'Nuke'}
-	state.WeaponMode = M{['description']='Weapon Mode', 'H2H'}
+	state.WeaponMode = M{['description']='Weapon Mode', 'H2H', 'H2HM', 'Staff', 'Club'}
 	state.Stance = M{['description']='Stance', 'Off', 'None', 'Offensive', 'Defensive'}
- 
+	state.holdtp = M{['description']='holdtp', 'false', 'true'}
+	state.immuno = M{['description']='immuno', 'false', 'true'}
 	get_combat_form()
 	pick_tp_weapon()
 end
@@ -47,14 +48,15 @@ end
 
 -- Setup vars that are user-dependent.  Can override this function in a sidecar file.
 function user_setup()
-	state.OffenseMode:options('Normal', 'Acc', 'Att', 'Crit', 'DA', 'SB', 'sTP', 'STR')
+	state.OffenseMode:options('Normal', 'Acc', 'Att', 'Crit', 'DA', 'SB', 'sTP', 'STR', 'Eva', 'DT', 'Meva')
 	state.WeaponskillMode:options('Normal')
 	state.DefenseMode:options('None', 'Physical', 'Magical')
 	state.PhysicalDefenseMode:options('PDT', 'Evasion')
 	state.MagicalDefenseMode:options('MDT')
 	state.WeaponMode:set('H2H')
 	state.Stance:set('Offensive')
-
+	state.holdtp:set('false')
+	state.immuno:set('false')
 	pick_tp_weapon()
 
     -- Default maneuvers 1, 2, 3 and 4 for each pet mode.
@@ -92,72 +94,101 @@ function init_gear_sets()
 	-- Idle sets
 
     sets.idle = {
-        head="Pantin Taj +1",neck="Elite Royal Collar",lear="Infused Earring",rear="Etiolation Earring",
-        body="Hiza. Haramaki +2",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Vengeful Ring",
-        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Hippomenes Socks"}
+        head="Null Masque",neck="Elite Royal Collar",lear="Alabaster Earring",rear="Infused Earring",
+        body="Hiza. Haramaki +2",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Vengeful Ring",
+        back="Contriver's Cape",waist="Null Belt",legs="Nyame Flanchard",feet="Hippomenes Socks"}
 
     sets.idle.Town = set_combine(sets.idle, {rear="Kara. Earring +1"})
      
 	-- Set for idle while pet is out (eg: pet regen gear)
-    sets.idle.Pet = set_combine(sets.idle, {back="Contriver's Cape"})
+    sets.idle.Pet = set_combine(sets.idle, {head="Pantin Taj +2",back="Contriver's Cape"})
 
     -- Idle sets to wear while pet is engaged
-    sets.idle.Pet.Engaged = { range="Animator P",ammo="Automat. Oil +2",
-        head="Nyame Helm",neck="Adad Amulet",lear="Enmerkar Earring",rear="Kara. Earring +1",
-        body="Nyame Mail",hands="Mpaca's Gloves",ring1="Defending Ring",ring2="Tali'ah Ring",
-        back="Contriver's Cape",waist="Incarnation Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
+    sets.idle.Pet.Engaged = { main="Pitre Fists",range="Animator P",ammo="Automat. Oil +3",
+        head="Foire Taj +3",neck="Adad Amulet",lear="Enmerkar Earring",rear="Kara. Earring +1",
+        body="Nyame Mail",hands="Mpaca's Gloves",ring1="Murky Ring",ring2="Tali'ah Ring",
+        back="Visucius's Mantle",waist="Incarnation Sash",legs="Nyame Flanchard",feet="Mpaca's Boots"}
 
-    sets.idle.Pet.Engaged.Ranged = set_combine(sets.idle.Pet.Engaged, {range="Animator P",ammo="Automat. Oil +2",hands="Cirque Guanti +2",legs="Cirque Pantaloni +2"})
+    sets.idle.Pet.Engaged.Ranged = set_combine(sets.idle.Pet.Engaged, {
+		range="Animator P",ammo="Automat. Oil +3",
+		hands="Cirque Guanti",
+		back="Visucius's Mantle",legs="Cirq. Pantaloni +1"})
 
-    sets.idle.Pet.Engaged.Nuke = set_combine(sets.idle.Pet.Engaged, {main="Ohtas",range="Animator P",ammo="Automat. Oil +2",neck="Adad Amulet",legs="Cirque Pantaloni +2",feet="Cirque Scarpe +2"})
+    sets.idle.Pet.Engaged.Nuke = set_combine(sets.idle.Pet.Engaged, {
+		main="Ohtas",range="Animator P",ammo="Automat. Oil +3",
+		neck="Adad Amulet",legs="Cirq. Pantaloni +1",feet="Foire Babouches +3"})
 
-    sets.idle.Pet.Engaged.Magic = set_combine(sets.idle.Pet.Engaged, {main="Ohtas",range="Animator P",ammo="Automat. Oil +2",neck="Adad Amulet",legs="Cirque Pantaloni +2",feet="Cirque Scarpe +2"})
+    sets.idle.Pet.Engaged.Magic = set_combine(sets.idle.Pet.Engaged, {
+		main="Ohtas",range="Animator P",ammo="Automat. Oil +3",
+		head="Pantin Taj +2",neck="Adad Amulet",
+		legs="Cirq. Pantaloni +1",feet="Cirque Scarpe +2"})
+		
+   sets.idle.Pet.Engaged.Heal = set_combine(sets.idle.Pet.Magic, {
+		legs="Foire Churidars +3"})
 
+	sets.idle.Pet.Offensive = set_combine(sets.idle.Pet.Engaged, {})
+    
+	sets.idle.Pet.Defensive = set_combine(sets.idle.Pet.Engaged, {
+		head="Anwig Salade",lear="Enmerkar Earring",rear="Hypaspist Earring",
+		back="Visucius's Mantle",legs="Foire Churidars +3"})
+		
 	-- Resting sets
     sets.resting = {}
 
 	-- Normal melee group
     sets.engaged = {
-        head="Nyame Helm",neck="Shulmanu Collar",lear="Schere Earring",rear="Kara. Earring +1",
+        head="Foire Taj +3",neck="Shulmanu Collar",lear="Schere Earring",rear="Kara. Earring +1",
         body="Nyame Mail",hands="Mpaca's Gloves",ring1="Niqmaddu Ring",ring2="Epona's Ring",
-        back="Buquwik Cape",waist="Hurch'lan Sash",legs="Mpaca's Hose",feet="Tali'ah Crackows +2"}
+        back="Visucius's Mantle",waist="Hurch'lan Sash",legs="Mpaca's Hose",feet="Mpaca's Boots"}
 
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
-		head="Tali'ah Turban +2",neck="Shulmanu Collar",rear="Kara. Earring +1",
-        body="Tali'ah Manteel +2",hands="Regal Cpt. Gloves",ring1="Cacoethic Ring +1",ring2="Regal Ring",
-        back="Lupine Cape",legs="Tali'ah Sera. +2",feet="Tali'ah Crackows +2"})
+		head="Foire Taj +3",neck="Shulmanu Collar",rear="Kara. Earring +1",
+        body="Foire Tobe +3",hands="Foire Dastanas +3",ring1="Cacoethic Ring +1",ring2="Regal Ring",
+        back="Visucius's Mantle",waist="Null Belt",legs="Foire Churidars +3",feet="Foire Dastanas +3"})
 	sets.Mode.Att= set_combine(sets.engaged, {
         head="Nyame Helm",neck="Rep. Plat. Medal",
         body="Nyame Mail",hands="Mpaca's Gloves",ring1="Overbearing Ring",ring2="Regal Ring",
-        waist="Eschan Stone",legs="Nyame Flanchard",feet="Nyame Sollerets"})
+        back="Visucius's Mantle",waist="Eschan Stone",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	sets.Mode.Crit = set_combine(sets.engaged, {hands="Tali'ah Gages +2",legs="Mpaca's Hose"})
 	sets.Mode.DA = set_combine(sets.engaged, {lear="Schere Earring",rear="Brutal Earring",
         body="Tali'ah Manteel +2",hands="Mpaca's Gloves",ring1="Niqmaddu Ring",ring2="Epona's Ring",
-		legs="Mpaca's Hose"})
+		back="Null Shawl",legs="Mpaca's Hose"})
 	sets.Mode.SB = set_combine(sets.engaged, {lear="Schere Earring"})
-	sets.Mode.sTP = set_combine(sets.engaged, {neck="Combatant's Torque",lear="Enervating Earring",rear="Tripudio Earring",
-		back="Lupine Cape"})
+	sets.Mode.sTP = set_combine(sets.engaged, {neck="Combatant's Torque",lear="Crep. Earring",rear="Tripudio Earring",
+		back="Null Shawl"})
 	sets.Mode.STR = set_combine(sets.engaged, {
-		head="Mpaca's Cap",neck="Rep. Plat. Medal",lear="Schere Earring"
+		head="Mpaca's Cap",neck="Rep. Plat. Medal",lear="Schere Earring",
         body="Hiza. Haramaki +2",hands="Regal Cpt. Gloves",ring1="Niqmaddu Ring",ring2="Regal Ring",
         back="Lupine Cape",waist="Cornelia's Belt",legs="Hiza. Hizayoroi +2",feet="Hiza. Sune-Ate +2"})
-
+	sets.Mode.Eva = set_combine(sets.engaged, {
+        head="Null Masque",neck="Elite Royal Collar",lear="Infused Earring",rear="Eabani Earring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Vengeful Ring",ring2="Beeline Ring",
+        back="Lupine Cape",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
+    sets.Mode.DT = set_combine(sets.engaged, {
+        head="Null Masque",neck="Elite Royal Collar",lear="Alabaster Earring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",
+        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
+    sets.Mode.Meva = set_combine(sets.engaged, {
+        head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",
+        back="Null Shawl",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
+		
 	-- other Sets 
-	sets.macc = {head="Malignance Chapeau",lear="Gwati Earring",
+	sets.macc = {head="Malignance Chapeau",neck="Null Loop",lear="Crep. Earring",rear="Digni. Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Sangoma Ring",
-		legs="Nyame Flanchard",feet="Nyame Sollerets"}
+		back="Null Shawl",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 	sets.PDL = {head="Malignance Chapeau"}
 	sets.empy = {head="Karagoz Cappello",
-		body="Karagoz Farsetto",hands="Karagoz Guanti",
-		legs="Karagoz Pantaloni",feet="Karagoz Scarpe"}		
+		body="Karagoz Farsetto",hands="Cirque Guanti",
+		legs="Cirq. Pantaloni +1",feet="Karagoz Scarpe"}		
 	
 	--Initialize Main Weapons
 	sets.engaged.H2H = {}
 	sets.engaged.Staff = {}
 	sets.engaged.Club = {}
-	sets.engaged.H2H = set_combine(sets.engaged, {main="Ohtas"})
+	sets.engaged.H2H = set_combine(sets.engaged, {main="Pitre Fists"})
 	sets.engaged.H2H.Acc = set_combine(sets.engaged.H2H, sets.Mode.Acc)
 	sets.engaged.H2H.Att = set_combine(sets.engaged.H2H, sets.Mode.Att)
 	sets.engaged.H2H.Crit = set_combine(sets.engaged.H2H, sets.Mode.Crit)
@@ -165,9 +196,26 @@ function init_gear_sets()
 	sets.engaged.H2H.SB = set_combine(sets.engaged.H2H, sets.Mode.SB)
 	sets.engaged.H2H.sTP = set_combine(sets.engaged.H2H, sets.Mode.sTP)
 	sets.engaged.H2H.STR = set_combine(sets.engaged.H2H, sets.Mode.STR)
-	sets.engaged.Staff = set_combine(sets.engaged, {main="Gozuki Mezuki",sub="Pole Grip"})
+	sets.engaged.H2H.Eva = set_combine(sets.engaged.H2H, sets.Mode.Eva)
+	sets.engaged.H2H.DT = set_combine(sets.engaged.H2H, sets.Mode.DT)
+	sets.engaged.H2H.Meva = set_combine(sets.engaged.H2H, sets.Mode.Meva)
+	
+	sets.engaged.H2HM = set_combine(sets.engaged, {main="Godhands"})
+	sets.engaged.H2HM.Acc = set_combine(sets.engaged.H2HM, sets.Mode.Acc)
+	sets.engaged.H2HM.Att = set_combine(sets.engaged.H2HM, sets.Mode.Att)
+	sets.engaged.H2HM.Crit = set_combine(sets.engaged.H2HM, sets.Mode.Crit)
+	sets.engaged.H2HM.DA = set_combine(sets.engaged.H2HM, sets.Mode.DA)
+	sets.engaged.H2HM.SB = set_combine(sets.engaged.H2HM, sets.Mode.SB)
+	sets.engaged.H2HM.sTP = set_combine(sets.engaged.H2HM, sets.Mode.sTP)
+	sets.engaged.H2HM.STR = set_combine(sets.engaged.H2HM, sets.Mode.STR)
+	sets.engaged.H2HM.Eva = set_combine(sets.engaged.H2HM, sets.Mode.Eva)
+	sets.engaged.H2HM.DT = set_combine(sets.engaged.H2HM, sets.Mode.DT)
+	sets.engaged.H2HM.Meva = set_combine(sets.engaged.H2HM, sets.Mode.Meva)
+
+	sets.engaged.Staff = set_combine(sets.engaged, {main="Gozuki Mezuki",sub="Bloodrain Strap"})
 	sets.engaged.Staff.Acc = set_combine(sets.engaged.H2H, sets.Mode.Acc)
 	sets.engaged.Staff.SB = set_combine(sets.engaged.H2H, sets.Mode.SB)
+	
 	sets.engaged.Club = set_combine(sets.engaged, {main="Warp Cudgel"})
 	sets.engaged.Club.Acc = set_combine(sets.engaged.H2H, sets.Mode.Acc)
 	sets.engaged.Club.SB = set_combine(sets.engaged.H2H, sets.Mode.SB)
@@ -178,9 +226,12 @@ function init_gear_sets()
     sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck="Magoraga Beads"})
     
     -- Precast sets to enhance JAs
+    sets.precast.JA['Activate'] = {back="Visucius's Mantle",feet="Mpaca's Boots"}
+    sets.precast.JA['Deus Ex Automata'] = set_combine(sets.precast.JA['Activate'], {})
+    sets.precast.JA['Overdrive'] = {body="Pitre Tobe"}
     sets.precast.JA['Tactical Switch'] = {feet="Cirque Scarpe +2"}
-    sets.precast.JA['Repair'] = {lear="Pratik Earring",feet="Foire Babouches"}
-    sets.precast.JA.Maneuver = {neck="Buffoon's Collar",body="Cirque Farsetto +2",hands="Foire Dastanas"}
+    sets.precast.JA['Repair'] = {ammo="Automat. Oil +3",lear="Pratik Earring",feet="Foire Babouches +3"}
+    sets.precast.JA.Maneuver = {neck="Buffoon's Collar",body="Cirque Farsetto +2",hands="Foire Dastanas +3"}
 
     -- Waltz set (chr and vit)
     sets.precast.Waltz = {
@@ -195,7 +246,7 @@ function init_gear_sets()
     -- Default set for any weaponskill that isn't any more specifically defined
     sets.precast.WS = set_combine(sets.Mode.STR, {
         head="Mpaca's Cap",neck="Fotia Gorget",rear="Ishvara Earring",
-        body="Herculean Vest",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
+        body="Foire Tobe +3",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
         waist="Fotia Belt",legs="Hiza. Hizayoroi +2"})
         
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -213,25 +264,15 @@ function init_gear_sets()
 
     sets.midcast.Pet['Elemental Magic'] = {neck="Adad Amulet"}
 
-    sets.midcast.Pet.WeaponSkill = {head="Cirque Cappello +2", hands="Cirque Guanti +2", legs="Cirque Pantaloni +2"}
+    sets.midcast.Pet.WeaponSkill = {head="Cirque Cappello +2", hands="Cirque Guanti", legs="Cirq. Pantaloni +1"}
 
     -- Defense sets
-    sets.defense.Evasion = {
-        head="Nyame Helm",neck="Elite Royal Collar",lear="Infused Earring",rear="Eabani Earring",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Vengeful Ring",ring2="Beeline Ring",
-        back="Lupine Cape",waist="Hurch'lan Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
-
-    sets.defense.PDT = {
-        head="Nyame Helm",neck="Elite Royal Collar",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",
-        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
-
-    sets.defense.MDT = {
-        head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",
-        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
-	sets.debuffed = set_combine(sets.defense.Evasion,sets.defense.PDT,sets.defense.MDT)
-	sets.doom = set_combine(sets.debuffed,{waist="Gishdubar Sash"})
+	sets.defense = {}
+	sets.defense.Evasion = set_combine(sets.Mode.Eva, {})
+	sets.defense.PDT = set_combine(sets.Mode.DT, {})
+	sets.defense.MDT = set_combine(sets.Mode.Meva, {})
+	sets.debuffed = set_combine(sets.Mode.DT,sets.Mode.Meva)
+	sets.doom = set_combine(sets.debuffed,sets.defense.Reraise,{waist="Gishdubar Sash"})
 
     sets.Kiting = {}
 end
@@ -350,6 +391,24 @@ end
 -------------------------------------------------------------------------------------------------------------------
 -- Utility functions specific to this job.
 -------------------------------------------------------------------------------------------------------------------
+
+function customize_idle_set(idleSet)
+	if not buffactive["Reraise"] then
+		idleSet = set_combine(idleSet, sets.defense.Reraise)
+	end
+    if pet.isvalid then
+        if pet.status == 'Engaged' then
+			if state.Stance.value == 'Defensive' then
+				idleSet = set_combine(idleSet, sets.idle.Pet.Defensive)
+			else
+				idleSet = set_combine(idleSet, sets.idle.Pet.Offensive)
+			end
+        end
+    end
+  
+    return idleSet
+end
+
 
 -- Get the pet mode value based on the equipped head of the automaton.
 -- Returns nil if pet is not valid.

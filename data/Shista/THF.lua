@@ -100,9 +100,9 @@ function init_gear_sets()
 	}
 
 	sets.idle = {
-        head="Nyame Helm",neck="Twilight Torque",lear="Infused Earring",rear="Etiolation Earring",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Vengeful Ring",
-        back="Mecisto. Mantle",waist="Null Belt",legs="Nyame Flanchard",feet="Skd. Jambeaux +1"}
+        head="Meghanada Visor +2",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
+        body="Meg. Cuirie +2",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Vengeful Ring",
+        back="Solemnity Cape",waist="Null Belt",legs="Nyame Flanchard",feet="Skadi's Jambeaux"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -114,19 +114,19 @@ function init_gear_sets()
 
 	-- Normal melee group
     sets.engaged = {
-        head="Blistering Sallet",neck="Portus Collar",lear="Odr Earring",rear="Skulk. Earring +1",
-        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Epona's Ring",ring2="Hetairoi Ring",
+        head="Blistering Sallet",neck="Null Loop",lear="Sherida Earring",rear="Skulk. Earring +1",
+        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Adoulin Ring",ring2="Hetairoi Ring",
         back="Mecisto. Mantle",waist="Sarissapho. Belt",legs="Meg. Chausses +2",feet="Herculean Boots"}
 
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
-        head="Malignance Chapeau",neck="Combatant's Torque",lear="Zennaroi Earring",rear="Skulk. Earring +1",
+        head="Malignance Chapeau",neck="Null Loop",lear="Zennaroi Earring",rear="Skulk. Earring +1",
         body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Cacoethic Ring +1",ring2="Regal Ring",
         back="Toutatis's Cape",waist="Null Belt",legs="Meg. Chausses +2",feet="Meg. Jam. +2"})
 	sets.Mode.Att= set_combine(sets.engaged, {
         head="Meghanada Visor +2",neck="Rep. Plat. Medal",lear="Bladeborn Earring",rear="Dudgeon Earring",
-        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Ilabrat Ring",ring2="Regal Ring",
+        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Adoulin Ring",ring2="Regal Ring",
         back="Phalangite Mantle",waist="Sulla Belt",legs="Meg. Chausses +2",feet="Meg. Jam. +2"})
 	-- Crit then DEX
 	sets.Mode.Crit = set_combine(sets.engaged, {
@@ -137,7 +137,7 @@ function init_gear_sets()
         head="Skormoth Mask",neck="Asperity Necklace",lear="Sherida Earring",rear="Brutal Earring",
         body="Skulker's Vest",hands="Herculean Gloves",ring1="Epona's Ring",ring2="Hetairoi Ring",
         back="Canny Cape",waist="Sarissapho. Belt",legs="Meg. Chausses +2",feet="Herculean Boots"})
-	sets.Mode.SB = set_combine(sets.engaged, {rear="Skulk. Earring +1"})
+	sets.Mode.SB = set_combine(sets.engaged, {lear="Sherida Earring",rear="Skulk. Earring +1"})
 	sets.Mode.sTP = set_combine(sets.engaged, {
         head="Malignance Chapeau",neck="Iskur Gorget",lear="Sherida Earring",rear="Skulk. Earring +1",
         body="Pursuer's Doublet",ring1="Rajas Ring",ring2="K'ayres Ring",
@@ -151,7 +151,7 @@ function init_gear_sets()
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Vengeful Ring",ring2="Beeline Ring",
         back="Canny Cape",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
     sets.Mode.DT = set_combine(sets.engaged, {
-        head="Nyame Helm",neck="Elite Royal Collar",
+        head="Nyame Helm",neck="Null Loop",
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Patricius Ring",
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
     sets.Mode.Meva = set_combine(sets.engaged, {
@@ -160,7 +160,7 @@ function init_gear_sets()
         back="Reiki Cloak",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	-- other Sets    
 	sets.macc = {
-		head="Malignance Chapeau",lear="Gwati Earring",
+		head="Malignance Chapeau",neck="Null Loop",lear="Gwati Earring",
 		ring1="Sangoma Ring",
 		waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 	sets.PDL = {head="Malignance Chapeau"}
@@ -178,7 +178,7 @@ function init_gear_sets()
 	sets.engaged.TH = set_combine(sets.engaged, {})
 	sets.engaged.DW.Dagger = set_combine(sets.engaged, {main="Izhiikoh",sub="Jugo Kukri"})
 	sets.engaged.Shield.Dagger = set_combine(sets.engaged, {main="Izhiikoh",sub="Deliverance"})
-	sets.engaged.TH.Dagger = set_combine(sets.engaged,  {main="Izhiikoh",sub="Thief Knife"})
+	sets.engaged.TH.Dagger = set_combine(sets.engaged,  {main="Izhiikoh",sub="Thief's Knife"})
 	--Add in appropriate Ranged weapons
 	sets.ranged = {}
 	sets.ranged.Stats = {range="",ammo="Seeth. Bomblet +1"}
@@ -449,7 +449,7 @@ function init_gear_sets()
 
     -- Ranged gear
     sets.midcast.RA = {
-        head="Malignance Chapeau",neck="Iskur Gorget",lear="Infused Earring",rear="Enervating Earring",
+        head="Malignance Chapeau",neck="Null Loop",lear="Infused Earring",rear="Enervating Earring",
         body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
         waist="Null Belt",legs="Meg. Chausses +2",feet="Meg. Jam. +2"}
 
