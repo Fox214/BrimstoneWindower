@@ -36,7 +36,7 @@ function user_setup()
 	state.WeaponMode:set('Club')
 	state.Stance:set('None')
 	state.holdtp:set('false')
-	state.immuno:set('false')
+	state.immuno:set('true')
 	pick_tp_weapon()
 
     select_default_macro_book()
@@ -67,7 +67,7 @@ function init_gear_sets()
     sets.idle = { sub="Archduke's Shield",ammo="Homiliary",
         head="Aya. Zucchetto +2",neck="Null Loop",lear="Moonshade Earring",rear="Ethereal Earring",
         body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
-        back="Alaunus's Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="Herald's Gaiters"}
+        back="Alaunus's Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="MGF Ledelsens +1"}
 
     -- Resting sets
     sets.resting = set_combine(sets.idle, {})

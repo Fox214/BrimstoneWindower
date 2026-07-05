@@ -55,7 +55,7 @@ function user_setup()
 	state.Stance:set('None')
 	state.WeaponMode:set('Staff')
 	state.holdtp:set('false')
-	state.immuno:set('false')
+	state.immuno:set('true')
 	state.HordeMode:set('String')
 	
 	pick_tp_weapon()
@@ -102,9 +102,9 @@ function init_gear_sets()
 	-- Sets to return to when not performing an action.
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle = {range="Terpander",
-		head="Inyanga Tiara +2",neck="Twilight Torque",lear="Musical Earring",rear="Magnetic Earring",
-		body="Bunzi's Robe",hands="Inyan. Dastanas +2",ring1="Defending Ring",ring2="Setae Ring",
-		back="Intarabus's Cape",waist="Warwolf Belt",legs="Inyanga Shalwar +2",feet="Fili Cothurnes +1"}
+		head="Inyanga Tiara +2",neck="Null Loop",lear="Musical Earring",rear="Magnetic Earring",
+		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Setae Ring",
+		back="Intarabus's Cape",waist="Warwolf Belt",legs="Bunzi's Pants",feet="Fili Cothurnes +1"}
     
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -228,13 +228,13 @@ function init_gear_sets()
 	sets.precast.FC.Stoneskin = set_combine(sets.precast.FC, {head="Umuthi Hat"})
 
 	sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
-
 	sets.precast.FC.BardSong = set_combine(sets.precast.FC, {range="Gjallarhorn",
 		head="Marduk's Tiara",neck="Aoidos' Matinee",lear="Aoidos' Earring",
 		body="Sheikh Manteel",hands="Marduk's Dastanas",
 		legs="Marduk's Shalwar",feet="Bihu Slippers"})
 	sets.precast.FC.Daurdabla = set_combine(sets.precast.FC.BardSong, {range=info.ExtraSongInstrument})
 	-- Precast sets to enhance JAs
+	sets.precast.FC['Honor March'] = set_combine(sets.precast.FC.BardSong, {range="Marsyas"})	
 	sets.precast.JA.Nightingale = {feet="Bihu Slippers"}
 	sets.precast.JA.Troubadour = {body="Bihu Jstcorps +1"}
 	sets.precast.JA['Soul Voice'] = {legs="Bihu Cannions"}
@@ -277,6 +277,7 @@ function init_gear_sets()
 	sets.midcast.LullabyString = set_combine(sets.String, {range="Nursemaid's Harp",hands="Brioso Cuffs +1"})
 	sets.midcast.Madrigal = {range="Gjallarhorn",head="Fili Calot +1",back="Intarabus's Cape"}
 	sets.midcast.Mambo = {range="Gjallarhorn"}
+	sets.midcast['Honor March'] = {range="Marsyas",hands="Fili Manchettes +1"}
 	sets.midcast.March = {range="Gjallarhorn",hands="Fili Manchettes +1"}
 	sets.midcast.Mazurka = {range="Gjallarhorn"}
 	sets.midcast.Minne = {range="Gjallarhorn"}

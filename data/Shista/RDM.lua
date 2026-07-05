@@ -34,7 +34,7 @@ function user_setup()
  	state.WeaponMode:set('Sword')
 	state.Stance:set('None')
 	state.holdtp:set('false')
-	state.immuno:set('false')
+	state.immuno:set('true')
     gear.macc_staff = { name="Grioavolr", augments={'Magic burst dmg.+3%','INT+6','Mag. Acc.+24','"Mag.Atk.Bns."+22',}}
 
     pick_tp_weapon()
@@ -89,7 +89,7 @@ function init_gear_sets()
     -- Normal refresh idle set
     sets.idle = {main="Naegling",sub="Archduke's Shield",ammo="Homiliary",
         head="Viti. Chapeau +1",neck="Null Loop",lear="Moonshade Earring",rear="Ethereal Earring",
-        body="Jhakri Robe +2",hands="Telchine Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
+        body="Jhakri Robe +2",hands="MG Gloves +1",ring1="Defending Ring",ring2="Renaye Ring +1",
         back="Sucellos's Cape",waist="Plat. Mog. Belt",legs="Carmine Cuisses +1",feet="Atro. Boots +3"}
 
     -- Resting sets

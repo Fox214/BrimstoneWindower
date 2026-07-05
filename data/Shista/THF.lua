@@ -64,7 +64,7 @@ function user_setup()
 	state.MagicalDefenseMode:options('MDT')
 	state.Stance:set('None')
 	state.holdtp:set('false')
-
+	state.immuno:set('true')
     gear.hercTH = { name="Herculean Helm", augments={'Attack+13','"Snapshot"+3','"Treasure Hunter"+1','Accuracy+5 Attack+5',}}
     gear.hercAcc = { name="Herculean Helm", augments={'Accuracy+29','STR+6','Attack+3',}}
 
@@ -101,8 +101,8 @@ function init_gear_sets()
 
 	sets.idle = {
         head="Meghanada Visor +2",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
-        body="Meg. Cuirie +2",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Vengeful Ring",
-        back="Solemnity Cape",waist="Null Belt",legs="Nyame Flanchard",feet="Skadi's Jambeaux"}
+        body="Meg. Cuirie +2",hands="MG Gloves +1",ring1="Murky Ring",ring2="Vengeful Ring",
+        back="Solemnity Cape",waist="Null Belt",legs="MGF Chausses +1",feet="Skadi's Jambeaux"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -450,7 +450,7 @@ function init_gear_sets()
     -- Ranged gear
     sets.midcast.RA = {
         head="Malignance Chapeau",neck="Null Loop",lear="Infused Earring",rear="Enervating Earring",
-        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
+        body="MG Bodice +1",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
         waist="Null Belt",legs="Meg. Chausses +2",feet="Meg. Jam. +2"}
 
     sets.midcast.RA.Acc = set_combine(sets.midcast.RA, {waist="Flax Sash"})

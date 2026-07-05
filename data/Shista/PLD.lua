@@ -38,7 +38,7 @@ function user_setup()
 	state.Stance:set('Defensive')
 	state.SubMode:set('Shield')
 	state.holdtp:set('false')
-	state.immuno:set('false')
+	state.immuno:set('true')
     state.CastingMode:options('Normal', 'Resistant')
     state.PhysicalDefenseMode:options('PDT', 'Evasion', 'HP', 'Reraise', 'Charm')
     state.MagicalDefenseMode:options('MDT', 'HP', 'Reraise', 'Charm')
@@ -85,8 +85,8 @@ function init_gear_sets()
 
 	-- Idle sets
 	sets.idle = {head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",rear="Moonshade Earring",
-		body="Sacro Breastplate",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Moonbeam Ring",
-		back="Rudianos's Mantle",waist="Null Belt",legs="Carmine Cuisses +1",feet="Nyame Sollerets"}
+		body="Sacro Breastplate",hands="Sakpata's Gauntlets",ring1="Murky Ring",ring2="Moonbeam Ring",
+		back="Rudianos's Mantle",waist="Null Belt",legs="Carmine Cuisses +1",feet="Sakpata's Leggings"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})

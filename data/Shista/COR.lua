@@ -54,7 +54,7 @@ function user_setup()
 	state.WeaponMode:set('Dagger')
 	state.Stance:set('Offensive')
 	state.holdtp:set('false')
-	state.immuno:set('false')
+	state.immuno:set('true')
 	state.SubMode:set('DW')
 	state.RWeaponMode:set('Gun') 
 	state.RangedMode:options('Normal', 'Acc')
@@ -109,8 +109,8 @@ function init_gear_sets()
     -- Idle sets
     sets.idle = {ammo=gear.RAbullet,
         head="Meghanada Visor +2",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
-        body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Defending Ring",ring2="Patricius Ring",
-        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Carmine Cuisses +1",feet="Meg. Jam. +2"}
+        body="MG Bodice +1",hands="MG Gloves +1",ring1="Defending Ring",ring2="Patricius Ring",
+        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Carmine Cuisses +1",feet="MGF Ledelsens +1"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})

@@ -168,10 +168,10 @@ function init_gear_sets()
 		orb="Macrocosmic Orb"
 	}    
     -- Idle sets
-    sets.idle = {ammo="Sancus Sachet +1",
+    sets.idle = {ammo="Epitaph",
         head="Evoker's Horn",neck="Null Loop",lear="Moonshade Earring",rear="Beck. Earring +1",
-        body="Apogee Dalmatica",hands="Telchine Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
-        back="Mecisto. Mantle",waist="Fucho-no-Obi",legs="Assid. Pants +1",feet="Herald's Gaiters"}
+        body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
+        back="Mecisto. Mantle",waist="Fucho-no-Obi",legs="Bunzi's Pants",feet="MGF Ledelsens +1"}
 
     sets.idle.PDT = set_combine(sets.idle, {})
 
@@ -241,7 +241,7 @@ function init_gear_sets()
     --------------------------------------
     -- Engaged sets
     --------------------------------------
-    sets.engaged = {ammo="Sancus Sachet +1",
+    sets.engaged = {ammo="Epitaph",
         head="Tali'ah Turban +2",neck="Shulmanu Collar",lear="Bladeborn Earring",rear="Steelflash Earring",
         body="Evoker's Doublet",hands="Tali'ah Gages +2",ring1="Evoker's Ring",ring2="Renaye Ring +1",
         back="Samanisi Cape",waist="Olseni Belt",legs="Tali'ah Sera. +2",feet="Tali'ah Crackows +2"}
@@ -330,7 +330,7 @@ function init_gear_sets()
     sets.precast.JA['Mana Cede'] = {hands="Beckoner's Bracers"}
 
     -- Pact delay reduction gear
-    sets.precast.BloodPactWard = set_combine(sets.skill.smn, {main="Marquetry Staff",sub="Vox Grip",ammo="Sancus Sachet +1",
+    sets.precast.BloodPactWard = set_combine(sets.skill.smn, {main="Marquetry Staff",sub="Vox Grip",ammo="Epitaph",
 		head="Beckoner's Horn +1",lear="Evans Earring",rear="Beck. Earring +1",
 		body="Apogee Dalmatica",hands="Glyphic Bracers +1",ring2="Tali'ah Ring",
         back="Conveyance Cape",legs="Glyphic Spats +1",feet="Apogee Pumps +1"})
@@ -369,17 +369,17 @@ function init_gear_sets()
 		back="Grapevine Cape",waist="Gishdubar Sash"})
 	
     -- Avatar pact sets.  All pacts are Ability type.
-    sets.midcast.Pet.BloodPactWard = set_combine(sets.skill.smn, {ammo="Sancus Sachet +1",
+    sets.midcast.Pet.BloodPactWard = set_combine(sets.skill.smn, {ammo="Epitaph",
         head="Evoker's Horn",
         body="Beckoner's Doublet",hands="Glyphic Bracers +1"})
 
-    sets.midcast.Pet.DebuffBloodPactWard = set_combine(sets.skill.smn, {ammo="Sancus Sachet +1",
+    sets.midcast.Pet.DebuffBloodPactWard = set_combine(sets.skill.smn, {ammo="Epitaph",
         head="Evoker's Horn",neck="Caller's Pendant",
         body="Beckoner's Doublet",hands="Glyphic Bracers +1"})
 
     sets.midcast.Pet.DebuffBloodPactWard.Acc = set_combine(sets.midcast.Pet.DebuffBloodPactWard, {})
 
-    sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets.skill.smn, {main="Nirvana",sub="Elan Strap +1",ammo="Sancus Sachet +1",
+    sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets.skill.smn, {main="Nirvana",sub="Elan Strap +1",ammo="Epitaph",
         head="Apogee Crown",neck="Shulmanu Collar",lear="Gelos Earring",rear="Domes. Earring",
         body="Evoker's Doublet",hands="Glyphic Bracers +1",ring2="Tali'ah Ring",
         back="Campestres's Cape",waist="Incarnation Sash",legs="Apogee Slacks",feet="Apogee Pumps +1"})
@@ -389,7 +389,7 @@ function init_gear_sets()
     sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {})
 
 	-- aka merit
-    sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets.skill.smn, {main=gear.pet_staff,ammo="Sancus Sachet +1",
+    sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets.skill.smn, {main=gear.pet_staff,ammo="Epitaph",
         head="Apogee Crown",neck="Adad Amulet",rear="Enmerkar Earring",
         body="Apogee Dalmatica",hands="Merlinic Dastanas",
         back="Scintillating Cape",waist="Incarnation Sash",legs="Apogee Slacks",feet="Apogee Pumps +1"})

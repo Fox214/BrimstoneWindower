@@ -39,7 +39,7 @@ function user_setup()
 	state.SubMode:set('Grip')
 	state.RWeaponMode:set('Stats') 
 	state.holdtp:set('false')
-	state.immuno:set('false')
+	state.immuno:set('true')
     Twilight = false
 	gear.JobAmmo = {name="Seeth. Bomblet +1"}
 	gear.JobRanged = {name=""}
@@ -103,8 +103,8 @@ function init_gear_sets()
 		body=gear.Boomerrang, ring1=gear.useWSAmmo}
 	-- Idle sets
 	sets.idle = {head="Valorous Mask",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
-		body="Sakpata's Plate",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Patricius Ring",
-		back=gear.tpCape,waist="Plat. Mog. Belt",legs="Sakpata's Cuisses",feet="Nyame Sollerets"}
+		body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Defending Ring",ring2="Patricius Ring",
+		back=gear.tpCape,waist="Plat. Mog. Belt",legs="Sakpata's Cuisses",feet="Sakapata's Leggings"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -408,7 +408,7 @@ function init_gear_sets()
 	sets.engaged.Grip.Staff.Meva = set_combine(sets.engaged.Grip.Staff, sets.Mode.Meva)			
 	
 	-- Precast Sets
-    sets.precast.JA.Berserk = {body="Pumm. Lorica +1",back="Cichol's Mantle",feet="Agoge Calligae"}
+    sets.precast.JA.Berserk = {body="Pumm. Lorica +2",back="Cichol's Mantle",feet="Agoge Calligae"}
     sets.precast.JA['Aggressor'] = {head="Fighter's Mask",body="Warrior's Lorica"}
     sets.precast.JA['Mighty Strikes'] = {hands="Agoge Mufflers +1"}
     sets.precast.JA['Blood Rage'] = {body="Boii Lorica"}
@@ -452,7 +452,7 @@ function init_gear_sets()
 	sets.WSDayBonus = {head="Gavialis Helm"} 
 	sets.precast.WS = set_combine(sets.Mode.STR, {
 		head="Agoge Mask +2",neck="Fotia Gorget",lear="Thrud Earring",rear="Ishvara Earring",
-		body="Pumm. Lorica +1",hands="Sakpata's Gauntlets",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
+		body="Pumm. Lorica +2",hands="Sakpata's Gauntlets",ring1="Cornelia's Ring",ring2="Epaminondas's Ring",
 		back=gear.wsdCape,waist="Fotia Belt",feet="Sulev. Leggings +2"})
    
 	-- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
