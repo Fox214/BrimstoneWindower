@@ -64,7 +64,6 @@ function user_setup()
 	state.MagicalDefenseMode:options('MDT')
 	state.Stance:set('None')
 	state.holdtp:set('false')
-	state.immuno:set('true')
     gear.hercTH = { name="Herculean Helm", augments={'Attack+13','"Snapshot"+3','"Treasure Hunter"+1','Accuracy+5 Attack+5',}}
     gear.hercAcc = { name="Herculean Helm", augments={'Accuracy+29','STR+6','Attack+3',}}
 
@@ -100,7 +99,7 @@ function init_gear_sets()
 	}
 
 	sets.idle = {
-        head="Meghanada Visor +2",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
+        head="Meghanada Visor +2",neck="Null Loop",lear="Alabaster Earring",rear="Etiolation Earring",
         body="Meg. Cuirie +2",hands="MG Gloves +1",ring1="Murky Ring",ring2="Vengeful Ring",
         back="Solemnity Cape",waist="Null Belt",legs="MGF Chausses +1",feet="Skadi's Jambeaux"}
 
@@ -151,7 +150,7 @@ function init_gear_sets()
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Vengeful Ring",ring2="Beeline Ring",
         back="Canny Cape",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
     sets.Mode.DT = set_combine(sets.engaged, {
-        head="Nyame Helm",neck="Null Loop",
+        head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Patricius Ring",
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
     sets.Mode.Meva = set_combine(sets.engaged, {

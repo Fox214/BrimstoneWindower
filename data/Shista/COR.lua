@@ -108,9 +108,9 @@ function init_gear_sets()
     -- Sets to return to when not performing an action.
     -- Idle sets
     sets.idle = {ammo=gear.RAbullet,
-        head="Meghanada Visor +2",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
-        body="MG Bodice +1",hands="MG Gloves +1",ring1="Defending Ring",ring2="Patricius Ring",
-        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Carmine Cuisses +1",feet="MGF Ledelsens +1"}
+        head="Meghanada Visor +2",neck="Null Loop",lear="Alabaster Earring",rear="Etiolation Earring",
+        body="MG Bodice +1",hands="MG Gloves +1",ring1="Murky Ring",ring2="Patricius Ring",
+        back="Solemnity Cape",waist="Null Belt",legs="Carmine Cuisses +1",feet="MGF Ledelsens +1"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -137,7 +137,7 @@ function init_gear_sets()
 	sets.Mode.Acc = set_combine(sets.engaged, {
         head="Malignance Chapeau",neck="Null Loop",lear="Odr Earring",rear="Chas. Earring +1",
         body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Cacoethic Ring +1",ring2="Regal Ring",
-        back="Lupine Cape",legs="Carmine Cuisses +1",feet="Meg. Jam. +2"})
+        back="Lupine Cape",waist="Null Belt",legs="Carmine Cuisses +1",feet="Meg. Jam. +2"})
 	sets.Mode.Att= set_combine(sets.engaged, {
         head="Meghanada Visor +2",neck="Rep. Plat. Medal",
         body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Ilabrat Ring",ring2="Adoulin Ring",
@@ -157,19 +157,19 @@ function init_gear_sets()
 		body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Apate Ring",ring2="Regal Ring",
 		back="Buquwik Cape",waist="Sailfi Belt +1",legs="Herculean Trousers",feet="Meg. Jam. +2"})
     sets.Mode.DT = {
-        head="Nyame Helm",neck="Null Loop",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",
+        head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
     sets.Mode.Meva = {
         head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",
         back=="Reiki Cloak",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 			
 	-- other Sets    
 	sets.macc = {
 		head="Malignance Chapeau",neck="Null Loop",lear="Gwati Earring",rear="Chas. Earring +1",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Sangoma Ring",ring2="Adoulin Ring",
-		legs="Nyame Flanchard",feet="Nyame Sollerets"}
+		waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 	sets.PDL = {head="Malignance Chapeau"}
 	sets.empy = {head="Chasseur's Tricorne",
 		body="Chasseur's Frac",hands="Chasseur's Gants",
@@ -192,7 +192,7 @@ function init_gear_sets()
 	sets.engaged.Grip.Staff = set_combine(sets.engaged, {main="Gozuki Mezuki", sub="Bloodrain Strap"})
 	--Add in appropriate Ranged weapons
 	sets.ranged = {}
-	sets.ranged.Gun = {ranged="Donar Gun",ammo="Decimating Bullet"}
+	sets.ranged.Gun = {ranged="Compensator",ammo="Decimating Bullet"}
 	
 	sets.engaged.DW.Sword.Gun = set_combine(sets.engaged.DW.Sword, sets.ranged.Gun)
 	sets.engaged.Shield.Sword.Gun = set_combine(sets.engaged.Shield.Sword, sets.ranged.Gun)
@@ -298,7 +298,7 @@ function init_gear_sets()
     sets.precast.JA['Triple Shot'] = {body="Navarch's Frac +2",back="Camulus's Mantle"}
     sets.precast.JA['Snake Eye'] = {legs="Lanun Trews"}
     sets.precast.JA['Wild Card'] = {feet="Lanun Bottes +2"}
-    sets.precast.JA['Random Deal'] = {body="Comm. Frac +2"}
+    sets.precast.JA['Random Deal'] = {body="Lanun Frac"}
 
     sets.precast.CorsairRoll = {
 		main="Rostam",head="Lanun Tricorne +1",
@@ -336,17 +336,17 @@ function init_gear_sets()
     
     sets.midcast.CorsairShot = {ammo=gear.QDbullet,
         neck="Null Loop",lear="Friomisi Earring",
-        body="Comm. Frac +2",ring2="Adoulin Ring",
+        body="Lanun Frac",ring2="Adoulin Ring",
         back="Toro Cape",legs="Iuitl Tights",feet="Lanun Bottes +2"}
 
     sets.midcast.CorsairShot.Acc = {ammo=gear.QDbullet,
         head="Laksa. Tricorne",neck="Null Loop",lear="Lifestorm Earring",rear="Psystorm Earring",
-        body="Comm. Frac +2",
+        body="Lanun Frac",
         back="Navarch's Mantle",legs="Iuitl Tights"}
 
 	sets.midcast.QuickDraw = {ammo=gear.QDbullet,
         head="Laksa. Tricorne",neck="Null Loop",
-        body="Comm. Frac +2",
+        body="Lanun Frac",
         back="Navarch's Mantle",legs="Iuitl Tights",feet="Laksa. Bottes +1"}
 		
     sets.midcast.CorsairShot['Dark Shot'] = set_combine(sets.midcast.QuickDraw, {})
@@ -367,7 +367,7 @@ function init_gear_sets()
 	sets.midcast.RA.Acc = set_combine(sets.midcast.RA,
 		{head="Malignance Chapeau",neck="Null Loop",
 		body="Meg. Cuirie +2",hands="Meg. Gloves +2",ring1="Paqichikaji Ring",ring2="Cacoethic Ring +1",
-		waist="Eschan Stone",legs="Meg. Chausses +2",feet="Meg. Jam. +2"})
+		waist="Null Belt",legs="Meg. Chausses +2",feet="Meg. Jam. +2"})
     
     -- Defense sets
     sets.defense.PDT = set_combine(sets.Mode.DT, {})

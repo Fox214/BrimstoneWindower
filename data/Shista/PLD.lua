@@ -98,7 +98,7 @@ function init_gear_sets()
 
 		-- Normal melee group
 	sets.engaged = { ammo="Paeapua",
-		head="Flam. Zucchetto +2",neck="Null Loop",lear="Steelflash Earring",rear="Brutal Earring",
+		head="Flam. Zucchetto +2",neck="Null Loop",lear="Alabaster Earring",rear="Brutal Earring",
 		body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Adoulin Ring",ring2="Cacoethic Ring +1",
 		back="Rudianos's Mantle",waist="Sailfi Belt +1",legs="Sakpata's Cuisses",feet="Rev. Leggings +3"}
 			

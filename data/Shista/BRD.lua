@@ -102,9 +102,9 @@ function init_gear_sets()
 	-- Sets to return to when not performing an action.
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle = {range="Terpander",
-		head="Inyanga Tiara +2",neck="Null Loop",lear="Musical Earring",rear="Magnetic Earring",
-		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Setae Ring",
-		back="Intarabus's Cape",waist="Warwolf Belt",legs="Bunzi's Pants",feet="Fili Cothurnes +1"}
+		head="Inyanga Tiara +2",neck="Null Loop",lear="Alabaster Earring",rear="Magnetic Earring",
+		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Murky Ring",ring2="Setae Ring",
+		back="Intarabus's Cape",waist="Null Belt",legs="Bunzi's Pants",feet="Fili Cothurnes +1"}
     
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -123,14 +123,14 @@ function init_gear_sets()
 	sets.engaged = {
 		head="Brioso Roundlet",neck="Null Loop",lear="Digni. Earring",rear="Fili Earring +2",
 		body="Brioso Just.",hands="Aya. Manopolas +2",ring1="Adoulin Ring",ring2="Hetairoi Ring",
-		back="Atheling Mantle",waist="Olseni Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"}
+		back="Atheling Mantle",waist="Null Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"}
 
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
 		head="Aya. Zucchetto +2",neck="Null Loop",lear="Zennaroi Earring",rear="Fili Earring +2",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Mars's Ring",ring2="Cacoethic Ring +1",
-		back="Ground. Mantle +1",waist="Olseni Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"})
+		back="Ground. Mantle +1",waist="Null Belt",legs="Aya. Cosciales +2",feet="Brioso Slippers +4"})
 	sets.Mode.Att= set_combine(sets.engaged, {
 		neck="Rep. Plat. Medal",lear="Bladeborn Earring",rear="Dudgeon Earring",
 		body="Bihu Jstcorps +1",hands="Chironic Gloves",ring1="Adoulin Ring",ring2="Cho'j Band",
@@ -147,23 +147,23 @@ function init_gear_sets()
 	sets.Mode.STR = set_combine(sets.engaged, {
 		head="Brioso Roundlet",neck="Rep. Plat. Medal",
 		body="Brioso Just.",hands="Aya. Manopolas +2",ring1="Rajas Ring",ring2="Apate Ring",
-		back="Buquwik Cape",waist="Sailfi Belt +1",legs="Brioso Cannions",feet="Brioso Slippers +1"})
+		back="Buquwik Cape",waist="Sailfi Belt +1",legs="Brioso Cannions",feet="Brioso Slippers +4"})
 	sets.Mode.DT = set_combine(sets.engaged, {
-		head="Nyame Helm",neck="Null Loop",ring1="Defending Ring",ring2="Patricius Ring",
-		body="Bunzi's Robe",hands="Nyame Gauntlets",
+		head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",
+		body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Patricius Ring",
 		back="Intarabus's Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	sets.Mode.Meva = set_combine(sets.engaged, {
 		head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
-		body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Moonbeam Ring",
-		back="Reiki Cloak",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
+		body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Moonbeam Ring",
+		back="Reiki Cloak",waist="Null Belt",legs="Nyame Flanchard",feet="Brioso Slippers +4"})
 	-- other Sets    
 	sets.macc = {main="Marin Staff +1",sub="Enki Strap",
 		head="Brioso Roundlet",neck="Null Loop",lear="Gwati Earring",rear="Fili Earring +2",
 		body="Bunzi's Robe",hands="Inyan. Dastanas +2",ring1="Sangoma Ring",ring2="Balrahn's Ring",
-		back="Intarabus's Cape",waist="Famine Sash",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
+		back="Intarabus's Cape",waist="Null Belt",legs="Inyanga Shalwar +2",feet="Brioso Slippers +4"}
 	sets.PDL = {}
 	sets.empy = {head="Fili Calot +1",
-		body="Fili Hongreline +1",hands="Fili Manchettes +1",
+		body="Fili Hongreline +1",hands="Ad. Mnchtte. +1",
 		legs="Fili Rhingrave",feet="Fili Cothurnes +1"}
 
 	-- Sets with weapons defined.
@@ -241,7 +241,7 @@ function init_gear_sets()
 	-- Midcast Sets
 	-- Build this in order generic to specific > CHR, Macc, SB
 	sets.CHR = {main="Chanter's Staff",sub="Benthos Grip",
-		head="Brioso Just.",neck="Star Necklace",lear="Aoidos' Earring",rear="Fili Earring +2",
+		head="Brioso Just.",neck="Mnbw. Whistle +1",lear="Aoidos' Earring",rear="Fili Earring +2",
 		body="Marduk's Jubbah",hands="Inyan. Dastanas +2",ring2="Metamor. Ring +1",
 		back="Intarabus's Cape",waist="Gleeman's Belt",legs="Inyanga Shalwar +2",feet="Goliard Clogs"}
 	sets.Macc = set_combine(sets.CHR, sets.macc)
@@ -262,14 +262,14 @@ function init_gear_sets()
 		
 	-- For song buffs (duration and AF3 set bonus)
 	sets.midcast.SongEffect = {main="Kali",sub="Genmei Shield",range="Gjallarhorn",
-		head="Fili Calot +1",neck="Moonbow Whistle",
-		body="Fili Hongreline +1",hands="Fili Manchettes +1",
-		legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
+		head="Fili Calot +1",neck="Mnbw. Whistle +1",
+		body="Fili Hongreline +1",hands="Ad. Mnchtte. +1",
+		legs="Inyanga Shalwar +2",feet="Brioso Slippers +4"}
 
 	-- Gear to enhance certain classes of songs. No instruments added here since Gjallarhorn is being used.
 	sets.midcast.Ballad = {range="Gjallarhorn",legs="Fili Rhingrave"}
 	sets.midcast.Carol = {range="Gjallarhorn",head="Fili Calot +1",
-		body="Fili Hongreline +1",hands="Fili Manchettes +1",
+		body="Fili Hongreline +1",hands="Ad. Mnchtte. +1",
 		legs="Fili Rhingrave",feet="Fili Cothurnes +1"}
 	sets.midcast.Elegy = set_combine(sets.Wind, {range="Gjallarhorn"})
 	sets.midcast.Etude = {range="Gjallarhorn"}
@@ -277,8 +277,8 @@ function init_gear_sets()
 	sets.midcast.LullabyString = set_combine(sets.String, {range="Nursemaid's Harp",hands="Brioso Cuffs +1"})
 	sets.midcast.Madrigal = {range="Gjallarhorn",head="Fili Calot +1",back="Intarabus's Cape"}
 	sets.midcast.Mambo = {range="Gjallarhorn"}
-	sets.midcast['Honor March'] = {range="Marsyas",hands="Fili Manchettes +1"}
-	sets.midcast.March = {range="Gjallarhorn",hands="Fili Manchettes +1"}
+	sets.midcast['Honor March'] = {range="Marsyas",hands="Ad. Mnchtte. +1"}
+	sets.midcast.March = {range="Gjallarhorn",hands="Ad. Mnchtte. +1"}
 	sets.midcast.Mazurka = {range="Gjallarhorn"}
 	sets.midcast.Minne = {range="Gjallarhorn"}
 	sets.midcast.Minuet = {range="Gjallarhorn",body="Fili Hongreline +1"}
@@ -567,15 +567,15 @@ function calculate_duration(spellName, spellMap)
 	if player.equipment.body == "Fili Hongreline +1" then mult = mult + 0.1 end
 	if player.equipment.legs == "Mdk. Shalwar +1" then mult = mult + 0.1 end
 	if player.equipment.legs == "Inyanga Shalwar +2" then mult = mult + 0.15 end
-	if player.equipment.feet == "Brioso Slippers +1" then mult = mult + 0.1 end
-	if player.equipment.feet == "Brioso Slippers +1 +1" then mult = mult + 0.11 end
-	if player.equipment.feet == "Brioso Slippers +1 +2" then mult = mult + 0.13 end
-	if player.equipment.feet == "Brioso Slippers +1 +3" then mult = mult + 0.15 end
+	if player.equipment.feet == "Brioso Slippers +4" then mult = mult + 0.1 end
+	if player.equipment.feet == "Brioso Slippers +4 +1" then mult = mult + 0.11 end
+	if player.equipment.feet == "Brioso Slippers +4 +2" then mult = mult + 0.13 end
+	if player.equipment.feet == "Brioso Slippers +4 +3" then mult = mult + 0.15 end
 	if spellMap == 'Paeon' and player.equipment.head == "Brioso Roundlet" then mult = mult + 0.1 end
 	if spellMap == 'Paeon' and player.equipment.head == "Brioso Roundlet +1" then mult = mult + 0.1 end
 	if spellMap == 'Madrigal' and player.equipment.head == "Fili Calot +1" then mult = mult + 0.1 end
 	if spellMap == 'Minuet' and player.equipment.body == "Fili Hongreline +1" then mult = mult + 0.1 end
-	if spellMap == 'March' and player.equipment.hands == 'Fili Manchettes +1' then mult = mult + 0.1 end
+	if spellMap == 'March' and player.equipment.hands == 'Ad. Mnchtte. +1' then mult = mult + 0.1 end
 	if spellMap == 'Ballad' and player.equipment.legs == "Fili Rhingrave" then mult = mult + 0.1 end
 	if spellName == "Sentinel's Scherzo" and player.equipment.feet == "Fili Cothurnes +1" then mult = mult + 0.1 end
 	if buffactive.Troubadour then

@@ -65,9 +65,9 @@ function init_gear_sets()
 	}
     -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
     sets.idle = { sub="Archduke's Shield",ammo="Homiliary",
-        head="Aya. Zucchetto +2",neck="Null Loop",lear="Moonshade Earring",rear="Ethereal Earring",
-        body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
-        back="Alaunus's Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="MGF Ledelsens +1"}
+        head="Aya. Zucchetto +2",neck="Null Loop",lear="Alabaster Earring",rear="Ethereal Earring",
+        body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Murky Ring",ring2="Renaye Ring +1",
+        back="Alaunus's Cape",waist="Null Belt",legs="Bunzi's Pants",feet="MGF Ledelsens +1"}
 
     -- Resting sets
     sets.resting = set_combine(sets.idle, {})
@@ -103,19 +103,19 @@ function init_gear_sets()
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Rajas Ring",ring2="Apate Ring",
 		back="Buquwik Cape",waist="Cornelia's Belt",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"})
 	sets.Mode.DT = {
-        head="Nyame Helm",neck="Null Loop",rear="Ebers Earring +1",
-		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Patricius Ring",
+        head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",rear="Ebers Earring +1",
+		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Murky Ring",ring2="Patricius Ring",
 		back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="Nyame Sollerets"}
     sets.Mode.Meva = {
         head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Ebers Earring +1",
-        body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Vengeful Ring",
-        back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Bunzi's Pants",feet="Nyame Sollerets"}			
+        body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Murky Ring",ring2="Vengeful Ring",
+        back="Solemnity Cape",waist="Null Belt",legs="Bunzi's Pants",feet="Nyame Sollerets"}			
 		
 	-- other Sets    
 	sets.macc = { main="Marin Staff +1",sub="Enki Strap",
 		head="Nahtirah Hat",neck="Null Loop",lear="Malignance Earring",rear="Gwati Earring",
 		body="Nyame Mail",hands="Aya. Manopolas +2",ring1="Sangoma Ring",ring2="Balrahn's Ring",
-		back="Alaunus's Cape",waist="Famine Sash",legs="Inyanga Shalwar +2",feet="Nyame Sollerets"}
+		back="Alaunus's Cape",waist="Null Belt",legs="Inyanga Shalwar +2",feet="Nyame Sollerets"}
 	sets.PDL = {}
 	sets.empy = {head="Ebers Cap +1",
 		body="Ebers Bliaut",hands="Ebers Mitts",

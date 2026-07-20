@@ -169,8 +169,8 @@ function init_gear_sets()
 	}    
     -- Idle sets
     sets.idle = {ammo="Epitaph",
-        head="Evoker's Horn",neck="Null Loop",lear="Moonshade Earring",rear="Beck. Earring +1",
-        body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Renaye Ring +1",
+        head="Evoker's Horn",neck="Null Loop",lear="Alabaster Earring",rear="Beck. Earring +1",
+        body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Murky Ring",ring2="Renaye Ring +1",
         back="Mecisto. Mantle",waist="Fucho-no-Obi",legs="Bunzi's Pants",feet="MGF Ledelsens +1"}
 
     sets.idle.PDT = set_combine(sets.idle, {})
@@ -244,14 +244,14 @@ function init_gear_sets()
     sets.engaged = {ammo="Epitaph",
         head="Tali'ah Turban +2",neck="Shulmanu Collar",lear="Bladeborn Earring",rear="Steelflash Earring",
         body="Evoker's Doublet",hands="Tali'ah Gages +2",ring1="Evoker's Ring",ring2="Renaye Ring +1",
-        back="Samanisi Cape",waist="Olseni Belt",legs="Tali'ah Sera. +2",feet="Tali'ah Crackows +2"}
+        back="Samanisi Cape",waist="Null Belt",legs="Tali'ah Sera. +2",feet="Tali'ah Crackows +2"}
 	
 	-- Basic Mode definitions
 	sets.Mode = {}
 	sets.Mode.Acc = set_combine(sets.engaged, {
 		head="Evoker's Horn",neck="Shulmanu Collar",lear="Zennaroi Earring",rear="Digni. Earring",
 		body="Evoker's Doublet",hands="Tali'ah Gages +2",ring1="Mars's Ring",ring2="Cacoethic Ring +1",
-		waist="Olseni Belt",legs="Tali'ah Sera. +2",feet="Tali'ah Crackows +2"})
+		waist="Null Belt",legs="Tali'ah Sera. +2",feet="Tali'ah Crackows +2"})
 	sets.Mode.Att= set_combine(sets.engaged, {
 		head="Nyame Helm",neck="Rep. Plat. Medal",lear="Bladeborn Earring",rear="Dudgeon Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Adoulin Ring",ring2="Cho'j Band",
@@ -270,12 +270,19 @@ function init_gear_sets()
 		head="Nyame Helm",neck="Rep. Plat. Medal",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Rajas Ring",ring2="Apate Ring",
 		back="Buquwik Cape",waist="Cornelia's Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
-	
+	sets.Mode.DT = {
+        head="Beckoner's Horn +2",neck="Elite Royal Collar",lear="Alabaster Earring",rear="Beck. Earring +1",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Patricius Ring",
+        back=gear.magBack,waist="Plat. Mog. Belt",legs="Beck. Spats +2",feet="Nyame Sollerets"}
+    sets.Mode.Meva = {
+        head="Null Masque",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Vengeful Ring",
+        back="Solemnity Cape",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}		
 	-- other Sets    
 	sets.macc = {main="Marin Staff +1",
 		head="Nyame Helm",neck="Null Loop",lear="Malignance Earring",rear="Gwati Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Sangoma Ring",
-		legs="Nyame Flanchard",feet="Nyame Sollerets"}
+		waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 	sets.PDL = {}
 	sets.empy = {head="Beckoner's Horn +1",
 		body="Beckoner's Doublet",hands="Beckoner's Bracers",
@@ -406,12 +413,12 @@ function init_gear_sets()
     -- Defense sets
     sets.defense.PDT = {
         head="Nyame Helm",neck="Elite Royal Collar",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Patricius Ring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Patricius Ring",
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 
     sets.defense.MDT = {
         head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
-        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Vengeful Ring",
+        body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Vengeful Ring",
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 		
 	sets.debuffed = set_combine(sets.defense.Evasion,sets.defense.PDT,sets.defense.MDT)

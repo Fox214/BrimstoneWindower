@@ -100,7 +100,7 @@ function init_gear_sets()
 	sets.Weather.Dark = {waist='Hachirin-no-Obi',back='Twilight Cape'}
     -- Normal refresh idle set
     sets.idle = {ammo="Pemphredo Tathlum",
-        head="Volte Beret",neck="Null Loop",lear="Moonshade Earring",rear="Ethereal Earring",
+        head="Volte Beret",neck="Null Loop",lear="Alabaster Earring",rear="Ethereal Earring",
         body="Jhakri Robe +2",hands="Telchine Gloves",ring1="Murky Ring",ring2="Renaye Ring +1",
         back="Solemnity Cape",waist="Null Belt",legs="Assid. Pants +1",feet="Herald's Gaiters"}
 	sets.idle.Death = {main="Lathi",sub="Niobid Strap",ammo="Ghastly Tathlum +1",
@@ -137,7 +137,7 @@ function init_gear_sets()
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Rajas Ring",ring2="Apate Ring",
 		back="Buquwik Cape",waist="Cornelia's Belt",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"})
 	sets.Mode.DT = {
-        head="Nyame Helm",neck="Null Loop",
+        head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",
         body="Nyame Mail",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Patricius Ring",
         back="Solemnity Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
     sets.Mode.Meva = {

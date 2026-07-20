@@ -88,9 +88,9 @@ function init_gear_sets()
  
     -- Normal refresh idle set
     sets.idle = {main="Naegling",sub="Archduke's Shield",ammo="Homiliary",
-        head="Viti. Chapeau +1",neck="Null Loop",lear="Moonshade Earring",rear="Ethereal Earring",
-        body="Jhakri Robe +2",hands="MG Gloves +1",ring1="Defending Ring",ring2="Renaye Ring +1",
-        back="Sucellos's Cape",waist="Plat. Mog. Belt",legs="Carmine Cuisses +1",feet="Atro. Boots +3"}
+        head="Viti. Chapeau +1",neck="Null Loop",lear="Alabaster Earring",rear="Ethereal Earring",
+        body="Jhakri Robe +2",hands="MG Gloves +1",ring1="Murky Ring",ring2="Renaye Ring +1",
+        back="Sucellos's Cape",waist="Null Belt",legs="Carmine Cuisses +1",feet="Atro. Boots +3"}
 
     -- Resting sets
     sets.resting = set_combine(sets.idle, {main="Chatoyant Staff"})
@@ -124,18 +124,18 @@ function init_gear_sets()
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Rajas Ring",ring2="Apate Ring",
 		back="Buquwik Cape",waist="Sailfi Belt +1",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"})
 	sets.Mode.DT = set_combine(sets.engaged, {
-        head="Nyame Helm",neck="Null Loop",
-        body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Defending Ring",
+        head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",
+        body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Murky Ring",
         back="Sucellos's Cape",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})
     sets.Mode.Meva = set_combine(sets.engaged, {
         head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
-        body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Shadow Ring",
-        back="Reiki Cloak",waist="Plat. Mog. Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})	
+        body="Bunzi's Robe",hands="Nyame Gauntlets",ring1="Murky Ring",ring2="Shadow Ring",
+        back="Reiki Cloak",waist="Null Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"})	
 	-- other Sets    
-	sets.macc = {main="Marin Staff +1",sub="Enki Strap",ammo="Pemphredo Tathlum",
+	sets.macc = {main="Marin Staff +1",sub="Enki Strap",ammo="Regal Gem",
         head="Atrophy Chapeau +3",neck="Null Loop",lear="Snotra Earring",rear="Leth. Earring +1",
         body="Atrophy Tabard +3",hands="Jhakri Cuffs +2",ring1="Sangoma Ring",ring2="Metamor. Ring +1",
-        back="Sucellos's Cape",waist="Famine Sash",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
+        back="Sucellos's Cape",waist="Null Belt",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 	sets.PDL = {head="Malignance Chapeau"}
 	sets.empy = {head="Lethargy Chappel",
 		body="Lethargy Sayon +1",hands="Lethargy Gantherots",
@@ -301,7 +301,7 @@ function init_gear_sets()
         back="Sucellos's Cape",waist="Rumination Sash",legs="Psycloth Lappas",feet="Medium's Sabots"})
 	sets.midcast.Enfeebling.MND = {}
 	sets.midcast.Enfeebling.INT = {}
-	sets.midcast.Enfeebling.effect = {feet="Uk'uxkaj Boots"}
+	sets.midcast.Enfeebling.effect = {ammo="Regal Gem",feet="Uk'uxkaj Boots"}
 	sets.midcast.Enfeebling.duration = {lear="Snotra Earring",ring1="Kishar Ring"}
 	sets.midcast.Enfeebling.immuno = {}
 

@@ -102,9 +102,9 @@ function init_gear_sets()
 	sets.vars = { main=gear.WSAmmo, sub=gear.XBowAmmo, ranged=gear.XBowRanged, ammo=gear.StatsAmmo,
 		body=gear.Boomerrang, ring1=gear.useWSAmmo}
 	-- Idle sets
-	sets.idle = {head="Valorous Mask",neck="Null Loop",lear="Infused Earring",rear="Etiolation Earring",
+	sets.idle = {head="Valorous Mask",neck="Null Loop",lear="Alabaster Earring",rear="Etiolation Earring",
 		body="Sakpata's Plate",hands="Sakpata's Gauntlets",ring1="Defending Ring",ring2="Patricius Ring",
-		back=gear.tpCape,waist="Plat. Mog. Belt",legs="Sakpata's Cuisses",feet="Sakapata's Leggings"}
+		back=gear.tpCape,waist="Null Belt",legs="Sakpata's Cuisses",feet="Sakapata's Leggings"}
 
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle.Town = set_combine(sets.idle, {})
@@ -157,19 +157,19 @@ function init_gear_sets()
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Vengeful Ring",ring2="Beeline Ring",
 		back="Lupine Cape",legs="Nyame Flanchard",feet="Nyame Sollerets"})
 	sets.Mode.DT = set_combine(sets.engaged, {
-		head="Nyame Helm",neck="Null Loop",
+		head="Nyame Helm",neck="Null Loop",lear="Alabaster Earring",
 		body="Arke Corazza",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Patricius Ring",
 		back=gear.tpCape,waist="Plat. Mog. Belt",legs="Arke Cosciales",feet="Sakpata's Leggings"})
 	sets.Mode.Meva = set_combine(sets.engaged, {
 		head="Nyame Helm",neck="Elite Royal Collar",lear="Etiolation Earring",rear="Eabani Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Moonbeam Ring",
-		back="Reiki Cloak",waist="Plat. Mog. Belt",legs="Sakpata's Cuisses",feet="Sakpata's Leggings"})
+		back="Reiki Cloak",waist="Null Belt",legs="Sakpata's Cuisses",feet="Sakpata's Leggings"})
 	
 	-- other Sets 
 	sets.macc = {
 		head="Flam. Zucchetto +2",neck="Null Loop",lear="Gwati Earring",
 		body="Sakpata's Plate",hands="Nyame Gauntlets",ring1="Flamma Ring",ring2="Sangoma Ring",
-		legs="Sakpata's Cuisses",feet="Flam. Gambieras +1"}
+		waist="Null Belt",legs="Sakpata's Cuisses",feet="Flam. Gambieras +1"}
 	sets.PDL = {body="Sakpata's Plate",legs="Sakpata's Cuisses",feet="Sakpata's Leggings"}
 	sets.empy = {head="Boii Mask",
 		body="Boii Lorica",hands="Boii Mufflers",
